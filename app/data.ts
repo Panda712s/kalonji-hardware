@@ -97,4 +97,4 @@ export const storePhotos = [
   { src: "/images/image-48.jpg", alt: "Toilet suites, drainage fittings, power tools and appliances" },
 ];
 
-export const HERO_IMAGE = "/images/unsplash-aisle.jpg";
+export const HERO_IMAGE = "/images/unsplash-tools.jpg";

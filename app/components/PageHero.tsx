@@ -11,7 +11,7 @@ type Props = {
   children?: ReactNode;
 };
 
-export default function PageHero({ eyebrow, title, text, image = "/images/unsplash-aisle.jpg", imageAlt = "", children }: Props) {
+export default function PageHero({ eyebrow, title, text, image = "/images/unsplash-tools.jpg", imageAlt = "", children }: Props) {
   return (
     <section className="page-hero">
       <Image src={image} alt={imageAlt} fill priority sizes="100vw" quality={80} className="cover" />

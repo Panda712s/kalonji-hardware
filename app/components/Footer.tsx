@@ -60,7 +60,7 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} Kalonji Hardware, Sunnyside, Pretoria</span>
         <span>
           Hero photo by{" "}
-          <a href="https://unsplash.com/photos/a-store-aisle-filled-with-lots-of-items-loDPKt_srQ0" target="_blank" rel="noopener noreferrer">Oxana Melis</a>{" "}
+          <a href="https://unsplash.com/s/photos/hand-tools-workbench" target="_blank" rel="noopener noreferrer">Anton Savinov</a>{" "}
           on Unsplash
         </span>
       </div>

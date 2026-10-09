@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import CtaBand from "./components/CtaBand";
-import { Arrow, Chat, Layers, Pin, Tag, Zap } from "./components/Icons";
+import { Arrow, Chat, Check, Layers, Pin, Tag, Zap } from "./components/Icons";
 import { branches, brands, departments, HERO_IMAGE, mapUrl, storePhotos, waLink } from "./data";
 
 const perks = [
@@ -11,6 +11,12 @@ const perks = [
   { icon: Pin, title: "Two Sunnyside branches", text: "Barclay Square Mall and Ancore Centre, both in Sunnyside, Pretoria." },
 ];
 
+const steps = [
+  { title: "Send your list", text: "Message your items and quantities on WhatsApp, or bring the list to either branch." },
+  { title: "Get your quote", text: "We confirm stock and price quickly, with bulk and contractor pricing on larger orders." },
+  { title: "Collect and go", text: "Pick everything up in one trip at Barclay Square Mall or Ancore Centre." },
+];
+
 export default function Home() {
   return (
     <>
@@ -18,7 +24,7 @@ export default function Home() {
         <Image src={HERO_IMAGE} alt="" fill priority sizes="100vw" quality={85} className="cover" />
         <div className="shade" />
         <div className="container inner">
-          <div className="copy">
+          <div className="hero-copy">
             <p className="eyebrow">Sunnyside, Pretoria</p>
             <h1>
               Everything for the job, <em>one counter</em> away.
@@ -35,6 +41,11 @@ export default function Home() {
                 Browse departments <Arrow size={20} />
               </Link>
             </div>
+            <ul className="hero-points">
+              <li><Check size={16} /> Stock on the shelf</li>
+              <li><Check size={16} /> Quotes in minutes</li>
+              <li><Check size={16} /> Bulk pricing</li>
+            </ul>
           </div>
 
           <aside className="visit" aria-label="Our branches">
@@ -52,6 +63,18 @@ export default function Home() {
           </aside>
         </div>
       </section>
+
+      <div className="ticker" aria-hidden="true">
+        <div className="track">
+          {[0, 1].map((n) => (
+            <ul key={n}>
+              {departments.map((d) => (
+                <li key={d.slug}>{d.name}</li>
+              ))}
+            </ul>
+          ))}
+        </div>
+      </div>
 
       <section className="perks">
         <div className="container grid">
@@ -141,6 +164,26 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head center">
+            <div>
+              <p className="eyebrow dark">How it works</p>
+              <h2>From list to counter in three steps</h2>
+            </div>
+          </div>
+          <ol className="steps">
+            {steps.map((s, i) => (
+              <li key={s.title}>
+                <span className="n">{i + 1}</span>
+                <h3>{s.title}</h3>
+                <p>{s.text}</p>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 
