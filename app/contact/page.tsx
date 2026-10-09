@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import CopyButton from "../components/CopyButton";
+import Faq from "../components/Faq";
 import PageHero from "../components/PageHero";
 import QuoteForm from "../components/QuoteForm";
 import { Chat, Phone, Pin } from "../components/Icons";
@@ -50,7 +51,7 @@ export default function Contact() {
 
       <section className="section alt">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">Branches</p>
               <h2>Two branches in Sunnyside</h2>
@@ -59,7 +60,7 @@ export default function Contact() {
           </div>
           <div className="branches">
             {branches.map((b) => (
-              <article className="branch" key={b.name}>
+              <article className="branch" data-reveal key={b.name}>
                 <Image src={b.image} alt={b.imageAlt} width={800} height={450} sizes="(max-width: 620px) 100vw, 560px" quality={90} />
                 <div className="body">
                   <span className="eyebrow dark">{b.label}</span>
@@ -82,6 +83,18 @@ export default function Contact() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container narrow">
+          <div className="head center" data-reveal>
+            <div>
+              <p className="eyebrow dark">Questions</p>
+              <h2>Good to know</h2>
+            </div>
+          </div>
+          <Faq />
         </div>
       </section>
     </>

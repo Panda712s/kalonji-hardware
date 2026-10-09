@@ -35,7 +35,7 @@ export default function Specials() {
 
       <section className="section">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">How it works</p>
               <h2>Three simple steps</h2>
@@ -43,7 +43,7 @@ export default function Specials() {
           </div>
           <div className="values">
             {steps.map((s, i) => (
-              <div className="value" key={s.title}>
+              <div className="value" data-reveal key={s.title}>
                 <span className="num">0{i + 1}</span>
                 <h3>{s.title}</h3>
                 <p>{s.text}</p>
@@ -55,7 +55,7 @@ export default function Specials() {
 
       <section className="section alt">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">Ask about these</p>
               <h2>Popular brands in store</h2>
@@ -64,7 +64,7 @@ export default function Specials() {
           </div>
           <ul className="brand-grid">
             {brands.map((b) => (
-              <li key={b.name}>
+              <li key={b.name} data-reveal>
                 <a
                   href={waLink(`Hi Kalonji Hardware, do you have any specials on ${b.name}?`)}
                   target="_blank"

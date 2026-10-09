@@ -21,7 +21,7 @@ export default function Products() {
 
       <section className="section">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">Brands</p>
               <h2>Trusted names, in stock</h2>
@@ -30,7 +30,7 @@ export default function Products() {
           </div>
           <ul className="brand-grid">
             {brands.map((b) => (
-              <li key={b.name}>
+              <li key={b.name} data-reveal>
                 <Image src={b.src} alt={b.alt} width={480} height={480} sizes="(max-width: 620px) 45vw, (max-width: 980px) 30vw, 180px" quality={90} />
                 <b>{b.name}</b>
                 <span>{b.note}</span>
@@ -42,7 +42,7 @@ export default function Products() {
 
       <section className="section alt">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">Gallery</p>
               <h2>Browse the shelves</h2>

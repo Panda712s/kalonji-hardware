@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { nav, PHONE, PHONE_DISPLAY, waLink } from "../data";
 import { Chat, Close, Menu, Phone } from "./Icons";
+import OpenNow from "./OpenNow";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   const pathname = usePathname();
@@ -18,7 +20,7 @@ export default function Header() {
     <>
       <div className="topbar">
         <div className="container">
-          <span>Sunnyside, Pretoria · Two branches</span>
+          <span className="left">Sunnyside, Pretoria · Two branches <OpenNow /></span>
           <a href={`tel:${PHONE}`}>
             <Phone size={14} /> {PHONE_DISPLAY}
           </a>
@@ -45,6 +47,7 @@ export default function Header() {
             </a>
           </nav>
 
+          <ThemeToggle />
           <button
             className="menu-btn"
             type="button"

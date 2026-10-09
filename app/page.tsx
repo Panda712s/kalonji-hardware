@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Counter from "./components/Counter";
 import CtaBand from "./components/CtaBand";
+import Faq from "./components/Faq";
 import { Arrow, Chat, Check, Layers, Pin, Tag, Zap } from "./components/Icons";
-import { branches, brands, departments, HERO_IMAGE, mapUrl, storePhotos, waLink } from "./data";
+import Reviews from "./components/Reviews";
+import SearchBox from "./components/SearchBox";
+import { branches, brands, catalog, departments, HERO_IMAGE, jobs, mapUrl, storePhotos, waLink } from "./data";
 
 const perks = [
   { icon: Layers, title: "Six departments, one trip", text: "Electrical, plumbing, building, tools, paint and automotive stocked together." },
@@ -76,10 +80,20 @@ export default function Home() {
         </div>
       </div>
 
+      <section className="search-band">
+        <div className="container">
+          <div data-reveal>
+            <p className="eyebrow dark">Find it fast</p>
+            <h2>What do you need today?</h2>
+          </div>
+          <SearchBox />
+        </div>
+      </section>
+
       <section className="perks">
         <div className="container grid">
           {perks.map((p) => (
-            <div className="perk" key={p.title}>
+            <div className="perk" key={p.title} data-reveal>
               <span className="ico"><p.icon size={22} /></span>
               <h3>{p.title}</h3>
               <p>{p.text}</p>
@@ -90,7 +104,7 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">What we stock</p>
               <h2>Shop by department</h2>
@@ -101,7 +115,7 @@ export default function Home() {
           </div>
           <div className="cards">
             {departments.map((d) => (
-              <Link className="card" key={d.slug} href={`/departments#${d.slug}`}>
+              <Link className="card" key={d.slug} href={`/departments#${d.slug}`} data-reveal>
                 <div className="media">
                   <Image src={d.image} alt={d.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 380px" quality={90} />
                   <span className="badge">Aisle {d.code}</span>
@@ -117,14 +131,48 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="stats-band">
+        <div className="container grid">
+          <div data-reveal><b><Counter to={departments.length} /></b><span>departments under one roof</span></div>
+          <div data-reveal><b><Counter to={branches.length} /></b><span>branches in Sunnyside</span></div>
+          <div data-reveal><b><Counter to={catalog.length} /></b><span>product categories to quote from</span></div>
+          <div data-reveal><b><Counter to={jobs.length} /></b><span>ready-made job lists</span></div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Shop by job</p>
+              <h2>Know the job? We know the list.</h2>
+            </div>
+            <Link className="link-arrow" href="/jobs">
+              See all jobs <Arrow size={18} />
+            </Link>
+          </div>
+          <div className="job-grid">
+            {jobs.slice(0, 4).map((j) => (
+              <Link className="job-tile" key={j.slug} href={`/jobs#${j.slug}`} data-reveal>
+                <Image src={j.image} alt={j.alt} width={600} height={450} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 270px" quality={90} />
+                <div className="over">
+                  <h3>{j.title}</h3>
+                  <span>{j.items.length} items <Arrow size={14} /></span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section alt">
         <div className="container split">
-          <div className="mosaic">
+          <div className="mosaic" data-reveal>
             {storePhotos.map((s, i) => (
               <Image key={s.src} src={s.src} alt={s.alt} width={600} height={800} sizes="(max-width: 980px) 45vw, 280px" quality={90} className={i % 2 ? "down" : ""} />
             ))}
           </div>
-          <div>
+          <div data-reveal>
             <p className="eyebrow dark">About Kalonji Hardware</p>
             <h2>Trusted hardware for your materials supply</h2>
             <p>
@@ -146,7 +194,7 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <div className="head">
+          <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">Brands on our shelves</p>
               <h2>Trusted names, in stock</h2>
@@ -157,7 +205,7 @@ export default function Home() {
           </div>
           <ul className="brand-grid">
             {brands.map((b) => (
-              <li key={b.name}>
+              <li key={b.name} data-reveal>
                 <Image src={b.src} alt={b.alt} width={480} height={480} sizes="(max-width: 620px) 45vw, (max-width: 980px) 30vw, 180px" quality={90} />
                 <b>{b.name}</b>
                 <span>{b.note}</span>
@@ -167,9 +215,22 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="trade" data-reveal>
+        <div className="container inner">
+          <div>
+            <p className="eyebrow">For contractors</p>
+            <h2>Buying in bulk? Get trade pricing.</h2>
+            <p>Tell us what you buy most and the quantities. Larger orders qualify for bulk and contractor pricing.</p>
+          </div>
+          <Link className="btn lg" href="/contractors">
+            Request trade pricing <Arrow size={20} />
+          </Link>
+        </div>
+      </section>
+
       <section className="section alt">
         <div className="container">
-          <div className="head center">
+          <div className="head center" data-reveal>
             <div>
               <p className="eyebrow dark">How it works</p>
               <h2>From list to counter in three steps</h2>
@@ -177,13 +238,27 @@ export default function Home() {
           </div>
           <ol className="steps">
             {steps.map((s, i) => (
-              <li key={s.title}>
+              <li key={s.title} data-reveal>
                 <span className="n">{i + 1}</span>
                 <h3>{s.title}</h3>
                 <p>{s.text}</p>
               </li>
             ))}
           </ol>
+        </div>
+      </section>
+
+      <Reviews />
+
+      <section className="section">
+        <div className="container narrow">
+          <div className="head center" data-reveal>
+            <div>
+              <p className="eyebrow dark">Questions</p>
+              <h2>Good to know</h2>
+            </div>
+          </div>
+          <Faq />
         </div>
       </section>
 

@@ -3,6 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import PageHero from "../components/PageHero";
 import { Chat, Check } from "../components/Icons";
+import { AddAllButton, ItemList } from "../components/ItemList";
 import { departments, waLink } from "../data";
 
 export const metadata: Metadata = {
@@ -28,7 +29,7 @@ export default function Departments() {
       {departments.map((d, i) => (
         <section className={`section dept-row${i % 2 ? " alt" : ""}`} id={d.slug} key={d.slug}>
           <div className={`container split${i % 2 ? " flip" : ""}`}>
-            <div className="pair">
+            <div className="pair" data-reveal>
               <Image src={d.image} alt={d.alt} width={800} height={600} sizes="(max-width: 980px) 90vw, 360px" quality={90} />
               <Image src={d.image2} alt={d.alt2} width={800} height={600} sizes="(max-width: 980px) 90vw, 360px" quality={90} />
             </div>
@@ -36,11 +37,9 @@ export default function Departments() {
               <p className="eyebrow dark">Aisle {d.code}</p>
               <h2>{d.name}</h2>
               <p>{d.text}</p>
-              <ul className="ticks two">
-                {d.items.map((it) => (
-                  <li key={it}>{it}</li>
-                ))}
-              </ul>
+              <ItemList items={d.items} />
+              <div className="acts tight">
+              <AddAllButton items={d.items} />
               <a
                 className="btn"
                 href={waLink(`Hi Kalonji Hardware, I need a quote for ${d.name.toLowerCase()} supplies.`)}
@@ -49,6 +48,7 @@ export default function Departments() {
               >
                 <Chat size={18} /> Quote {d.name.toLowerCase()}
               </a>
+              </div>
             </div>
           </div>
         </section>

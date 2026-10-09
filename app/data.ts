@@ -12,6 +12,7 @@ export const nav = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/departments", label: "Departments" },
+  { href: "/jobs", label: "Jobs" },
   { href: "/products", label: "Products" },
   { href: "/specials", label: "Specials" },
   { href: "/contact", label: "Contact" },
@@ -98,3 +99,74 @@ export const storePhotos = [
 ];
 
 export const HERO_IMAGE = "/images/unsplash-tools.jpg";
+
+/** Every product category across all departments, used by search and the quote basket. */
+export const catalog = departments.flatMap((d) =>
+  d.items.map((item) => ({ item, dept: d.name, slug: d.slug })),
+);
+
+export const jobs = [
+  {
+    slug: "fix-a-leak", title: "Fix a leak",
+    blurb: "Stop drips and burst joints at the source, from taps to pipe runs.",
+    image: "/images/image-40.jpg", alt: "Plumbing fittings, silicone sealants and basin mixers",
+    items: ["Pipes and fittings", "Valves", "Sealants and tapes", "Taps and basin mixers"],
+  },
+  {
+    slug: "paint-a-room", title: "Paint a room",
+    blurb: "Everything to prep, fill, prime and finish walls and woodwork.",
+    image: "/images/image-41.jpg", alt: "Paints, enamel, PVA, rollers and paint trays",
+    items: ["Wall paint", "PVA and primers", "Rollers, brushes and trays", "Crack filler and sealants"],
+  },
+  {
+    slug: "wire-a-plug-point", title: "Wire a plug point",
+    blurb: "Cable, sockets and protection for adding or repairing power points.",
+    image: "/images/image-03.jpg", alt: "Coils of electrical wire with hand tools",
+    items: ["Cable and wire", "Plugs, sockets and switches", "Conduit and trunking", "Breakers and DB boards"],
+  },
+  {
+    slug: "build-a-wall", title: "Build or repair a wall",
+    blurb: "Materials for walls, slabs and general building and repair work.",
+    image: "/images/image-08.jpg", alt: "Cement bags, bricks, pipes and building materials",
+    items: ["Cement", "Bricks and blocks", "Steel reinforcing mesh", "Tile adhesive"],
+  },
+  {
+    slug: "bathroom-refresh", title: "Bathroom refresh",
+    blurb: "New taps, toilet, seals and a fresh coat for a tired bathroom.",
+    image: "/images/image-48.jpg", alt: "Toilet suites, drainage fittings, power tools and appliances",
+    items: ["Taps and basin mixers", "Toilet suites and drainage", "Sealants and tapes", "Tile adhesive", "Wall paint"],
+  },
+  {
+    slug: "service-the-car", title: "Service the car",
+    blurb: "Oil, battery and car-care basics for home and workshop servicing.",
+    image: "/images/image-18.jpg", alt: "Car battery",
+    items: ["Engine oil", "Car batteries", "Car-care and shine", "Workshop consumables"],
+  },
+  {
+    slug: "garden-and-yard", title: "Garden and yard",
+    blurb: "Tools and cleaning gear to keep the yard and driveway in shape.",
+    image: "/images/image-12.jpg", alt: "Spades, rakes and brooms",
+    items: ["Garden tools", "Brooms, mops and brushware", "Hand tools"],
+  },
+];
+
+export const faqs = [
+  { q: "How do I get a quote?", a: "Send your list of items and quantities on WhatsApp, use the quote basket on this site, or bring the list to either branch. We reply with price and availability." },
+  { q: "Do you offer bulk or contractor pricing?", a: "Yes. Larger orders qualify for bulk and contractor pricing. Mention quantities in your message, or use the Contractors page." },
+  { q: "Where are your branches?", a: "Barclay Square Mall (Shop 15, 293 Rissik Street) and Ancore Centre (137 Robert Sobukwe Street), both in Sunnyside, Pretoria." },
+  { q: "Is everything on the website in stock?", a: "Stock changes through the week. Message us to confirm an item, size or quantity before you travel." },
+  { q: "Can I ask about specials?", a: "Yes. Specials change with stock, so message us on WhatsApp for today's prices or follow our Facebook page." },
+];
+
+/**
+ * Opening hours, keyed by weekday (0 = Sunday ... 6 = Saturday) as ["HH:MM", "HH:MM"], 24-hour, South African time.
+ * Leave as null to hide the "Open now" badge. TODO: add the real hours, for example:
+ * { 1: ["08:00", "17:00"], 2: ["08:00", "17:00"], ... }
+ */
+export type Hours = Partial<Record<number, [string, string]>>;
+export const HOURS: Hours | null = null;
+
+/** Real customer reviews only. The reviews section stays hidden while this is empty. */
+export const reviews: { name: string; text: string }[] = [];
+/** Link to the Google reviews page. TODO: add it to show a "Leave a review" card. */
+export const GOOGLE_REVIEWS_URL = "";
