@@ -581,3 +581,10 @@ textarea{min-height:130px;resize:vertical}
 .range-grid.batteries img{aspect-ratio:5/3}
 @media (max-width:1020px){.range-grid.batteries{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:620px){.range-grid.batteries{grid-template-columns:repeat(2,1fr)}}
+
+/* ===== glues and repair ===== */
+.range-grid.repair{grid-template-columns:repeat(4,1fr);max-width:900px}
+.range-grid.repair img{aspect-ratio:1;object-fit:contain}
+@media (max-width:620px){.range-grid.repair{grid-template-columns:repeat(2,1fr)}}
+
+.range-grid li>a{height:100%}
