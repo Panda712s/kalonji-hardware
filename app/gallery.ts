@@ -29,9 +29,4 @@ export const gallery: GalleryImage[] = [
   { src: "/images/image-47.jpg", alt: "Kalonji Hardware Supplies, Barclay Square Shop 15", w: 800, h: 1063, category: "In store" },
   { src: "/images/image-48.jpg", alt: "Toilet suites, drainage fittings, power tools and appliances", w: 800, h: 1063, category: "In store" },
   { src: "/images/image-49.jpg", alt: "Paints, varnish, rollers and brushes", w: 800, h: 1063, category: "Paint" },
-  { src: "/images/promac-easycoat.jpg", alt: "Promac Easycoat Silk Acrylic 5L paint tin", w: 709, h: 708, category: "Paint" },
-  { src: "/images/promac-ecoat.jpg", alt: "Promac E-Coat PVA coating 5L paint tin", w: 767, h: 767, category: "Paint" },
-  { src: "/images/promac-rubber.jpg", alt: "Promac Rubber Duck liquid rubber 5L tin", w: 708, h: 709, category: "Paint" },
-  { src: "/images/promac-dimensions.jpg", alt: "Promac Dimensions Silk 5L paint tin", w: 767, h: 768, category: "Paint" },
-  { src: "/images/promac-varnish.jpg", alt: "Promac Yes Wood interior varnish 5L tin", w: 591, h: 591, category: "Paint" },
 ];

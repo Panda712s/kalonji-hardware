@@ -5,7 +5,7 @@ import Faq from "../components/Faq";
 import PageHero from "../components/PageHero";
 import QuoteForm from "../components/QuoteForm";
 import { Chat, Clock, Phone, Pin } from "../components/Icons";
-import { ADDRESS, branches, HOURS_TEXT, mapEmbed, mapUrl, PHONE, PHONE_DISPLAY, WHATSAPP, WHATSAPP_DISPLAY } from "../data";
+import { ADDRESS, branches, HOURS_LINES, mapEmbed, mapUrl, PHONE, PHONE_DISPLAY, WHATSAPP, WHATSAPP_DISPLAY } from "../data";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -53,7 +53,7 @@ export default function Contact() {
               <span className="ico"><Clock size={22} /></span>
               <div>
                 <span className="label">Opening hours</span>
-                <b>{HOURS_TEXT}</b>
+                <b className="hrs">{HOURS_LINES.map((l) => (<span key={l}>{l}</span>))}</b>
               </div>
             </div>
             <p className="hint">

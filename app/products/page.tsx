@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { batteries, brands, range, repair, waLink } from "../data";
+import { batteries, brands, hardware, promacRange, range, repair, waLink } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -44,18 +44,64 @@ export default function Products() {
         <div className="container">
           <div className="head" data-reveal>
             <div>
-              <p className="eyebrow dark">Plumbing and hardware</p>
-              <h2>A look at the range</h2>
+              <p className="eyebrow dark">Promac paints</p>
+              <h2>Promac paint range</h2>
             </div>
-            <p className="sub">A selection of fittings and hardware. Ask us for sizes, availability and prices.</p>
+            <p className="sub">Part of the Promac range. Ask us what is in stock.</p>
+          </div>
+          <ul className="range-grid promac">
+            {promacRange.map((r) => (
+              <li key={r.name} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Plumbing</p>
+              <h2>Plumbing and fittings</h2>
+            </div>
+            <p className="sub">A selection of fittings and plumbing items. Ask us for sizes and prices.</p>
           </div>
           <ul className="range-grid">
             {range.map((r) => (
               <li key={r.name} data-reveal>
-                <a href={waLink(`Hi Kalonji Hardware, do you have a ${r.name.toLowerCase()}? Sizes and price please.`)} target="_blank" rel="noopener noreferrer">
-                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 980px) 30vw, 180px" quality={90} />
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
-                  <span>Ask about this</span>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Hardware</p>
+              <h2>Hardware and tools</h2>
+            </div>
+            <p className="sub">A selection of everyday hardware. Ask us for sizes and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {hardware.map((r) => (
+              <li key={r.name} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
                 </a>
               </li>
             ))}

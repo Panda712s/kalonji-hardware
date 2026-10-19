@@ -588,3 +588,11 @@ textarea{min-height:130px;resize:vertical}
 @media (max-width:620px){.range-grid.repair{grid-template-columns:repeat(2,1fr)}}
 
 .range-grid li>a{height:100%}
+
+/* ===== bigger product ranges ===== */
+.range-grid.promac img{aspect-ratio:1;object-fit:contain}
+.range-grid li>a{display:flex;flex-direction:column}
+.range-grid li>a b{margin-top:auto}
+
+.line b.hrs{display:block;font-size:1.35rem;line-height:1.25}
+.line b.hrs span{display:block}

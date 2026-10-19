@@ -6,7 +6,7 @@ export const WHATSAPP_DISPLAY = "+27 79 147 6258";
 export const ADDRESS = "Sunnyside, Pretoria 0002, Gauteng, South Africa";
 export const FACEBOOK_URL = "https://www.facebook.com/share/1J1QhbSXaP/";
 /** Opening hours as shown to visitors. Keep in step with HOURS further down. */
-export const HOURS_TEXT = "8:00am to 7:00pm";
+export const HOURS_LINES = ["Monday to Saturday: 8:00am to 7:00pm", "Sunday: 8:00am to 3:00pm"];
 
 export const waLink = (text: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
 export const mapUrl = (q: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
@@ -123,14 +123,82 @@ export const batteries = [
   { src: "/images/battery-toplite.jpg", alt: "Toplite motorcycle battery box", name: "Toplite", note: "Motorcycle battery" },
 ];
 
-/** A selection of plumbing and hardware items, shown on the Products page. */
+/** Plumbing and fittings, shown on the Products page. */
 export const range = [
-  { src: "/images/range-hose.jpg", alt: "Braided flexible hose connector", name: "Braided hose connector" },
-  { src: "/images/range-elbow.jpg", alt: "Brass compression elbow", name: "Compression elbow" },
-  { src: "/images/range-socket.jpg", alt: "Galvanised reducing socket", name: "Reducing socket" },
-  { src: "/images/range-caulk.jpg", alt: "Blue caulking gun", name: "Caulking gun" },
-  { src: "/images/range-chain.jpg", alt: "Galvanised chain on a reel", name: "Galvanised chain" },
-  { src: "/images/range-basin.jpg", alt: "White wall-hung basin", name: "Wall basin" },
+  { src: "/images/range-hose.jpg", alt: "Braided flexible hose connector", name: "Braided hose connector", note: "Flexible tap connector" },
+  { src: "/images/range-elbow.jpg", alt: "Brass compression elbow", name: "Compression elbow", note: "Brass fitting" },
+  { src: "/images/range-socket.jpg", alt: "Galvanised reducing socket", name: "Reducing socket", note: "Galvanised fitting" },
+  { src: "/images/range-basin.jpg", alt: "White wall-hung basin", name: "Wall basin", note: "White ceramic" },
+  { src: "/images/range-angle-valve.jpg", alt: "Chrome angle valve", name: "Angle valve", note: "Chrome angle valve" },
+  { src: "/images/range-bib-tap.jpg", alt: "Chrome bib tap", name: "Bib tap", note: "Chrome bib tap" },
+  { src: "/images/range-gate-valve.jpg", alt: "Brass gate valve", name: "Gate valve", note: "Brass gate valve" },
+  { src: "/images/range-ball-valve.jpg", alt: "Brass lever ball valve", name: "Ball valve", note: "Brass lever ball valve" },
+  { src: "/images/range-bath-spout.jpg", alt: "Chrome bath spout with diverter", name: "Bath spout", note: "Chrome bath spout with diverter" },
+  { src: "/images/range-flush-valve.jpg", alt: "Toilet flush valve", name: "Flush valve", note: "Toilet flush valve" },
+  { src: "/images/range-silicone.jpg", alt: "Silicone sealant cartridge", name: "Silicone sealant", note: "General purpose sealant" },
+  { src: "/images/range-acrylic.jpg", alt: "Acrylic sealant cartridge", name: "Acrylic sealant", note: "Paintable white sealant" },
+  { src: "/images/range-sink-mixer.jpg", alt: "Chrome sink mixer tap with a swan neck", name: "Sink mixer", note: "Chrome sink mixer tap" },
+  { src: "/images/range-hosebib.jpg", alt: "Brass hose bib tap", name: "Hose bib", note: "Brass hose bib tap" },
+  { src: "/images/range-stop-tap.jpg", alt: "Brass stop tap", name: "Stop tap", note: "Brass stop tap" },
+  { src: "/images/range-bath-mixer.jpg", alt: "Chrome wall bath mixer with a hand shower", name: "Bath mixer", note: "Wall mixer with hand shower" },
+  { src: "/images/range-pillar-tap.jpg", alt: "Chrome pillar tap", name: "Pillar tap", note: "Chrome pillar tap" },
+  { src: "/images/range-sewer-snake.jpg", alt: "Coiled drain-cleaning snake", name: "Drain snake", note: "Coiled drain cleaner" },
+  { src: "/images/range-bidet.jpg", alt: "Bidet hose set in its pack", name: "Bidet set", note: "Hose and fittings" },
+];
+
+/** Hardware and tools, shown on the Products page. */
+export const hardware = [
+  { src: "/images/range-caulk.jpg", alt: "Blue caulking gun", name: "Caulking gun", note: "For sealants" },
+  { src: "/images/range-chain.jpg", alt: "Galvanised chain on a reel", name: "Galvanised chain", note: "Sold by the metre" },
+  { src: "/images/range-padlock.jpg", alt: "Iron padlocks in different sizes", name: "Padlocks", note: "Iron padlocks" },
+  { src: "/images/range-brush.jpg", alt: "Paint brush with a red handle", name: "Paint brush", note: "Synthetic bristle" },
+  { src: "/images/range-pliers.jpg", alt: "Waterpump pliers", name: "Waterpump pliers", note: "250 mm" },
+  { src: "/images/range-claw-hammer.jpg", alt: "Claw hammer with a wooden handle", name: "Claw hammer", note: "Wooden handle" },
+  { src: "/images/range-club-hammer.jpg", alt: "Club hammer", name: "Club hammer", note: "Steel head, 1.25 kg" },
+  { src: "/images/range-led-bulb.jpg", alt: "Warm white LED bulb", name: "LED bulb", note: "Warm white" },
+  { src: "/images/range-blowtorch.jpg", alt: "Blue clip-on gas blowtorch", name: "Blowtorch", note: "Clip-on gas torch" },
+  { src: "/images/range-chisel.jpg", alt: "Flat cold chisel with an orange hand guard", name: "Flat chisel", note: "20 × 200 mm" },
+  { src: "/images/range-drill-bits.jpg", alt: "Set of six flat wood drill bits", name: "Flat drill bit set", note: "12 to 25 mm, 6 pieces" },
+  { src: "/images/range-hacksaw.jpg", alt: "Steel hacksaw", name: "Hacksaw", note: "Complete steel hacksaw" },
+  { src: "/images/range-pipe-wrench.jpg", alt: "Yellow heavy-duty pipe wrench", name: "Pipe wrench", note: "350 mm" },
+  { src: "/images/range-stubby-driver.jpg", alt: "Stubby reversible screwdriver with a bit", name: "Stubby screwdriver", note: "Reversible bits" },
+  { src: "/images/range-trim-knife.jpg", alt: "Red snap-off trimming knife", name: "Trimming knife", note: "Snap-off blade" },
+  { src: "/images/range-pointing-trowel.jpg", alt: "Pointing trowel with a wooden handle", name: "Pointing trowel", note: "150 mm" },
+  { src: "/images/range-hasp.jpg", alt: "Hasp and staple", name: "Hasp and staple", note: "For padlocks" },
+  { src: "/images/range-door-bolt.jpg", alt: "Galvanised straight door bolt", name: "Door bolt", note: "Galvanised" },
+  { src: "/images/range-sprayer.jpg", alt: "Five litre pressure garden sprayer", name: "Garden sprayer", note: "5 litre" },
+  { src: "/images/range-plunger.jpg", alt: "Red rubber drain plunger with a wooden handle", name: "Drain plunger", note: "100 mm, wooden handle" },
+  { src: "/images/range-scrub-brush.jpg", alt: "Scrubbing brush with yellow handle", name: "Scrubbing brush", note: "Stiff bristles" },
+];
+
+/** Promac paint range, shown on the Products page. */
+export const promacRange = [
+  { src: "/images/promac-easycoat.jpg", alt: "Promac Easycoat Silk Acrylic 5 L tin", name: "Easycoat Silk Acrylic", note: "Paint" },
+  { src: "/images/promac-ecoat.jpg", alt: "Promac E-Coat PVA Coating 5 L tin", name: "E-Coat PVA Coating", note: "PVA coating" },
+  { src: "/images/promac-dimensions.jpg", alt: "Promac Dimensions Silk 5 L tin", name: "Dimensions Silk", note: "Paint" },
+  { src: "/images/promac-rubber.jpg", alt: "Promac Rubber Duck Liquid Rubber 5 L tin", name: "Rubber Duck Liquid Rubber", note: "Liquid rubber" },
+  { src: "/images/promac-varnish.jpg", alt: "Promac Yes Wood Interior Varnish 5 L tin", name: "Yes Wood Interior Varnish", note: "Varnish" },
+  { src: "/images/promac-matt.jpg", alt: "Promac Easycoat Matt Walls & Ceilings 5 L tin", name: "Easycoat Matt Walls & Ceilings", note: "Paint" },
+  { src: "/images/promac-washable.jpg", alt: "Promac Easycoat Washable Matt 5 L tin", name: "Easycoat Washable Matt", note: "Paint" },
+  { src: "/images/promac-undercoat.jpg", alt: "Promac Easycoat Universal Undercoat 5 L tin", name: "Easycoat Universal Undercoat", note: "Undercoat" },
+  { src: "/images/promac-plaster-primer.jpg", alt: "Promac Easycoat Plaster Primer 5 L tin", name: "Easycoat Plaster Primer", note: "Primer" },
+  { src: "/images/promac-adhesion-primer.jpg", alt: "Promac Easycoat Adhesion Primer 5 L tin", name: "Easycoat Adhesion Primer", note: "Primer" },
+  { src: "/images/promac-roofcote.jpg", alt: "Promac Easycoat Roofcote Acrylic 5 L tin", name: "Easycoat Roofcote Acrylic", note: "Roof paint" },
+  { src: "/images/promac-textured.jpg", alt: "Promac Easycoat Textured Acrylic 5 L tin", name: "Easycoat Textured Acrylic", note: "Textured coating" },
+  { src: "/images/promac-gloss-enamel.jpg", alt: "Promac Easycoat Gloss Enamel 5 L tin", name: "Easycoat Gloss Enamel", note: "Enamel" },
+  { src: "/images/promac-nondrip.jpg", alt: "Promac Easycoat Non-Drip Enamel 5 L tin", name: "Easycoat Non-Drip Enamel", note: "Enamel" },
+  { src: "/images/promac-etch-primer.jpg", alt: "Promac Metal Etch Primer 5 L tin", name: "Metal Etch Primer", note: "Primer" },
+  { src: "/images/promac-bonding.jpg", alt: "Promac Bonding Liquid 5 L tin", name: "Bonding Liquid", note: "Bonding liquid" },
+  { src: "/images/promac-micaguard.jpg", alt: "Promac Micaguard Textured 5 L tin", name: "Micaguard Textured", note: "Textured coating" },
+  { src: "/images/promac-pu-gloss.jpg", alt: "Promac Yes Wood PU Gloss Varnish 5 L tin", name: "Yes Wood PU Gloss Varnish", note: "Varnish" },
+  { src: "/images/promac-suede.jpg", alt: "Promac Yes Wood PU Suede Varnish tin", name: "Yes Wood PU Suede Varnish", note: "Varnish" },
+  { src: "/images/promac-preservative.jpg", alt: "Promac Yes Wood Preservative tin", name: "Yes Wood Preservative", note: "Wood preservative" },
+  { src: "/images/promac-deck.jpg", alt: "Promac Yes Wood Deck Dressing tin", name: "Yes Wood Deck Dressing", note: "Deck dressing" },
+  { src: "/images/promac-marine.jpg", alt: "Promac Yes Wood Marine Varnish tin", name: "Yes Wood Marine Varnish", note: "Varnish" },
+  { src: "/images/promac-stain.jpg", alt: "Promac Yes Wood Stain & Seal tin", name: "Yes Wood Stain & Seal", note: "Wood stain, 1 L" },
+  { src: "/images/promac-furniture-wax.jpg", alt: "Promac Yes Wood Furniture Wax tin", name: "Yes Wood Furniture Wax", note: "Furniture wax, 1 L" },
+  { src: "/images/promac-weather-wax.jpg", alt: "Promac Yes Wood Weatherproofing Wax tin", name: "Yes Wood Weatherproofing Wax", note: "Weatherproofing wax, 1 L" },
+  { src: "/images/promac-eggshell.jpg", alt: "Promac Easycoat Eggshell Enamel tin", name: "Easycoat Eggshell Enamel", note: "Enamel" },
 ];
 
 export const branches = [
@@ -228,7 +296,7 @@ export const jobs = [
 export const faqs = [
   { q: "How do I get a quote?", a: "Send your list of items and quantities on WhatsApp, use the quote basket on this site, or bring the list to either branch. We reply with price and availability." },
   { q: "Do you offer bulk or contractor pricing?", a: "Yes. Larger orders qualify for bulk and contractor pricing. Mention quantities in your message, or use the Contractors page." },
-  { q: "What are your opening hours?", a: `We are open from ${HOURS_TEXT}. Message us on WhatsApp if you need to check before you travel.` },
+  { q: "What are your opening hours?", a: `We are open Monday to Saturday from 8:00am to 7:00pm and on Sundays from 8:00am to 3:00pm. Message us on WhatsApp if you need to check before you travel.` },
   { q: "Where are your branches?", a: "Barclay Square Mall (Shop 15, 293 Rissik Street) and Ancore Centre (137 Robert Sobukwe Street), both in Sunnyside, Pretoria." },
   { q: "Do you export?", a: "Yes. We export to DRC, Zimbabwe, Cameroon and Ghana. Message us your list and the destination country on WhatsApp and we will send an export quote." },
   { q: "Can you send a plumber or an electrician?", a: "Yes. A plumber and an electrician are available on request. Message us on WhatsApp with the job and where it is, and we will arrange it." },
@@ -243,7 +311,7 @@ export const faqs = [
  */
 export type Hours = Partial<Record<number, [string, string]>>;
 export const HOURS: Hours | null = {
-  0: ["08:00", "19:00"],
+  0: ["08:00", "15:00"],
   1: ["08:00", "19:00"],
   2: ["08:00", "19:00"],
   3: ["08:00", "19:00"],
