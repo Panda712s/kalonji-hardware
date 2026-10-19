@@ -1,3 +1,10 @@
+/**
+ * The public web address of the site, with no trailing slash. Used for the sharing preview,
+ * the canonical address, robots.txt and the sitemap.
+ * TODO: change this to the real domain (for example https://www.kalonjihardware.co.za) once it points here.
+ */
+export const SITE_URL = "https://kalonji-hardware.vercel.app";
+
 export const WHATSAPP = "27791476258";
 export const PHONE = "+27120066063";
 export const PHONE_DISPLAY = "+27 12 006 6063";

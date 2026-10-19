@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Big_Shoulders, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
-import { FACEBOOK_URL, PHONE } from "./data";
+import { FACEBOOK_URL, PHONE, SITE_URL } from "./data";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import FloatingActions from "./components/FloatingActions";
@@ -25,6 +25,18 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "./" },
+  openGraph: {
+    type: "website",
+    url: "./",
+    locale: "en_ZA",
+    siteName: "Kalonji Hardware",
+    title: "Kalonji Hardware | Sunnyside, Pretoria",
+    description:
+      "Everything for the job, one counter away. Electrical, plumbing, building, tools, paint, automotive, glass and key cutting, tiles and cement. Quotes on WhatsApp.",
+  },
+  twitter: { card: "summary_large_image" },
   title: {
     default: "Kalonji Hardware | Sunnyside, Pretoria",
     template: "%s | Kalonji Hardware",
