@@ -60,7 +60,7 @@ export default function Home() {
                 <span className="pin"><Pin size={18} /></span>
                 <div>
                   <b>{b.name}</b>
-                  <span>{b.lines[0]}</span>
+                  <span>{b.lines.slice(0, -1).join(" ")}</span>
                   <a href={mapUrl(b.map)} target="_blank" rel="noopener noreferrer">Open in Maps</a>
                 </div>
               </div>

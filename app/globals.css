@@ -240,7 +240,7 @@ textarea{min-height:130px;resize:vertical}
 
 /* footer */
 .site-footer{background:var(--deep);color:var(--on-deep);padding-top:clamp(48px,7vw,80px)}
-.site-footer .grid{display:grid;grid-template-columns:1.4fr .8fr .9fr 1.3fr;gap:36px;padding-bottom:48px}
+.site-footer .grid{display:grid;grid-template-columns:1.2fr .7fr .8fr 1.7fr;gap:36px;padding-bottom:48px}
 .site-footer .logo small{color:var(--deep-muted)}
 .site-footer .blurb{color:var(--deep-muted);margin:18px 0;max-width:34ch;font-size:.95rem}
 .site-footer h4{font-size:1.2rem;letter-spacing:.06em;color:var(--accent);margin-bottom:16px}

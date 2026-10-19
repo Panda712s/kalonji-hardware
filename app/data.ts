@@ -3,7 +3,7 @@ export const PHONE = "+27120066063";
 export const PHONE_DISPLAY = "+27 12 006 6063";
 export const WHATSAPP_DISPLAY = "+27 79 147 6258";
 /** Postal address of the business, shown on the Contact page and in the footer. */
-export const ADDRESS = "Sunnyside, Pretoria, 0002, Gauteng, South Africa";
+export const ADDRESS = "Sunnyside, Pretoria 0002, Gauteng, South Africa";
 export const FACEBOOK_URL = "https://www.facebook.com/share/1J1QhbSXaP/";
 /** Opening hours as shown to visitors. Keep in step with HOURS further down. */
 export const HOURS_TEXT = "8:00am to 7:00pm";
@@ -137,7 +137,7 @@ export const branches = [
   {
     label: "Branch 1 · Mall",
     name: "Barclay Square Mall",
-    lines: ["Shop 15, 293 Rissik Street", ADDRESS],
+    lines: ["Shop 15,", "293 Rissik Street", ADDRESS],
     image: "/images/image-47.jpg",
     imageAlt: "Kalonji Hardware Supplies, Barclay Square Shop 15",
     map: "Barclay Square Mall 293 Rissik Street Sunnyside Pretoria",

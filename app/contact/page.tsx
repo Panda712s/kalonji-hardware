@@ -80,9 +80,12 @@ export default function Contact() {
                   <span className="eyebrow dark">{b.label}</span>
                   <h3>{b.name}</h3>
                   <address>
-                    {b.lines[0]}
-                    <br />
-                    {b.lines[1]}
+                    {b.lines.map((line, i) => (
+                      <span key={line}>
+                        {i > 0 && <br />}
+                        {line}
+                      </span>
+                    ))}
                   </address>
                   <iframe
                     title={`Map of ${b.name}`}
