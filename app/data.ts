@@ -49,6 +49,7 @@ export const departments = [
     slug: "building", code: "B", name: "Building",
     text: "Materials for construction, renovation and repair, with contractor pricing on bulk.",
     image: "/images/building-bricks.jpg", alt: "Stacked clay bricks",
+    image2: "/images/building-site.jpg", alt2: "A building site seen from above, with timber, formwork and scaffolding",
     items: ["Bricks and blocks", "Timber", "Steel reinforcing mesh", "Bolts, hinges and screws"],
   },
   {
@@ -112,10 +113,12 @@ export const services = [
 
 /** Glues, fillers and degreasers, shown on the Products page. */
 export const repair = [
+  { src: "/images/repair-plascon-keybond.jpg", alt: "Plascon Plaster KeyBond bonding liquid, 5 litre", name: "Plascon Plaster KeyBond", note: "Bonding liquid for plaster", w: 529, h: 806 },
   { src: "/images/repair-oneshot.jpg", alt: "One Shot heavy-duty industrial degreaser, 1 litre", name: "One Shot degreaser", note: "Heavy-duty degreaser, 1 L", w: 196, h: 210 },
   { src: "/images/repair-pratley-quickset.jpg", alt: "Pratley 1-2-3 Quickset adhesive pack", name: "Pratley Quickset", note: "Repair adhesive", w: 303, h: 332 },
   { src: "/images/repair-pratley-steel-putty.jpg", alt: "Pratley Steel Putty 100 g pack", name: "Pratley Steel Putty", note: "Repair putty, 100 g", w: 304, h: 352 },
   { src: "/images/repair-qbond.jpg", alt: "Q-Bond adhesive and reinforcing powder kit", name: "Q-Bond", note: "Adhesive and filling powders", w: 434, h: 416 },
+  { src: "/images/repair-polyfilla.jpg", alt: "Polycell Polyfilla Exterior Crack Filler, 12 kg bag", name: "Polycell Polyfilla Exterior", note: "Crack filler, 12 kg", w: 414, h: 515 },
 ];
 
 /** Car and motorcycle batteries, shown on the Products page. */
@@ -210,6 +213,35 @@ export const hardware = [
   { src: "/images/range-plunger.jpg", alt: "Red rubber drain plunger with a wooden handle", name: "Drain plunger", note: "100 mm, wooden handle" },
   { src: "/images/range-scrub-brush.jpg", alt: "Scrubbing brush with yellow handle", name: "Scrubbing brush", note: "Stiff bristles" },
   { src: "/images/range-gas-torch.jpg", alt: "Blue gas blowtorch with a brass nozzle and black handle", name: "Gas blowtorch", note: "With handle and brass nozzle" },
+];
+
+/** Plascon paint range, shown on the Products page. */
+export const plasconRange = [
+  { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },
+  { src: "/images/plascon-polvin.jpg", alt: "Plascon Polvin premium washable matt paint bucket", name: "Polvin", note: "Premium washable matt" },
+  { src: "/images/plascon-velvaglo-wb.jpg", alt: "Plascon Velvaglo Non-Drip water-based paint tin", name: "Velvaglo Non-Drip Water Based", note: "Silky sheen, interior / exterior" },
+  { src: "/images/plascon-velvaglo-enamel.jpg", alt: "Plascon Velvaglo Non-Drip Enamel tin", name: "Velvaglo Non-Drip Enamel", note: "Satin sheen, interior" },
+  { src: "/images/plascon-kitchens-bathrooms.jpg", alt: "Plascon Kitchens and Bathrooms interior matt paint tub", name: "Kitchens & Bathrooms", note: "Interior matt" },
+  { src: "/images/plascon-one-coat.jpg", alt: "Plascon One Coat water-based ceiling paint bucket", name: "One Coat Ceiling Paint", note: "Water-based, interior" },
+  { src: "/images/plascon-glazecoat.jpg", alt: "Plascon Water-Based Glazecoat bucket", name: "Water-Based Glazecoat", note: "Interior matt" },
+  { src: "/images/plascon-super-gloss.jpg", alt: "Plascon Super Gloss Enamel tin", name: "Super Gloss Enamel", note: "High gloss, interior / exterior" },
+  { src: "/images/plascon-wb-super-gloss.jpg", alt: "Plascon Water-Based Super Gloss Enamel bucket", name: "Water-Based Super Gloss Enamel", note: "High gloss, interior / exterior" },
+  { src: "/images/plascon-multi-primer.jpg", alt: "Plascon Multi-Surface Primer bucket", name: "Multi-Surface Primer", note: "Water-based, interior / exterior" },
+  { src: "/images/plascon-plaster-primer.jpg", alt: "Plascon Plaster Primer tin", name: "Plaster Primer", note: "Solvent-based, interior / exterior" },
+  { src: "/images/plascon-metalcare-mild.jpg", alt: "Plascon Metalcare Mild Steel Primer tin", name: "Metalcare Mild Steel Primer", note: "Solvent-based primer" },
+  { src: "/images/plascon-metalcare-wb.jpg", alt: "Plascon Metalcare WB red oxide primer bucket", name: "Metalcare WB Primer", note: "Red oxide, water-based" },
+  { src: "/images/plascon-woodcare-varnish.jpg", alt: "Plascon WoodCare Interior Varnish tin", name: "WoodCare Interior Varnish", note: "Gloss finish, water-based" },
+  { src: "/images/plascon-woodcare-knot.jpg", alt: "Plascon WoodCare Knot Seal tin", name: "WoodCare Knot Seal", note: "Interior / exterior" },
+  { src: "/images/plascon-woodcare-sealer.jpg", alt: "Plascon WoodCare Sanding Sealer tin", name: "WoodCare Sanding Sealer", note: "Interior" },
+  { src: "/images/plascon-rubber-tuff.jpg", alt: "Plascon Rubber Tuff heavy-duty reinforced waterproofing bucket", name: "Rubber Tuff", note: "Heavy-duty waterproofing" },
+  { src: "/images/plascon-allseal.jpg", alt: "Plascon Allseal waterproofing with membrane bucket", name: "Allseal", note: "Waterproofing with membrane" },
+  { src: "/images/plascon-end-rust.jpg", alt: "Plascon End Rust anti-rust primer bucket", name: "End Rust Anti-Rust Primer", note: "3-in-1, water-based" },
+  { src: "/images/plascon-micatex.jpg", alt: "Plascon Micatex exterior paint bucket", name: "Micatex", note: "Exterior, matt fine texture" },
+  { src: "/images/plascon-nuroof-cool.jpg", alt: "Plascon Nuroof Cool roof paint bucket", name: "Nuroof Cool", note: "Roof paint, low sheen" },
+  { src: "/images/plascon-bituminous-aluminium.jpg", alt: "Plascon Bituminous Aluminium paint tin", name: "Bituminous Aluminium Paint", note: "Exterior, silver finish" },
+  { src: "/images/plascon-steeltect-primer.jpg", alt: "Plascon Steeltect 1200 SB mild steel primer tin", name: "Steeltect 1200 SB Primer", note: "Mild steel primer, solvent-based" },
+  { src: "/images/plascon-steeltect-degreaser.jpg", alt: "Plascon Steeltect 7100 SB degreaser and cleaner tin", name: "Steeltect 7100 SB Degreaser", note: "Cleaner for mild steel" },
+  { src: "/images/plascon-steeltect-cleaner.jpg", alt: "Plascon Steeltect 7100 WB galvanised iron cleaner container", name: "Steeltect 7100 WB Cleaner", note: "Cleaner for galvanised iron" },
 ];
 
 /** Promac paint range, shown on the Products page. */

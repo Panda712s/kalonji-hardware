@@ -583,7 +583,7 @@ textarea{min-height:130px;resize:vertical}
 @media (max-width:620px){.range-grid.batteries{grid-template-columns:repeat(2,1fr)}}
 
 /* ===== glues and repair ===== */
-.range-grid.repair{grid-template-columns:repeat(4,1fr);max-width:900px}
+
 .range-grid.repair img{aspect-ratio:1;object-fit:contain}
 @media (max-width:620px){.range-grid.repair{grid-template-columns:repeat(2,1fr)}}
 
@@ -616,3 +616,7 @@ textarea{min-height:130px;resize:vertical}
 /* department with a single photo */
 .dept-row .pair.single{grid-template-columns:1fr;max-width:300px}
 .dept-row .pair.single img{aspect-ratio:4/3;margin-top:0}
+
+/* ===== Plascon range: photos keep their own studio background ===== */
+.range-grid.plascon a{padding:10px 10px 14px}
+.range-grid.plascon img{aspect-ratio:4/5;object-fit:cover;border-radius:10px;margin-bottom:10px}
