@@ -5,7 +5,7 @@ import Faq from "../components/Faq";
 import PageHero from "../components/PageHero";
 import QuoteForm from "../components/QuoteForm";
 import { Chat, Clock, Phone, Pin } from "../components/Icons";
-import { branches, HOURS_TEXT, mapEmbed, mapUrl, PHONE, PHONE_DISPLAY, WHATSAPP, WHATSAPP_DISPLAY } from "../data";
+import { ADDRESS, branches, HOURS_TEXT, mapEmbed, mapUrl, PHONE, PHONE_DISPLAY, WHATSAPP, WHATSAPP_DISPLAY } from "../data";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -41,6 +41,13 @@ export default function Contact() {
                 <b><a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noopener noreferrer">{WHATSAPP_DISPLAY}</a></b>
               </div>
               <CopyButton value={WHATSAPP_DISPLAY} />
+            </div>
+            <div className="line">
+              <span className="ico"><Pin size={22} /></span>
+              <div>
+                <span className="label">Address</span>
+                <b>{ADDRESS}</b>
+              </div>
             </div>
             <div className="line">
               <span className="ico"><Clock size={22} /></span>

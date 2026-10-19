@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { branches, departments, exportCountries, FACEBOOK_URL, HOURS_TEXT, nav, PHONE, PHONE_DISPLAY, waLink, WHATSAPP_DISPLAY } from "../data";
+import { branches, departments, exportCountries, ADDRESS, FACEBOOK_URL, HOURS_TEXT, nav, PHONE, PHONE_DISPLAY, waLink, WHATSAPP_DISPLAY } from "../data";
 import { Facebook } from "./Icons";
 
 export default function Footer() {
@@ -53,6 +53,7 @@ export default function Footer() {
                 {b.lines[0]}
               </li>
             ))}
+            <li><b>Address</b><br />{ADDRESS}</li>
             <li><b>Hours</b><br />{HOURS_TEXT}</li>
             <li><a href={`tel:${PHONE}`}>{PHONE_DISPLAY}</a></li>
             <li><a href={waLink("Hi Kalonji Hardware")} target="_blank" rel="noopener noreferrer">WhatsApp {WHATSAPP_DISPLAY}</a></li>

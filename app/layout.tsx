@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Big_Shoulders, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { FACEBOOK_URL, PHONE } from "./data";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import FloatingActions from "./components/FloatingActions";
@@ -32,6 +33,22 @@ export const metadata: Metadata = {
     "Electrical, plumbing, building materials, tiles and cement, tools, paint, automotive supplies, glass and key cutting in Sunnyside, Pretoria. Quick quotations by WhatsApp or in store. Exporting to DRC, Zimbabwe, Cameroon and Ghana.",
 };
 
+/** Business details for search engines (schema.org LocalBusiness). */
+const businessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HardwareStore",
+  name: "Kalonji Hardware",
+  telephone: PHONE,
+  sameAs: [FACEBOOK_URL],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Sunnyside, Pretoria",
+    postalCode: "0002",
+    addressRegion: "Gauteng",
+    addressCountry: "ZA",
+  },
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-ZA" suppressHydrationWarning className={`${display.variable} ${body.variable} ${mono.variable}`}>
@@ -42,6 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "try{var t=localStorage.getItem('kh-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')",
           }}
         />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }} />
         <QuoteProvider>
           <a className="skip" href="#content">Skip to content</a>
           <Header />
