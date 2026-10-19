@@ -49,7 +49,6 @@ export const departments = [
     slug: "building", code: "B", name: "Building",
     text: "Materials for construction, renovation and repair, with contractor pricing on bulk.",
     image: "/images/building-bricks.jpg", alt: "Stacked clay bricks",
-    image2: "/images/building-blocks.jpg", alt2: "A trowel and a hand laying cement blocks",
     items: ["Bricks and blocks", "Timber", "Steel reinforcing mesh", "Bolts, hinges and screws"],
   },
   {

@@ -612,3 +612,7 @@ textarea{min-height:130px;resize:vertical}
 .site-footer .credit a{color:var(--on-deep);text-decoration:underline;text-underline-offset:3px}
 .site-footer .credit a:hover{color:var(--accent)}
 @media (max-width:620px){.site-footer .credit{padding-bottom:96px}}
+
+/* department with a single photo */
+.dept-row .pair.single{grid-template-columns:1fr;max-width:300px}
+.dept-row .pair.single img{aspect-ratio:4/3;margin-top:0}

@@ -29,9 +29,9 @@ export default function Departments() {
       {departments.map((d, i) => (
         <section className={`section dept-row${i % 2 ? " alt" : ""}`} id={d.slug} key={d.slug}>
           <div className={`container split${i % 2 ? " flip" : ""}`}>
-            <div className="pair" data-reveal>
+            <div className={`pair${d.image2 ? "" : " single"}`} data-reveal>
               <Image src={d.image} alt={d.alt} width={800} height={600} sizes="(max-width: 980px) 90vw, 360px" quality={90} />
-              <Image src={d.image2} alt={d.alt2} width={800} height={600} sizes="(max-width: 980px) 90vw, 360px" quality={90} />
+              {d.image2 && <Image src={d.image2} alt={d.alt2 ?? ""} width={800} height={600} sizes="(max-width: 980px) 90vw, 360px" quality={90} />}
             </div>
             <div>
               <p className="eyebrow dark">Aisle {d.code}</p>
