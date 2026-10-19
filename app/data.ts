@@ -83,7 +83,7 @@ export const departments = [
   {
     slug: "tiles-and-cement", code: "L", name: "Tiles and cement",
     text: "Floor and wall tiles, tile adhesive, grout and cement for floors, walls and repairs.",
-    image: "/images/dept-tiles.jpg", alt: "Grouting tiles on a floor",
+    image: "/images/dept-tiles.jpg", alt: "A hand pressing a white tile into tile adhesive on a wall",
     image2: "/images/image-45.jpg", alt2: "Cement, tile adhesive and building supplies",
     items: ["Floor tiles", "Wall tiles", "Tile adhesive", "Grout", "Cement", "Tile spacers and trims"],
   },
