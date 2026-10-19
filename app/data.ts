@@ -2,7 +2,9 @@ export const WHATSAPP = "27791476258";
 export const PHONE = "+27120066063";
 export const PHONE_DISPLAY = "+27 12 006 6063";
 export const WHATSAPP_DISPLAY = "+27 79 147 6258";
-export const FACEBOOK_URL = "https://www.facebook.com/"; // TODO: replace with the real page link
+export const FACEBOOK_URL = "https://www.facebook.com/share/1J1QhbSXaP/";
+/** Opening hours as shown to visitors. Keep in step with HOURS further down. */
+export const HOURS_TEXT = "8:00am to 7:00pm";
 
 export const waLink = (text: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
 export const mapUrl = (q: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
@@ -212,6 +214,7 @@ export const jobs = [
 export const faqs = [
   { q: "How do I get a quote?", a: "Send your list of items and quantities on WhatsApp, use the quote basket on this site, or bring the list to either branch. We reply with price and availability." },
   { q: "Do you offer bulk or contractor pricing?", a: "Yes. Larger orders qualify for bulk and contractor pricing. Mention quantities in your message, or use the Contractors page." },
+  { q: "What are your opening hours?", a: `We are open from ${HOURS_TEXT}. Message us on WhatsApp if you need to check before you travel.` },
   { q: "Where are your branches?", a: "Barclay Square Mall (Shop 15, 293 Rissik Street) and Ancore Centre (137 Robert Sobukwe Street), both in Sunnyside, Pretoria." },
   { q: "Do you export?", a: "Yes. We export to DRC, Zimbabwe, Cameroon and Ghana. Message us your list and the destination country on WhatsApp and we will send an export quote." },
   { q: "Can you send a plumber or an electrician?", a: "Yes. A plumber and an electrician are available on request. Message us on WhatsApp with the job and where it is, and we will arrange it." },
@@ -225,7 +228,16 @@ export const faqs = [
  * { 1: ["08:00", "17:00"], 2: ["08:00", "17:00"], ... }
  */
 export type Hours = Partial<Record<number, [string, string]>>;
-export const HOURS: Hours | null = null;
+export const HOURS: Hours | null = {
+  0: ["08:00", "19:00"],
+  1: ["08:00", "19:00"],
+  2: ["08:00", "19:00"],
+  3: ["08:00", "19:00"],
+  4: ["08:00", "19:00"],
+  5: ["08:00", "19:00"],
+  6: ["08:00", "19:00"],
+};
+
 
 /** Real customer reviews only. The reviews section stays hidden while this is empty. */
 export const reviews: { name: string; text: string }[] = [];

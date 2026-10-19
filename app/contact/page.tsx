@@ -4,8 +4,8 @@ import CopyButton from "../components/CopyButton";
 import Faq from "../components/Faq";
 import PageHero from "../components/PageHero";
 import QuoteForm from "../components/QuoteForm";
-import { Chat, Phone, Pin } from "../components/Icons";
-import { branches, mapEmbed, mapUrl, PHONE, PHONE_DISPLAY, WHATSAPP, WHATSAPP_DISPLAY } from "../data";
+import { Chat, Clock, Phone, Pin } from "../components/Icons";
+import { branches, HOURS_TEXT, mapEmbed, mapUrl, PHONE, PHONE_DISPLAY, WHATSAPP, WHATSAPP_DISPLAY } from "../data";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -41,6 +41,13 @@ export default function Contact() {
                 <b><a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noopener noreferrer">{WHATSAPP_DISPLAY}</a></b>
               </div>
               <CopyButton value={WHATSAPP_DISPLAY} />
+            </div>
+            <div className="line">
+              <span className="ico"><Clock size={22} /></span>
+              <div>
+                <span className="label">Opening hours</span>
+                <b>{HOURS_TEXT}</b>
+              </div>
             </div>
             <p className="hint">
               Bulk and contractor pricing is available on larger orders. Mention the quantities in your message.
