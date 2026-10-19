@@ -575,3 +575,9 @@ textarea{min-height:130px;resize:vertical}
 .faq summary:hover{color:var(--blue)}
 .line b a:hover{color:var(--blue)}
 .hero h1 em,.page-hero h1 em{color:var(--accent)}
+
+/* ===== batteries ===== */
+.range-grid.batteries{grid-template-columns:repeat(7,1fr);gap:12px}
+.range-grid.batteries img{aspect-ratio:5/3}
+@media (max-width:1020px){.range-grid.batteries{grid-template-columns:repeat(4,1fr)}}
+@media (max-width:620px){.range-grid.batteries{grid-template-columns:repeat(2,1fr)}}
