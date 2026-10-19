@@ -134,7 +134,6 @@ export const branches = [
 export const brands = [
   { src: "/images/promac-rubber.jpg", alt: "Promac Rubber Duck liquid rubber 5L tin", name: "Promac", note: "Paint, PVA and liquid rubber" },
   { src: "/images/image-21.jpg", alt: "Plascon True Colour Fresh White", name: "Plascon", note: "Interior and exterior paint" },
-  { src: "/images/image-26.jpg", alt: "Yuasa YTX20L battery", name: "Yuasa", note: "Motorbike and car batteries" },
   { src: "/images/image-29.jpg", alt: "Motul 8100 X-clean EFE 5W-30 engine oil", name: "Motul", note: "Engine oil" },
   { src: "/images/image-30.jpg", alt: "Shield car-care range: shampoo, tyre shine and air fresheners", name: "Shield", note: "Car-care range" },
   { src: "/images/image-32.jpg", alt: "EverSoft Kitchen Towels, 2 rolls", name: "EverSoft", note: "Tissue and kitchen towels" },
@@ -196,12 +195,6 @@ export const jobs = [
     blurb: "New taps, toilet, seals and a fresh coat for a tired bathroom.",
     image: "/images/job-bathroom.jpg", alt: "A white basin with a black wall-mounted tap",
     items: ["Taps and basin mixers", "Toilet suites and drainage", "Sealants and tapes", "Tile adhesive", "Wall paint"],
-  },
-  {
-    slug: "service-the-car", title: "Service the car",
-    blurb: "Oil, battery and car-care basics for home and workshop servicing.",
-    image: "/images/job-car.jpg", alt: "A mechanic working on a car engine",
-    items: ["Engine oil", "Car batteries", "Car-care and shine", "Workshop consumables"],
   },
   {
     slug: "garden-and-yard", title: "Garden and yard",
