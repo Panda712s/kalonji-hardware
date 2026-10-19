@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { brands } from "../data";
+import { brands, range, waLink } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -41,6 +41,29 @@ export default function Products() {
       </section>
 
       <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Plumbing and hardware</p>
+              <h2>A look at the range</h2>
+            </div>
+            <p className="sub">A selection of fittings and hardware. Ask us for sizes, availability and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {range.map((r) => (
+              <li key={r.name} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have a ${r.name.toLowerCase()}? Sizes and price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 980px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>Ask about this</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>

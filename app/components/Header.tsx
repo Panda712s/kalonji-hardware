@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { nav, PHONE, PHONE_DISPLAY, waLink } from "../data";
-import { Chat, Close, Menu, Phone } from "./Icons";
+import { EXPORT_MESSAGE, exportCountries, nav, PHONE, PHONE_DISPLAY, waLink } from "../data";
+import { Arrow, Chat, Close, Menu, Phone } from "./Icons";
 import OpenNow from "./OpenNow";
 import ThemeToggle from "./ThemeToggle";
 
@@ -18,6 +18,16 @@ export default function Header() {
 
   return (
     <>
+      <div className="announce" role="region" aria-label="Export notice">
+        <div className="container">
+          <span>
+            <b>We export to</b> {exportCountries.join(" · ")}
+          </span>
+          <a href={waLink(EXPORT_MESSAGE)} target="_blank" rel="noopener noreferrer">
+            Get an export quote <Arrow size={14} />
+          </a>
+        </div>
+      </div>
       <div className="topbar">
         <div className="container">
           <span className="left">Sunnyside, Pretoria · Two branches <OpenNow /></span>

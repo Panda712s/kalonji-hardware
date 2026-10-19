@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { branches, departments, FACEBOOK_URL, nav, PHONE, PHONE_DISPLAY, waLink, WHATSAPP_DISPLAY } from "../data";
+import { branches, departments, exportCountries, FACEBOOK_URL, nav, PHONE, PHONE_DISPLAY, waLink, WHATSAPP_DISPLAY } from "../data";
 import { Facebook } from "./Icons";
 
 export default function Footer() {
@@ -15,9 +15,10 @@ export default function Footer() {
             </span>
           </Link>
           <p className="blurb">
-            Electrical, plumbing, building materials, tools, paint and automotive supplies for Sunnyside and the
-            wider Pretoria area.
+            Electrical, plumbing, building materials, tiles and cement, tools, paint, automotive supplies, glass and
+            key cutting for Sunnyside and the wider Pretoria area.
           </p>
+          <p className="exporting"><b>Exporting to</b> {exportCountries.join(", ")}</p>
           <a className="social" href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer">
             <Facebook size={18} /> Follow us on Facebook
           </a>
@@ -60,9 +61,9 @@ export default function Footer() {
       <div className="container legal">
         <span>© {new Date().getFullYear()} Kalonji Hardware, Sunnyside, Pretoria</span>
         <span>
-          Hero photo by{" "}
-          <a href="https://unsplash.com/s/photos/hand-tools-workbench" target="_blank" rel="noopener noreferrer">Anton Savinov</a>{" "}
-          on Unsplash
+          Stock photos from{" "}
+          <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+          {" "}· hero photo by Anton Savinov
         </span>
       </div>
     </footer>

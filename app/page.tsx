@@ -6,10 +6,11 @@ import Faq from "./components/Faq";
 import { Arrow, Chat, Check, Layers, Pin, Tag, Zap } from "./components/Icons";
 import Reviews from "./components/Reviews";
 import SearchBox from "./components/SearchBox";
-import { branches, brands, catalog, departments, HERO_IMAGE, jobs, mapUrl, storePhotos, waLink } from "./data";
+import { branches, brands, categoryCount, EXPORT_MESSAGE, exportCountries, departments, HERO_IMAGE, jobs, mapUrl, services, waLink } from "./data";
+import { getStorePhotos } from "./storefront";
 
 const perks = [
-  { icon: Layers, title: "Six departments, one trip", text: "Electrical, plumbing, building, tools, paint and automotive stocked together." },
+  { icon: Layers, title: "Nine departments, one trip", text: "Electrical, plumbing, building, tools, paint, automotive, glass and key cutting, and tiles and cement." },
   { icon: Zap, title: "Quick quotations", text: "Send your list on WhatsApp or bring it to the counter and get a price without the wait." },
   { icon: Tag, title: "Bulk and contractor pricing", text: "Larger orders qualify for better prices. Ask for a bulk quote." },
   { icon: Pin, title: "Two Sunnyside branches", text: "Barclay Square Mall and Ancore Centre, both in Sunnyside, Pretoria." },
@@ -34,8 +35,8 @@ export default function Home() {
               Everything for the job, <em>one counter</em> away.
             </h1>
             <p className="lead">
-              Electrical, plumbing, building materials, tools, paint and automotive supplies. Useful stock, helpful
-              service and quick quotations for homeowners, contractors and businesses.
+              Electrical, plumbing, building materials, tiles and cement, tools, paint and automotive supplies, plus glass
+              and key cutting. Useful stock, helpful service and quick quotations for homeowners, contractors and businesses.
             </p>
             <div className="acts">
               <a className="btn lg" href={waLink("Hi Kalonji Hardware, I need a quote.")} target="_blank" rel="noopener noreferrer">
@@ -102,6 +103,24 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="export-band" data-reveal>
+        <div className="container inner">
+          <div>
+            <p className="eyebrow">Important</p>
+            <h2>We export to</h2>
+            <ul className="countries">
+              {exportCountries.map((c) => (
+                <li key={c}><Pin size={16} /> {c}</li>
+              ))}
+            </ul>
+            <p>Send your list and the destination country and we will send you an export quote.</p>
+          </div>
+          <a className="btn lg" href={waLink(EXPORT_MESSAGE)} target="_blank" rel="noopener noreferrer">
+            <Chat size={20} /> Request an export quote
+          </a>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
           <div className="head" data-reveal>
@@ -131,11 +150,40 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Services</p>
+              <h2>Need it fitted? Ask for a pro.</h2>
+            </div>
+            <Link className="link-arrow" href="/services">
+              About our services <Arrow size={18} />
+            </Link>
+          </div>
+          <div className="svc-grid">
+            {services.map((s) => (
+              <article className="svc" key={s.slug} data-reveal>
+                <Image src={s.image} alt={s.alt} width={800} height={600} sizes="(max-width: 860px) 100vw, 560px" quality={90} />
+                <div className="body">
+                  <span className="tagline">Available on request</span>
+                  <h3>{s.name}</h3>
+                  <p>{s.text}</p>
+                  <a className="btn" href={waLink(s.request)} target="_blank" rel="noopener noreferrer">
+                    <Chat size={18} /> Request {s.name === "Plumber" ? "a plumber" : "an electrician"}
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="stats-band">
         <div className="container grid">
           <div data-reveal><b><Counter to={departments.length} /></b><span>departments under one roof</span></div>
           <div data-reveal><b><Counter to={branches.length} /></b><span>branches in Sunnyside</span></div>
-          <div data-reveal><b><Counter to={catalog.length} /></b><span>product categories to quote from</span></div>
+          <div data-reveal><b><Counter to={categoryCount} /></b><span>product categories to quote from</span></div>
           <div data-reveal><b><Counter to={jobs.length} /></b><span>ready-made job lists</span></div>
         </div>
       </section>
@@ -168,7 +216,7 @@ export default function Home() {
       <section className="section alt">
         <div className="container split">
           <div className="mosaic" data-reveal>
-            {storePhotos.map((s, i) => (
+            {getStorePhotos().map((s, i) => (
               <Image key={s.src} src={s.src} alt={s.alt} width={600} height={800} sizes="(max-width: 980px) 45vw, 280px" quality={90} className={i % 2 ? "down" : ""} />
             ))}
           </div>

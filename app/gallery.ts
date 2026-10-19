@@ -1,28 +1,8 @@
 export type GalleryImage = { src: string; alt: string; w: number; h: number; category: string };
 
-export const galleryCategories = ["Electrical","Plumbing","Building","Tools","Paint","Automotive","Household","In store"];
+export const galleryCategories = ["Paint","Plumbing","Automotive","Household","In store","Building","Tools"];
 
 export const gallery: GalleryImage[] = [
-  { src: "/images/image-01.jpg", alt: "Electrical supplies: cable, breakers, switches, sockets and conduit", w: 520, h: 492, category: "Electrical" },
-  { src: "/images/image-02.jpg", alt: "Electrician tools, wire and insulation tape", w: 612, h: 409, category: "Electrical" },
-  { src: "/images/image-03.jpg", alt: "Coils of electrical wire with hand tools", w: 547, h: 560, category: "Electrical" },
-  { src: "/images/image-04.jpg", alt: "Silicone and acrylic sealants on a shelf", w: 853, h: 900, category: "Plumbing" },
-  { src: "/images/image-05.jpg", alt: "Chrome taps and fittings", w: 720, h: 720, category: "Plumbing" },
-  { src: "/images/image-06.jpg", alt: "Geyser (water heater)", w: 720, h: 720, category: "Plumbing" },
-  { src: "/images/image-07.jpg", alt: "Bricks, blocks, timber and pipes", w: 740, h: 740, category: "Building" },
-  { src: "/images/image-08.jpg", alt: "Cement bags, bricks, pipes and building materials", w: 800, h: 800, category: "Building" },
-  { src: "/images/image-09.jpg", alt: "Steel reinforcing mesh", w: 640, h: 427, category: "Building" },
-  { src: "/images/image-10.jpg", alt: "Hand tool set with hammer, pliers, spanner and screwdrivers", w: 1000, h: 731, category: "Tools" },
-  { src: "/images/image-11.jpg", alt: "Power tools and measuring tools", w: 854, h: 826, category: "Tools" },
-  { src: "/images/image-12.jpg", alt: "Spades, rakes and brooms", w: 529, h: 580, category: "Tools" },
-  { src: "/images/image-13.jpg", alt: "Plascon paint buckets stacked in the store", w: 1000, h: 750, category: "Paint" },
-  { src: "/images/image-14.jpg", alt: "Paint brushes and rollers on a shop wall", w: 590, h: 865, category: "Paint" },
-  { src: "/images/image-15.jpg", alt: "Rows of paint tins in a paint aisle", w: 720, h: 576, category: "Paint" },
-  { src: "/images/image-16.jpg", alt: "Car engine", w: 512, h: 512, category: "Automotive" },
-  { src: "/images/image-17.jpg", alt: "Motul engine oil", w: 608, h: 608, category: "Automotive" },
-  { src: "/images/image-18.jpg", alt: "Car battery", w: 720, h: 719, category: "Automotive" },
-  { src: "/images/image-19.jpg", alt: "Power tools: drills, grinders, saws and generators", w: 900, h: 1274, category: "Tools" },
-  { src: "/images/image-20.jpg", alt: "Electronics: fridge, stove, kettle, microwave and washing machines", w: 900, h: 1274, category: "Household" },
   { src: "/images/image-21.jpg", alt: "Plascon True Colour Fresh White", w: 760, h: 570, category: "Paint" },
   { src: "/images/image-22.jpg", alt: "Plascon Wallseal exterior waterproofer", w: 611, h: 760, category: "Paint" },
   { src: "/images/image-23.jpg", alt: "Plascon Double Velvet Pure", w: 611, h: 760, category: "Paint" },
@@ -52,4 +32,9 @@ export const gallery: GalleryImage[] = [
   { src: "/images/image-47.jpg", alt: "Kalonji Hardware Supplies, Barclay Square Shop 15", w: 800, h: 1063, category: "In store" },
   { src: "/images/image-48.jpg", alt: "Toilet suites, drainage fittings, power tools and appliances", w: 800, h: 1063, category: "In store" },
   { src: "/images/image-49.jpg", alt: "Paints, varnish, rollers and brushes", w: 800, h: 1063, category: "Paint" },
+  { src: "/images/promac-easycoat.jpg", alt: "Promac Easycoat Silk Acrylic 5L paint tin", w: 709, h: 708, category: "Paint" },
+  { src: "/images/promac-ecoat.jpg", alt: "Promac E-Coat PVA coating 5L paint tin", w: 767, h: 767, category: "Paint" },
+  { src: "/images/promac-rubber.jpg", alt: "Promac Rubber Duck liquid rubber 5L tin", w: 708, h: 709, category: "Paint" },
+  { src: "/images/promac-dimensions.jpg", alt: "Promac Dimensions Silk 5L paint tin", w: 767, h: 768, category: "Paint" },
+  { src: "/images/promac-varnish.jpg", alt: "Promac Yes Wood interior varnish 5L tin", w: 591, h: 591, category: "Paint" },
 ];

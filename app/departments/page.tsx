@@ -8,7 +8,7 @@ import { departments, waLink } from "../data";
 
 export const metadata: Metadata = {
   title: "Departments",
-  description: "Electrical, plumbing, building, tools, paint and automotive supplies, all under one roof in Sunnyside, Pretoria.",
+  description: "Electrical, plumbing, building, tools, paint, automotive, glass cutting, key cutting, and tiles and cement, all under one roof in Sunnyside, Pretoria.",
 };
 
 export default function Departments() {
@@ -16,7 +16,7 @@ export default function Departments() {
     <>
       <PageHero
         eyebrow="Departments"
-        title={<>Six departments, <em>one trip</em></>}
+        title={<>Nine departments, <em>one trip</em></>}
         text="The core of most jobs, stocked in one place so you make one trip instead of three."
       >
         <ul className="pills">

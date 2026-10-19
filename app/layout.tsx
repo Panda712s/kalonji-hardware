@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s | Kalonji Hardware",
   },
   description:
-    "Electrical, plumbing, building materials, tools, paint and automotive supplies in Sunnyside, Pretoria. Quick quotations by WhatsApp or in store.",
+    "Electrical, plumbing, building materials, tiles and cement, tools, paint, automotive supplies, glass and key cutting in Sunnyside, Pretoria. Quick quotations by WhatsApp or in store. Exporting to DRC, Zimbabwe, Cameroon and Ghana.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

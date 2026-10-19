@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const benefits = [
   { icon: Tag, title: "Bulk and contractor pricing", text: "Larger orders qualify for better prices. Tell us the quantities and we quote." },
-  { icon: Layers, title: "Six departments, one stop", text: "Electrical, plumbing, building, tools, paint and automotive, so one order covers the site." },
+  { icon: Layers, title: "Nine departments, one stop", text: "Electrical, plumbing, building, tiles and cement, tools, paint, automotive and more, so one order covers the site." },
   { icon: Zap, title: "Quotes without the wait", text: "Send your list on WhatsApp and we reply with price and availability." },
 ];
 

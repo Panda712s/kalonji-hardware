@@ -4,7 +4,8 @@ import Link from "next/link";
 import CtaBand from "../components/CtaBand";
 import PageHero from "../components/PageHero";
 import { Arrow, Pin } from "../components/Icons";
-import { branches, mapUrl, storePhotos } from "../data";
+import { branches, departments, mapUrl } from "../data";
+import { getStorePhotos } from "../storefront";
 
 export const metadata: Metadata = {
   title: "About",
@@ -37,18 +38,19 @@ export default function About() {
               someone who knows where it is, and a quote without the wait.
             </p>
             <p>
-              We stock six departments side by side, electrical, plumbing, building, tools, paint and automotive, so
-              a single trip covers most repairs, renovations and small builds.
+              We stock nine departments side by side, from electrical, plumbing and building to tools, paint,
+              automotive, glass and key cutting, and tiles and cement, so a single trip covers most repairs,
+              renovations and small builds. A plumber and an electrician are also available on request.
             </p>
             <div className="stats" data-reveal>
-              <div><b>6</b><span>departments under one roof</span></div>
+              <div><b>{departments.length}</b><span>departments under one roof</span></div>
               <div><b>2</b><span>branches in Sunnyside</span></div>
               <div><b>Quick</b><span>quotes by WhatsApp or in store</span></div>
               <div><b>Bulk</b><span>contractor pricing on request</span></div>
             </div>
           </div>
           <div className="mosaic" data-reveal>
-            {storePhotos.map((s, i) => (
+            {getStorePhotos().map((s, i) => (
               <Image key={s.src} src={s.src} alt={s.alt} width={600} height={800} sizes="(max-width: 980px) 45vw, 280px" quality={90} className={i % 2 ? "down" : ""} />
             ))}
           </div>
