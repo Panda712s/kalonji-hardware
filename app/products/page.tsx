@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { batteries, brands, hardware, promacRange, range, repair, waLink } from "../data";
+import { batteries, brands, hardware, promacRange, range, repair, valves, waLink } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -90,6 +90,29 @@ export default function Products() {
         <div className="container">
           <div className="head" data-reveal>
             <div>
+              <p className="eyebrow dark">Valves and taps</p>
+              <h2>Valves, taps and spares</h2>
+            </div>
+            <p className="sub">Valves, taps and replacement parts. Ask us for sizes and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {valves.map((r) => (
+              <li key={r.name} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
               <p className="eyebrow dark">Hardware</p>
               <h2>Hardware and tools</h2>
             </div>
@@ -109,7 +132,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section alt">
         <div className="container">
           <div className="head" data-reveal>
             <div>
@@ -132,7 +155,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="section alt">
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>
@@ -155,7 +178,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section alt">
         <div className="container">
           <div className="head" data-reveal>
             <div>

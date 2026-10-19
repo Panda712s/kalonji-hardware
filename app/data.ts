@@ -151,6 +151,25 @@ export const range = [
   { src: "/images/range-pillar-tap.jpg", alt: "Chrome pillar tap", name: "Pillar tap", note: "Chrome pillar tap" },
   { src: "/images/range-sewer-snake.jpg", alt: "Coiled drain-cleaning snake", name: "Drain snake", note: "Coiled drain cleaner" },
   { src: "/images/range-bidet.jpg", alt: "Bidet hose set in its pack", name: "Bidet set", note: "Hose and fittings" },
+  { src: "/images/range-ball-valve-blue.jpg", alt: "Nickel-plated ball valve with a blue lever handle", name: "Nickel ball valve", note: "Blue lever handle" },
+];
+
+/** Valves, taps and plumbing spares, shown on the Products page. */
+export const valves = [
+  { src: "/images/valve-wall-spout.jpg", alt: "Chrome wall bath spout with a diverter knob", name: "Wall bath spout", note: "Chrome, with diverter" },
+  { src: "/images/valve-wall-bib.jpg", alt: "Chrome wall bib tap with a blue ring on the handle", name: "Wall bib tap", note: "Chrome, blue ring" },
+  { src: "/images/valve-cross-bib.jpg", alt: "Chrome cross-head bib tap", name: "Cross-head bib tap", note: "Chrome" },
+  { src: "/images/valve-gate-green.jpg", alt: "Brass gate valve with a green handwheel", name: "Brass gate valve", note: "Green handwheel, 20 mm" },
+  { src: "/images/valve-ball-cobra.jpg", alt: "Ball valve with a green lever handle", name: "Cobra ball valve", note: "Green lever handle" },
+  { src: "/images/valve-angle-blue.jpg", alt: "Chrome angle ball valve with a blue handle", name: "Angle ball valve", note: "Blue handle" },
+  { src: "/images/valve-mini-black.jpg", alt: "Chrome mini ball valve with a black handle", name: "Mini ball valve", note: "Black handle, chrome" },
+  { src: "/images/valve-push-flush.jpg", alt: "Chrome push-button flush valve", name: "Push flush valve", note: "Chrome" },
+  { src: "/images/valve-reducing-bush.jpg", alt: "Stainless steel hex reducing bush", name: "Reducing bush", note: "Stainless steel" },
+  { src: "/images/valve-tap-handle.jpg", alt: "Chrome tap handle", name: "Tap handle", note: "Chrome" },
+  { src: "/images/valve-brass-insert.jpg", alt: "Brass tap valve insert", name: "Brass valve insert", note: "Tap spare part" },
+  { src: "/images/valve-cross-top.jpg", alt: "Cross-head tap top with its spindle and washer", name: "Cross-head tap top", note: "Spindle assembly" },
+  { src: "/images/valve-tap-spindle.jpg", alt: "Brass tap spindle head", name: "Brass tap spindle", note: "Replacement head" },
+  { src: "/images/valve-cistern.jpg", alt: "Cistern dual-flush valve parts", name: "Cistern flush valve", note: "Dual-flush mechanism" },
 ];
 
 /** Hardware and tools, shown on the Products page. */
