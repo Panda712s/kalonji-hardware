@@ -172,6 +172,21 @@ export const valves = [
   { src: "/images/valve-cistern.jpg", alt: "Cistern dual-flush valve parts", name: "Cistern flush valve", note: "Dual-flush mechanism" },
 ];
 
+/** Toilets, basins and bathroom fittings, shown on the Products page. */
+export const bathroom = [
+  { src: "/images/bath-suite-round.jpg", alt: "White close-coupled toilet suite with a round seat", name: "Toilet suite", note: "Close-coupled, round seat" },
+  { src: "/images/bath-suite-square.jpg", alt: "White close-coupled toilet suite with a square seat", name: "Toilet suite", note: "Close-coupled, square seat" },
+  { src: "/images/bath-wall-hung.jpg", alt: "White wall-hung toilet with a seat", name: "Wall-hung toilet", note: "With seat" },
+  { src: "/images/bath-toilet-pan.jpg", alt: "White floor-standing toilet pan", name: "Toilet pan", note: "Floor standing" },
+  { src: "/images/bath-cistern.jpg", alt: "White ceramic toilet cistern", name: "Toilet cistern", note: "White ceramic" },
+  { src: "/images/bath-seat.jpg", alt: "Cream toilet seat with the lid open", name: "Toilet seat", note: "Cream" },
+  { src: "/images/bath-flush-valve.jpg", alt: "Dual-flush valve for a toilet cistern", name: "Dual-flush valve", note: "For concealed cisterns" },
+  { src: "/images/bath-cistern-kit.jpg", alt: "Cistern fill valve and fitting kit", name: "Cistern fittings kit", note: "Fill valve and parts" },
+  { src: "/images/bath-basin-mixer.jpg", alt: "White counter-top basin with a chrome cross-head tap", name: "Basin with tap", note: "Counter-top, cross-head tap" },
+  { src: "/images/bath-basin-oval.jpg", alt: "Large white oval counter-top basin with a tap", name: "Oval basin", note: "Counter-top, with tap" },
+  { src: "/images/bath-basin-round.jpg", alt: "White round counter-top basin", name: "Counter-top basin", note: "White ceramic" },
+];
+
 /** Hardware and tools, shown on the Products page. */
 export const hardware = [
   { src: "/images/range-caulk.jpg", alt: "Blue caulking gun", name: "Caulking gun", note: "For sealants" },

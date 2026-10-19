@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { batteries, brands, hardware, promacRange, range, repair, valves, waLink } from "../data";
+import { bathroom, batteries, brands, hardware, promacRange, range, repair, valves, waLink } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -113,6 +113,29 @@ export default function Products() {
         <div className="container">
           <div className="head" data-reveal>
             <div>
+              <p className="eyebrow dark">Bathroom</p>
+              <h2>Bathroom and sanitaryware</h2>
+            </div>
+            <p className="sub">Toilets, basins and cistern fittings. Ask us for sizes, colours and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {bathroom.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have a ${r.name.toLowerCase()} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
               <p className="eyebrow dark">Hardware</p>
               <h2>Hardware and tools</h2>
             </div>
@@ -132,7 +155,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="section alt">
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>
@@ -155,7 +178,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section alt">
         <div className="container">
           <div className="head" data-reveal>
             <div>
@@ -178,7 +201,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="section alt">
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>
