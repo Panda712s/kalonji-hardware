@@ -8,11 +8,8 @@ export default function Footer() {
       <div className="container grid">
         <div>
           <Link className="logo" href="/" aria-label="Kalonji Hardware, home">
-            <span className="mark" aria-hidden="true">K</span>
-            <span>
-              Kalonji
-              <small>Hardware</small>
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="always-dark" src="/brand/logo-light.svg" alt="Kalonji Hardware" width={340} height={100} />
           </Link>
           <p className="blurb">
             Electrical, plumbing, building materials, tiles and cement, tools, paint, automotive supplies, glass and
@@ -71,6 +68,11 @@ export default function Footer() {
           <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
           {" "}· hero photo by Anton Savinov
         </span>
+      </div>
+      <div className="container credit">
+        Web designed by{" "}
+        <a href="mailto:akiliarsenal@gmail.com">akiliarsenal@gmail.com</a> or{" "}
+        <a href="tel:+27614755038">0614755038</a>
       </div>
     </footer>
   );

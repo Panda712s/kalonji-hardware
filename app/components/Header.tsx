@@ -39,11 +39,10 @@ export default function Header() {
       <header className="site-header">
         <div className="container bar">
           <Link className="logo" href="/" aria-label="Kalonji Hardware, home">
-            <span className="mark" aria-hidden="true">K</span>
-            <span>
-              Kalonji
-              <small>Hardware</small>
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="on-light" src="/brand/logo.svg" alt="Kalonji Hardware" width={340} height={100} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="on-dark" src="/brand/logo-light.svg" alt="" aria-hidden="true" width={340} height={100} />
           </Link>
 
           <nav id="main-nav" className={open ? "open" : ""} aria-label="Main">

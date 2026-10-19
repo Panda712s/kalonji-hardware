@@ -596,3 +596,19 @@ textarea{min-height:130px;resize:vertical}
 
 .line b.hrs{display:block;font-size:1.35rem;line-height:1.25}
 .line b.hrs span{display:block}
+
+/* ===== logo ===== */
+.logo{display:inline-flex;align-items:center;line-height:0}
+.logo img{display:block;height:46px;width:auto}
+.site-footer .logo img{height:54px}
+.logo .on-dark{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .site-header .logo .on-light{display:none}:root:not([data-theme=light]) .site-header .logo .on-dark{display:block}}
+:root[data-theme=dark] .site-header .logo .on-light{display:none}
+:root[data-theme=dark] .site-header .logo .on-dark{display:block}
+@media (max-width:620px){.logo img{height:40px}}
+
+/* ===== designer credit ===== */
+.site-footer .credit{padding-block:0 26px;text-align:center;color:var(--deep-muted);font-size:.88rem}
+.site-footer .credit a{color:var(--on-deep);text-decoration:underline;text-underline-offset:3px}
+.site-footer .credit a:hover{color:var(--accent)}
+@media (max-width:620px){.site-footer .credit{padding-bottom:96px}}
