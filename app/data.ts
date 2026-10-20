@@ -154,6 +154,7 @@ export const range = [
   { src: "/images/range-sewer-snake.jpg", alt: "Coiled drain-cleaning snake", name: "Drain snake", note: "Coiled drain cleaner" },
   { src: "/images/range-bidet.jpg", alt: "Bidet hose set in its pack", name: "Bidet set", note: "Hose and fittings" },
   { src: "/images/range-ball-valve-blue.jpg", alt: "Nickel-plated ball valve with a blue lever handle", name: "Nickel ball valve", note: "Blue lever handle" },
+  { src: "/images/geyser-supahot-200l.jpg", alt: "Supahot 200 litre galvanised geyser", name: "Supahot geyser", note: "200 L" },
 ];
 
 /** Valves, taps and plumbing spares, shown on the Products page. */
@@ -213,6 +214,66 @@ export const hardware = [
   { src: "/images/range-plunger.jpg", alt: "Red rubber drain plunger with a wooden handle", name: "Drain plunger", note: "100 mm, wooden handle" },
   { src: "/images/range-scrub-brush.jpg", alt: "Scrubbing brush with yellow handle", name: "Scrubbing brush", note: "Stiff bristles" },
   { src: "/images/range-gas-torch.jpg", alt: "Blue gas blowtorch with a brass nozzle and black handle", name: "Gas blowtorch", note: "With handle and brass nozzle" },
+];
+
+/** Car spares and accessories, shown on the Products page. */
+export const autoParts = [
+  { src: "/images/auto-brake-shoes.jpg", alt: "Set of four drum brake shoes", name: "Brake shoes", note: "Drum brake set" },
+  { src: "/images/auto-brake-drum.jpg", alt: "Rear brake drum marked Etios", name: "Brake drum", note: "Rear drum" },
+  { src: "/images/auto-brake-disc.jpg", alt: "Ventilated front brake disc", name: "Brake disc", note: "Ventilated front disc" },
+  { src: "/images/auto-brake-adjuster-kit.jpg", alt: "Drum brake adjuster, springs and pin kit", name: "Brake adjuster kit", note: "Springs, pins and adjuster" },
+  { src: "/images/auto-caliper-kit.jpg", alt: "Brake caliper rubber seal repair kit", name: "Caliper repair kit", note: "Seals, boots and dust covers" },
+  { src: "/images/auto-caliper-pin.jpg", alt: "Brake caliper guide pin", name: "Caliper guide pin", note: "Slider pin" },
+  { src: "/images/auto-bleed-screw.jpg", alt: "Brake bleed screw", name: "Brake bleed screw", note: "Bleeder nipple" },
+  { src: "/images/auto-clutch-master.jpg", alt: "Clutch master cylinder with a fluid reservoir", name: "Clutch master cylinder", note: "With reservoir" },
+  { src: "/images/auto-clutch-bearing-ford.jpg", alt: "Hydraulic clutch release bearing with its housing", name: "Clutch release bearing", note: "Hydraulic, with housing" },
+  { src: "/images/auto-clutch-bearing-csc.jpg", alt: "Hydraulic concentric clutch slave cylinder", name: "Concentric slave cylinder", note: "Hydraulic clutch bearing" },
+  { src: "/images/auto-carb-nissan.jpg", alt: "Complete carburettor with linkage and springs", name: "Carburettor", note: "Complete unit" },
+  { src: "/images/auto-carb-toyota.jpg", alt: "Complete carburettor with wiring plug", name: "Carburettor", note: "Complete unit with plug" },
+  { src: "/images/auto-carb-pump-kit.jpg", alt: "Carburettor accelerator pump repair kit", name: "Accelerator pump kit", note: "Carburettor repair" },
+  { src: "/images/auto-carb-gasket-kit.jpg", alt: "Carburettor gasket and spacer set", name: "Carburettor gasket set", note: "Gaskets and sleeve" },
+  { src: "/images/auto-alternator-pulley.jpg", alt: "Two alternator freewheel pulleys", name: "Alternator pulley", note: "Overrunning / freewheel" },
+  { src: "/images/auto-alternator-bits.jpg", alt: "Alternator pulley bit set in a blue case", name: "Alternator pulley tool set", note: "Spline bits, M5 to M12" },
+  { src: "/images/auto-starter-brushes.jpg", alt: "Starter motor carbon brushes and two bearings", name: "Starter brushes and bearings", note: "Starter motor spares" },
+  { src: "/images/auto-clock-spring.jpg", alt: "Steering wheel clock spring with connectors", name: "Clock spring", note: "Steering wheel airbag coil" },
+  { src: "/images/auto-air-filter.jpg", alt: "Blue cone performance air filter with a clamp", name: "Cone air filter", note: "Performance filter, with clamp" },
+  { src: "/images/auto-bonnet-hinge.jpg", alt: "Steel bonnet hinge", name: "Bonnet hinge", note: "Steel hinge" },
+  { src: "/images/auto-bonnet-pins.jpg", alt: "Blue bonnet pin kit with fixings", name: "Bonnet pin kit", note: "Pins, nuts and rivets" },
+  { src: "/images/auto-taillamp-lens.jpg", alt: "Red, clear and amber tail lamp lens", name: "Tail lamp lens", note: "Red, clear and amber" },
+  { src: "/images/auto-alligator-clips.jpg", alt: "Boxed set of alligator and battery charging clips", name: "Alligator clip set", note: "Mini, 40 mm, 50 mm and charging clips" },
+  { src: "/images/auto-spring-tool.jpg", alt: "Spring-handled wire loop tool", name: "Spring tool", note: "Wire loop with spring handle" },
+  { src: "/images/auto-tweeter.jpg", alt: "Carco 400 watt car tweeter in its box", name: "Carco tweeter", note: "400 W" },
+];
+
+/** Vehicle bulbs, shown on the Products page. */
+export const bulbs = [
+  { src: "/images/bulb-clear-single.jpg", alt: "Clear single-contact car bulb", name: "Single-contact bulb", note: "Clear, 12 V" },
+  { src: "/images/bulb-clear-single-2.jpg", alt: "Clear single-contact car bulb", name: "Single-contact bulb", note: "Clear, 12 V" },
+  { src: "/images/bulb-amber.jpg", alt: "Amber single-contact indicator bulb", name: "Indicator bulb", note: "Amber, single contact" },
+  { src: "/images/bulb-r5w.jpg", alt: "Small 12 V 5 W R5W car bulb", name: "R5W bulb", note: "12 V 5 W" },
+  { src: "/images/bulb-double.jpg", alt: "Clear double-contact brake light bulb", name: "Double-contact bulb", note: "Stop / tail" },
+  { src: "/images/bulb-double-2.jpg", alt: "Clear double-contact brake light bulb", name: "Double-contact bulb", note: "Stop / tail" },
+];
+
+/** Electrical terminals, shown on the Products page. */
+export const terminals = [
+  { src: "/images/elec-ring-terminal.jpg", alt: "Blue insulated ring terminal", name: "Ring terminal", note: "Blue, insulated" },
+  { src: "/images/elec-fork-terminal.jpg", alt: "Blue insulated fork terminal", name: "Fork terminal", note: "Blue, insulated" },
+  { src: "/images/elec-piggyback-terminal.jpg", alt: "Blue insulated piggyback female terminal", name: "Piggyback terminal", note: "Blue, female" },
+  { src: "/images/elec-male-terminal.jpg", alt: "Brass male spade terminal", name: "Male spade terminal", note: "Brass" },
+];
+
+/** Wheel covers, shown on the Products page. */
+export const wheelCovers = [
+  { src: "/images/hubcap-silver-12.jpg", alt: "Silver wheel cover with twelve cut-outs", name: "Wheel cover", note: "Silver, 12 vents" },
+  { src: "/images/hubcap-silver-8.jpg", alt: "Silver wheel cover with eight vents", name: "Wheel cover", note: "Silver, 8 vents" },
+  { src: "/images/hubcap-silver-oval.jpg", alt: "Silver wheel cover with oval vents", name: "Wheel cover", note: "Silver, oval vents" },
+  { src: "/images/hubcap-silver-y.jpg", alt: "Silver wheel cover with a Y-spoke design", name: "Wheel cover", note: "Silver, Y-spoke" },
+  { src: "/images/hubcap-silver-star.jpg", alt: "Silver wheel cover with a star design", name: "Wheel cover", note: "Silver, star" },
+  { src: "/images/hubcap-carbon.jpg", alt: "Silver wheel cover with carbon-look black spokes", name: "Wheel cover", note: "Silver and carbon-look black" },
+  { src: "/images/hubcap-small-black.jpg", alt: "Silver and black wheel cover with chrome nuts", name: "Wheel cover", note: "Silver and black" },
+  { src: "/images/hubcap-silver-spoke.jpg", alt: "Silver multi-spoke wheel cover with a chrome centre", name: "Wheel cover", note: "Silver, multi-spoke" },
+  { src: "/images/hubcap-black-spoke.jpg", alt: "Black multi-spoke wheel cover with a chrome centre", name: "Wheel cover", note: "Black, multi-spoke" },
 ];
 
 /** Plascon paint range, shown on the Products page. */
