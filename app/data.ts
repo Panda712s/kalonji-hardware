@@ -357,6 +357,19 @@ export const appliances = [
   { src: "/images/app-gas-r600a-120.jpg", alt: "R600a isobutane refrigerant gas can, 120 g", name: "R600a refrigerant gas", note: "Isobutane, 120 g" },
 ];
 
+/** Safety gear and workwear, shown on the Products page. */
+export const safety = [
+  { src: "/images/ppe-face-shield.jpg", alt: "White hard hat with a clear face shield on a display head", name: "Hard hat with face shield", note: "Clear visor" },
+  { src: "/images/ppe-gloves-nitrile.jpg", alt: "Green nitrile chemical-resistant gloves", name: "Nitrile gloves", note: "Green, chemical resistant" },
+  { src: "/images/ppe-gloves-coated.jpg", alt: "Blue work gloves with a black coated palm", name: "Coated work gloves", note: "Blue, palm coated" },
+  { src: "/images/ppe-gloves-arc.jpg", alt: "Cream leather ARC welding gloves", name: "Leather ARC gloves", note: "Long cuff" },
+  { src: "/images/ppe-gloves-leather.jpg", alt: "Brown leather heat-resistant gloves with a knitted cuff", name: "Heavy leather gloves", note: "Knitted cuff" },
+  { src: "/images/ppe-boots-white.jpg", alt: "White gumboots with orange soles", name: "White gumboots", note: "Orange sole" },
+  { src: "/images/ppe-boots-black.jpg", alt: "Black rubber gumboots", name: "Black gumboots", note: "Rubber" },
+  { src: "/images/ppe-rain-suit.jpg", alt: "Yellow waterproof rain suit with a hood", name: "Rain suit", note: "Yellow, jacket and pants" },
+  { src: "/images/ppe-hivis-vest.jpg", alt: "Yellow high-visibility vest with reflective strips and an ID pocket", name: "Hi-vis vest", note: "Reflective strips, ID pocket" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },
