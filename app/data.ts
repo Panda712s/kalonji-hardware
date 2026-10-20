@@ -126,6 +126,10 @@ export const repair = [
   { src: "/images/repair-pratley-steel-putty.jpg", alt: "Pratley Steel Putty 100 g pack", name: "Pratley Steel Putty", note: "Repair putty, 100 g", w: 304, h: 352 },
   { src: "/images/repair-qbond.jpg", alt: "Q-Bond adhesive and reinforcing powder kit", name: "Q-Bond", note: "Adhesive and filling powders", w: 434, h: 416 },
   { src: "/images/repair-polyfilla.jpg", alt: "Polycell Polyfilla Exterior Crack Filler, 12 kg bag", name: "Polycell Polyfilla Exterior", note: "Crack filler, 12 kg", w: 414, h: 515 },
+  { src: "/images/repair-cornice.jpg", alt: "Edgefix Premium Cornice Adhesive, 5 kg bucket", name: "Edgefix cornice adhesive", note: "Premium, 5 kg", w: 275, h: 290 },
+  { src: "/images/repair-wood-glue.jpg", alt: "GDC GW1000 wood glue, 1 litre bottle", name: "GDC wood glue", note: "GW1000, 1 L", w: 299, h: 834 },
+  { src: "/images/repair-contact.jpg", alt: "GDC CA2000 contact adhesive tin", name: "GDC contact adhesive", note: "All-purpose", w: 233, h: 294 },
+  { src: "/images/repair-elec-cleaner.jpg", alt: "Lida electronic contact cleaner spray can", name: "Lida electronic cleaner", note: "Contact cleaner spray", w: 183, h: 502 },
 ];
 
 /** Car and motorcycle batteries, shown on the Products page. */
@@ -180,6 +184,10 @@ export const valves = [
   { src: "/images/valve-cross-top.jpg", alt: "Cross-head tap top with its spindle and washer", name: "Cross-head tap top", note: "Spindle assembly" },
   { src: "/images/valve-tap-spindle.jpg", alt: "Brass tap spindle head", name: "Brass tap spindle", note: "Replacement head" },
   { src: "/images/valve-cistern.jpg", alt: "Cistern dual-flush valve parts", name: "Cistern flush valve", note: "Dual-flush mechanism" },
+  { src: "/images/valve-pressure-400.jpg", alt: "Black pressure control and relief valve marked 400 kPa", name: "Pressure control valve", note: "400 kPa, with relief" },
+  { src: "/images/valve-pressure-vb.jpg", alt: "Pressure valve with two vacuum breakers", name: "Pressure valve with vacuum breakers", note: "Geyser protection" },
+  { src: "/images/valve-gate-brass.jpg", alt: "Brass gate valve with a red handwheel, 3/4 inch", name: "Brass gate valve", note: "3/4 inch, red handwheel" },
+  { src: "/images/valve-gate-pn16.jpg", alt: "Black PN16 gate valve with a red handwheel, 1 inch", name: "Gate valve", note: "1 inch, PN16" },
 ];
 
 /** Toilets, basins and bathroom fittings, shown on the Products page. */
@@ -221,6 +229,12 @@ export const hardware = [
   { src: "/images/range-plunger.jpg", alt: "Red rubber drain plunger with a wooden handle", name: "Drain plunger", note: "100 mm, wooden handle" },
   { src: "/images/range-scrub-brush.jpg", alt: "Scrubbing brush with yellow handle", name: "Scrubbing brush", note: "Stiff bristles" },
   { src: "/images/range-gas-torch.jpg", alt: "Blue gas blowtorch with a brass nozzle and black handle", name: "Gas blowtorch", note: "With handle and brass nozzle" },
+  { src: "/images/tool-pipe-wrench.jpg", alt: "Yellow 14 inch heavy-duty pipe wrench", name: "Pipe wrench", note: "14 inch" },
+  { src: "/images/tool-pliers-long.jpg", alt: "Wanda long-nose pliers with blue handles", name: "Long-nose pliers", note: "Blue handles" },
+  { src: "/images/tool-locking-pliers.jpg", alt: "Curved-jaw locking pliers", name: "Locking pliers", note: "Curved jaw" },
+  { src: "/images/tool-rope.jpg", alt: "Coil of red and white twisted rope", name: "Twisted rope", note: "Red and white" },
+  { src: "/images/elec-box-double.jpg", alt: "White double surface-mount electrical box", name: "Double surface box", note: "White, 2-gang" },
+  { src: "/images/elec-box-single.jpg", alt: "White single surface-mount electrical box", name: "Single surface box", note: "White, 1-gang" },
 ];
 
 /** Car spares and accessories, shown on the Products page. */
@@ -368,6 +382,54 @@ export const safety = [
   { src: "/images/ppe-boots-black.jpg", alt: "Black rubber gumboots", name: "Black gumboots", note: "Rubber" },
   { src: "/images/ppe-rain-suit.jpg", alt: "Yellow waterproof rain suit with a hood", name: "Rain suit", note: "Yellow, jacket and pants" },
   { src: "/images/ppe-hivis-vest.jpg", alt: "Yellow high-visibility vest with reflective strips and an ID pocket", name: "Hi-vis vest", note: "Reflective strips, ID pocket" },
+];
+
+/** Brass compression fittings, shown on the Products page. */
+export const compressionFittings = [
+  { src: "/images/cf-nut.jpg", alt: "Brass compression nut", name: "Compression nut", note: "Brass" },
+  { src: "/images/cf-coupling.jpg", alt: "Brass compression straight coupling", name: "Straight coupling", note: "Brass compression" },
+  { src: "/images/cf-male.jpg", alt: "Brass compression male connector", name: "Male connector", note: "Brass compression" },
+  { src: "/images/cf-female.jpg", alt: "Brass compression female connector", name: "Female connector", note: "Brass compression" },
+  { src: "/images/cf-female-adaptor.jpg", alt: "Brass compression female adaptor", name: "Female adaptor", note: "Brass compression" },
+  { src: "/images/cf-tee.jpg", alt: "Brass compression tee", name: "Tee", note: "Brass compression" },
+  { src: "/images/cf-tee-2.jpg", alt: "Brass compression equal tee", name: "Equal tee", note: "Brass compression" },
+  { src: "/images/cf-female-tee.jpg", alt: "Brass compression tee with a female branch", name: "Female tee", note: "Brass compression" },
+  { src: "/images/cf-elbow.jpg", alt: "Brass compression elbow", name: "Elbow", note: "Brass compression" },
+  { src: "/images/cf-elbow-small.jpg", alt: "Small brass compression elbow", name: "Small elbow", note: "Brass compression" },
+  { src: "/images/cf-male-elbow.jpg", alt: "Brass compression male elbow", name: "Male elbow", note: "Brass compression" },
+  { src: "/images/cf-female-elbow.jpg", alt: "Brass compression female elbow", name: "Female elbow", note: "Brass compression" },
+  { src: "/images/cf-wall-elbow.jpg", alt: "Brass compression wall plate elbow", name: "Wall plate elbow", note: "Brass, female" },
+  { src: "/images/cf-stop-end.jpg", alt: "Brass compression stop end", name: "Stop end", note: "Brass compression" },
+  { src: "/images/cf-olive.jpg", alt: "Brass compression olive ring", name: "Olive", note: "Brass compression ring" },
+];
+
+/** Galvanised and steel fittings, shown on the Products page. */
+export const steelFittings = [
+  { src: "/images/gv-nipple-steel.jpg", alt: "Stainless steel barrel nipple", name: "Barrel nipple", note: "Stainless steel" },
+  { src: "/images/gv-hex-nipple.jpg", alt: "Galvanised hexagon nipple", name: "Hex nipple", note: "Galvanised" },
+  { src: "/images/gv-elbow.jpg", alt: "Galvanised elbow with female threads", name: "Elbow", note: "Galvanised, female" },
+  { src: "/images/gv-bend.jpg", alt: "Galvanised bend with female threads", name: "Bend", note: "Galvanised, female" },
+  { src: "/images/gv-tee.jpg", alt: "Galvanised tee", name: "Tee", note: "Galvanised" },
+  { src: "/images/gv-cross.jpg", alt: "Stainless steel cross fitting", name: "Cross", note: "Stainless steel" },
+  { src: "/images/gv-socket.jpg", alt: "Galvanised socket", name: "Socket", note: "Galvanised" },
+  { src: "/images/gv-reducing-socket.jpg", alt: "Galvanised reducing socket", name: "Reducing socket", note: "Galvanised" },
+  { src: "/images/gv-extension.jpg", alt: "Galvanised male and female extension piece", name: "Extension piece", note: "Galvanised" },
+  { src: "/images/gv-union.jpg", alt: "Galvanised union", name: "Union", note: "Galvanised" },
+  { src: "/images/gv-hose-tail.jpg", alt: "Galvanised hose tail", name: "Hose tail", note: "Galvanised" },
+  { src: "/images/gv-comp-coupling.jpg", alt: "Galvanised compression coupling", name: "Compression coupling", note: "Galvanised" },
+  { src: "/images/gv-comp-tee.jpg", alt: "Galvanised compression tee", name: "Compression tee", note: "Galvanised" },
+  { src: "/images/gv-comp-tees.jpg", alt: "Three galvanised compression tees", name: "Compression tees", note: "Galvanised" },
+  { src: "/images/gv-repair-clamp.jpg", alt: "Galvanised pipe repair clamp with a threaded outlet", name: "Repair clamp", note: "Galvanised" },
+  { src: "/images/gv-holderbat.jpg", alt: "Pipe holderbat with a wall plug end", name: "Pipe holderbat", note: "Wall clip" },
+];
+
+/** Gas supplies, shown on the Products page. */
+export const gasSupplies = [
+  { src: "/images/gas-cartridge.jpg", alt: "Blue butane-propane gas cartridge, 190 g", name: "Gas cartridge", note: "Butane-propane, 190 g" },
+  { src: "/images/gas-lighter-refill.jpg", alt: "Eurogas lighter gas refill can", name: "Eurogas lighter gas", note: "Refill can" },
+  { src: "/images/gas-regulator.jpg", alt: "Blue LPG gas regulator", name: "LPG regulator", note: "Blue" },
+  { src: "/images/gas-fitting.jpg", alt: "Brass gas fitting with a black tip", name: "Brass gas fitting", note: "Gas" },
+  { src: "/images/gas-nozzles.jpg", alt: "Four brass burner tubes", name: "Brass burner tubes", note: "Set of four" },
 ];
 
 /** Plascon paint range, shown on the Products page. */
