@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   description: "A plumber and an electrician are available on request from Kalonji Hardware. Message us with the job and where it is.",
 };
 
+const inHouse = [
+  { title: "Key cutting", tag: "In store", text: "Spare keys cut while you wait. Bring the key you want copied.", request: "Hi Kalonji Hardware, I need a key cut. The key is:" },
+  { title: "Glass cutting", tag: "In store", text: "Glass cut to size. Send us the measurements and we will quote.", request: "Hi Kalonji Hardware, I need glass cut. The size is:" },
+  { title: "Paint manufacturing", tag: "Coming soon", text: "Yes, we will manufacture our own paint in the future as well. Ask us for updates.", request: "Hi Kalonji Hardware, I would like to know more about your paint manufacturing." },
+];
+
 const steps = [
   { title: "Message us", text: "Tell us on WhatsApp what the job is and where it is." },
   { title: "We arrange it", text: "We arrange a plumber or an electrician for you." },
@@ -47,6 +53,29 @@ export default function Services() {
       </section>
 
       <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Made and cut in store</p>
+              <h2>Key cutting, glass cutting and paint manufacturing</h2>
+            </div>
+          </div>
+          <div className="values">
+            {inHouse.map((s) => (
+              <div className="value" data-reveal key={s.title}>
+                <span className="tagline">{s.tag}</span>
+                <h3>{s.title}</h3>
+                <p>{s.text}</p>
+                <a className="btn" href={waLink(s.request)} target="_blank" rel="noopener noreferrer">
+                  <Chat size={18} /> Ask on WhatsApp
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>

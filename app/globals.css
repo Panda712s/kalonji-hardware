@@ -519,7 +519,7 @@ textarea{min-height:130px;resize:vertical}
 .svc .body{padding:24px 26px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:6px}
 .svc h3{font-size:2.4rem}
 .svc p{margin:0 0 12px;color:var(--muted)}
-.svc .tagline{display:inline-block;background:color-mix(in srgb,var(--accent) 24%,transparent);color:var(--accent-strong);font:600 .74rem var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.svc .tagline,.value .tagline{display:inline-block;background:color-mix(in srgb,var(--accent) 24%,transparent);color:var(--accent-strong);font:600 .74rem var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
 .svc-grid.big .svc>img{aspect-ratio:4/3}
 .range-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
 .range-grid li{min-width:0}
@@ -620,3 +620,7 @@ textarea{min-height:130px;resize:vertical}
 /* ===== Plascon range: photos keep their own studio background ===== */
 .range-grid.plascon a{padding:10px 10px 14px}
 .range-grid.plascon img{aspect-ratio:4/5;object-fit:cover;border-radius:10px;margin-bottom:10px}
+
+/* in-store services cards */
+.value .tagline{margin-bottom:12px}
+.value .btn{margin-top:16px}
