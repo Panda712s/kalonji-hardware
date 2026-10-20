@@ -276,6 +276,80 @@ export const wheelCovers = [
   { src: "/images/hubcap-black-spoke.jpg", alt: "Black multi-spoke wheel cover with a chrome centre", name: "Wheel cover", note: "Black, multi-spoke" },
 ];
 
+/** Power tools and garden machines, shown on the Products page. */
+export const powerTools = [
+  { src: "/images/pt-drill-cordless.jpg", alt: "Ryobi 18 V cordless drill with a battery", name: "Ryobi cordless drill", note: "18 V" },
+  { src: "/images/pt-impact-drill-green.jpg", alt: "Green Ryobi impact drill with a side handle", name: "Ryobi impact drill", note: "Corded, with side handle" },
+  { src: "/images/pt-impact-drill-blue.jpg", alt: "Blue Ryobi 13 mm impact drill", name: "Ryobi impact drill", note: "13 mm, corded" },
+  { src: "/images/pt-rotary-hammer.jpg", alt: "Ryobi rotary hammer drill with a side handle", name: "Ryobi rotary hammer", note: "Corded" },
+  { src: "/images/pt-sds-hammer.jpg", alt: "Ryobi SDS rotary hammer drill", name: "Ryobi SDS hammer drill", note: "Corded" },
+  { src: "/images/pt-grinder-115.jpg", alt: "Green Ryobi angle grinder", name: "Ryobi angle grinder", note: "Small, corded" },
+  { src: "/images/pt-grinder-blue.jpg", alt: "Blue Ryobi angle grinder with a guard", name: "Ryobi angle grinder", note: "With guard" },
+  { src: "/images/pt-grinder-large.jpg", alt: "Large Ryobi angle grinder", name: "Ryobi angle grinder", note: "Large, corded" },
+  { src: "/images/pt-sander.jpg", alt: "Ryobi sheet sander with a dust bag", name: "Ryobi sander", note: "With dust bag" },
+  { src: "/images/pt-jigsaw.jpg", alt: "Ryobi jig saw", name: "Ryobi jig saw", note: "Corded" },
+  { src: "/images/pt-pressure-gun.jpg", alt: "Ryobi cordless pressure washer gun", name: "Ryobi pressure washer", note: "Cordless gun" },
+  { src: "/images/pt-welder-red.jpg", alt: "Red Ryobi inverter arc welder", name: "Ryobi welder", note: "Inverter arc welder" },
+  { src: "/images/pt-welder-small.jpg", alt: "Compact red Ryobi inverter arc welder", name: "Ryobi welder", note: "Compact inverter" },
+  { src: "/images/pt-chainsaw.jpg", alt: "Ryobi petrol chainsaw with its accessories", name: "Ryobi chainsaw", note: "Petrol, with accessories" },
+  { src: "/images/pt-mower-petrol.jpg", alt: "Red Ryobi petrol lawnmower", name: "Ryobi petrol lawnmower", note: "Push, with grass box" },
+  { src: "/images/pt-mower-electric.jpg", alt: "Ryobi electric lawnmower", name: "Ryobi electric lawnmower", note: "2400 W" },
+  { src: "/images/bosch-cordless-drill.jpg", alt: "Bosch Professional 18 V cordless combi drill with a ProCORE battery", name: "Bosch cordless drill", note: "18 V, ProCORE battery" },
+  { src: "/images/bosch-impact-drill.jpg", alt: "Bosch Professional blue impact drill with a side handle", name: "Bosch impact drill", note: "Professional, corded" },
+  { src: "/images/bosch-rotary-hammer.jpg", alt: "Bosch Professional rotary hammer drill", name: "Bosch rotary hammer", note: "Professional, corded" },
+  { src: "/images/bosch-circular-saw-190.jpg", alt: "Bosch GKS 190 Professional circular saw", name: "Bosch GKS 190 circular saw", note: "Professional" },
+  { src: "/images/bosch-circular-saw.jpg", alt: "Bosch Professional circular saw", name: "Bosch circular saw", note: "Professional, corded" },
+  { src: "/images/bosch-jigsaw.jpg", alt: "Bosch Professional jig saw", name: "Bosch jig saw", note: "Professional, corded" },
+  { src: "/images/bosch-grinder-kit.jpg", alt: "Bosch angle grinder with cutting discs and spare carbon brushes", name: "Bosch angle grinder", note: "With discs and spare brushes" },
+  { src: "/images/bosch-sander.jpg", alt: "Bosch GEX 125-1 AE Professional random orbit sander", name: "Bosch GEX 125-1 AE sander", note: "Random orbit" },
+  { src: "/images/bosch-blower.jpg", alt: "Bosch blue electric blower", name: "Bosch blower", note: "Electric" },
+  { src: "/images/bosch-bit-set.jpg", alt: "Bosch screwdriver bit and socket set in a case", name: "Bosch bit and socket set", note: "With ratchet screwdriver" },
+];
+
+/** Generators and backup power, shown on the Products page. */
+export const generators = [
+  { src: "/images/gen-rg950.jpg", alt: "Ryobi RG-950 950 watt generator", name: "Ryobi RG-950", note: "950 W generator" },
+  { src: "/images/gen-rg1200.jpg", alt: "Ryobi RG-1200 4-stroke generator", name: "Ryobi RG-1200", note: "1200 W, 4-stroke" },
+  { src: "/images/gen-rg2700a.jpg", alt: "Ryobi RG2700A generator", name: "Ryobi RG2700A", note: "Generator" },
+  { src: "/images/gen-inverter-3000.jpg", alt: "Ryobi RG-3000 inverter generator", name: "Ryobi RG-3000", note: "Inverter generator" },
+  { src: "/images/gen-inverter-small.jpg", alt: "Small red Ryobi inverter generator with accessories", name: "Ryobi inverter generator", note: "Compact, with accessories" },
+  { src: "/images/gen-inverter-2200.jpg", alt: "Ryobi RG-2200 inverter generator with accessories", name: "Ryobi RG-2200", note: "Inverter generator" },
+  { src: "/images/gen-inverter-red.jpg", alt: "Red Ryobi inverter generator with accessories", name: "Ryobi inverter generator", note: "Quiet, compact" },
+  { src: "/images/gen-inverter-wheeled.jpg", alt: "Ryobi inverter generator on wheels with a handle", name: "Ryobi inverter generator", note: "On wheels" },
+  { src: "/images/gen-steco-7500.jpg", alt: "Steco SG-7000K 7500 watt generator on wheels", name: "Steco SG-7000K", note: "7500 W, on wheels" },
+  { src: "/images/gen-steco-power-station.jpg", alt: "Steco portable power station", name: "Steco power station", note: "Portable, AC and USB outputs" },
+  { src: "/images/power-apex-ups.jpg", alt: "Apex 600S battery backup unit", name: "Apex 600S UPS", note: "Battery backup" },
+];
+
+/** Home appliances and refrigerant gas, shown on the Products page. */
+export const appliances = [
+  { src: "/images/app-hob.jpg", alt: "Defy stainless steel four-plate electric hob", name: "Defy electric hob", note: "Four solid plates" },
+  { src: "/images/app-stove-tall.jpg", alt: "Black Defy electric stove with an oven", name: "Defy electric stove", note: "Black, with oven" },
+  { src: "/images/app-stove-50.jpg", alt: "Black Defy 50 cm electric stove with an oven", name: "Defy electric stove", note: "Black, compact" },
+  { src: "/images/app-stove-angled.jpg", alt: "Black freestanding electric stove with an oven", name: "Electric stove", note: "Black, freestanding" },
+  { src: "/images/app-microwave-manual.jpg", alt: "Silver Defy microwave with two dials", name: "Defy microwave", note: "Silver, manual dials" },
+  { src: "/images/app-microwave-silver.jpg", alt: "Silver Defy microwave with a digital keypad", name: "Defy microwave", note: "Silver, digital" },
+  { src: "/images/app-microwave-grey.jpg", alt: "Grey Defy microwave with a digital display", name: "Defy microwave", note: "Grey, digital" },
+  { src: "/images/app-fridge-dispenser.jpg", alt: "Steel-look fridge-freezer with a water dispenser", name: "Fridge-freezer", note: "With water dispenser" },
+  { src: "/images/app-fridge-backup.jpg", alt: "Fridge-freezer with a battery backup unit", name: "Fridge-freezer", note: "With backup unit" },
+  { src: "/images/app-fridge-grey.jpg", alt: "Grey fridge-freezer with the freezer at the bottom", name: "Fridge-freezer", note: "Bottom freezer" },
+  { src: "/images/app-chest-freezer-small.jpg", alt: "Small dark chest freezer with the lid open", name: "Chest freezer", note: "Small" },
+  { src: "/images/app-chest-freezer.jpg", alt: "Silver chest freezer", name: "Chest freezer", note: "Silver" },
+  { src: "/images/app-washer-top.jpg", alt: "Grey top-loading washing machine", name: "Top-loader washing machine", note: "Grey" },
+  { src: "/images/app-washer-top-2.jpg", alt: "Grey top-loading washing machine with a glass lid", name: "Top-loader washing machine", note: "Glass lid" },
+  { src: "/images/app-washer-twin.jpg", alt: "White twin-tub washing machine", name: "Twin-tub washing machine", note: "White" },
+  { src: "/images/app-washer-front.jpg", alt: "Defy front-loading washing machine", name: "Defy front-loader", note: "Washing machine" },
+  { src: "/images/app-washer-front-2.jpg", alt: "Defy grey front-loading washing machine", name: "Defy front-loader", note: "Washing machine, grey" },
+  { src: "/images/app-dishwasher.jpg", alt: "Defy freestanding dishwasher", name: "Defy dishwasher", note: "Freestanding" },
+  { src: "/images/app-iron-black.jpg", alt: "Defy black steam iron", name: "Defy steam iron", note: "Black" },
+  { src: "/images/app-iron-purple.jpg", alt: "Defy purple steam iron, 1750 W", name: "Defy steam iron", note: "Purple, 1750 W" },
+  { src: "/images/app-steam-iron.jpg", alt: "Defy steam generator iron with a base unit", name: "Defy steam generator iron", note: "With base unit" },
+  { src: "/images/app-kettle.jpg", alt: "Defy dark cordless kettle", name: "Defy kettle", note: "Cordless" },
+  { src: "/images/app-air-fryer.jpg", alt: "Defy black air fryer with a digital panel", name: "Defy air fryer", note: "Digital controls" },
+  { src: "/images/app-gas-r600a-420.jpg", alt: "R600a isobutane refrigerant gas can, 420 g", name: "R600a refrigerant gas", note: "Isobutane, 420 g" },
+  { src: "/images/app-gas-r600a-120.jpg", alt: "R600a isobutane refrigerant gas can, 120 g", name: "R600a refrigerant gas", note: "Isobutane, 120 g" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },

@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { autoParts, bathroom, batteries, brands, bulbs, hardware, plasconRange, promacRange, range, repair, terminals, valves, waLink, wheelCovers } from "../data";
+import { appliances, autoParts, bathroom, batteries, brands, bulbs, generators, hardware, plasconRange, powerTools, promacRange, range, repair, terminals, valves, waLink, wheelCovers } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -317,6 +317,75 @@ export default function Products() {
       </section>
 
       <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Power tools</p>
+              <h2>Power tools and garden machines</h2>
+            </div>
+            <p className="sub">Drills, grinders, saws, welders and lawnmowers. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {powerTools.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have the ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Generators</p>
+              <h2>Generators and backup power</h2>
+            </div>
+            <p className="sub">Petrol and inverter generators, power stations and battery backup. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {generators.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have the ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Appliances</p>
+              <h2>Appliances and refrigerant gas</h2>
+            </div>
+            <p className="sub">Cooking, cooling, laundry and small appliances, plus R600a gas. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {appliances.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have the ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>
