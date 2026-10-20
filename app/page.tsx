@@ -10,7 +10,7 @@ import { branches, brands, categoryCount, EXPORT_MESSAGE, exportCountries, depar
 import { getStorePhotos } from "./storefront";
 
 const perks = [
-  { icon: Layers, title: "Nine departments, one trip", text: "Electrical, plumbing, building, tools, paint, automotive, glass and key cutting, and tiles and cement." },
+  { icon: Layers, title: "Ten departments, one trip", text: "Electrical, plumbing, building, tools, paint, automotive, glass and key cutting, paint manufacturing, and tiles and cement." },
   { icon: Zap, title: "Quick quotations", text: "Send your list on WhatsApp or bring it to the counter and get a price without the wait." },
   { icon: Tag, title: "Bulk and contractor pricing", text: "Larger orders qualify for better prices. Ask for a bulk quote." },
   { icon: Pin, title: "Two Sunnyside branches", text: "Barclay Square Mall and Ancore Centre, both in Sunnyside, Pretoria." },

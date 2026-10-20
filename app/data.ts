@@ -88,6 +88,13 @@ export const departments = [
     items: ["House and door keys", "Padlock keys", "Cabinet and cupboard keys", "Key rings"],
   },
   {
+    slug: "paint-manufacturing", code: "M", name: "Paint manufacturing",
+    text: "Coming soon: we will manufacture our own paint in the future as well.",
+    image: "/images/promac-easycoat.jpg", alt: "Easycoat silk acrylic paint tin",
+    image2: "/images/paint-roller.jpg", alt2: "A paint roller applying blue paint to a wall",
+    items: ["Our own paint, coming soon", "Ask us for updates"],
+  },
+  {
     slug: "tiles-and-cement", code: "L", name: "Tiles and cement",
     text: "Floor and wall tiles, tile adhesive, grout and cement for floors, walls and repairs.",
     image: "/images/dept-tiles.jpg", alt: "A hand pressing a white tile into tile adhesive on a wall",

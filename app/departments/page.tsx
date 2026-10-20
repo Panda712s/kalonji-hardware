@@ -16,7 +16,7 @@ export default function Departments() {
     <>
       <PageHero
         eyebrow="Departments"
-        title={<>Nine departments, <em>one trip</em></>}
+        title={<>Ten departments, <em>one trip</em></>}
         text="The core of most jobs, stocked in one place so you make one trip instead of three."
       >
         <ul className="pills">

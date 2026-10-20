@@ -38,7 +38,7 @@ export default function About() {
               someone who knows where it is, and a quote without the wait.
             </p>
             <p>
-              We stock nine departments side by side, from electrical, plumbing and building to tools, paint,
+              We run ten departments side by side, from electrical, plumbing and building to tools, paint,
               automotive, glass and key cutting, and tiles and cement, so a single trip covers most repairs,
               renovations and small builds. A plumber and an electrician are also available on request.
             </p>
