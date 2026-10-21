@@ -432,6 +432,31 @@ export const gasSupplies = [
   { src: "/images/gas-nozzles.jpg", alt: "Four brass burner tubes", name: "Brass burner tubes", note: "Set of four" },
 ];
 
+/** Cement, tile adhesive, grout and waterproofing, shown on the Products page. */
+export const tilesCement = [
+  { src: "/images/tc-quickmix.jpg", alt: "Quick-Mix D.I.Y. ready-to-mix mortar bag, 20 kg", name: "Quick-Mix mortar mix", note: "Ready to mix, 20 kg" },
+  { src: "/images/tc-ppc-surebuild.jpg", alt: "PPC Surebuild cement bags", name: "PPC Surebuild cement", note: "General building and civil" },
+  { src: "/images/tc-grout-gp-5.jpg", alt: "Tyl-Pro General Purpose Grout, 5 kg bag", name: "Tyl-Pro general purpose grout", note: "5 kg" },
+  { src: "/images/tc-grout-gp-20.jpg", alt: "Tyl-Pro General Purpose Grout, 20 kg bag", name: "Tyl-Pro general purpose grout", note: "20 kg" },
+  { src: "/images/tc-grout-waterproof.jpg", alt: "Tyl-Pro Waterproof Grout, 20 kg bag", name: "Tyl-Pro waterproof grout", note: "20 kg" },
+  { src: "/images/tc-grout-stainfree.jpg", alt: "Tyl-Pro Tile Stain Free Grout, 20 kg bag", name: "Tyl-Pro stain-free grout", note: "20 kg" },
+  { src: "/images/tc-adh-ifix.jpg", alt: "Tyl-Pro Light Weight iFix tile adhesive bag", name: "Tyl-Pro iFix tile adhesive", note: "Light weight" },
+  { src: "/images/tc-adh-mosaic.jpg", alt: "Tyl-Pro Grey Mosaic Profix tile adhesive, 5 kg bag", name: "Tyl-Pro Mosaic Profix", note: "Grey tile adhesive, 5 kg" },
+  { src: "/images/tc-adh-flowable6.jpg", alt: "Tyl-Pro Flowable Porcelain 6 tile adhesive, 20 kg bag", name: "Tyl-Pro Flowable Porcelain 6", note: "Tile adhesive, 20 kg" },
+  { src: "/images/tc-adh-profix2.jpg", alt: "Tyl-Pro Porcelain Profix 2 tile adhesive, 20 kg bag", name: "Tyl-Pro Porcelain Profix 2", note: "Tile adhesive, 20 kg" },
+  { src: "/images/tc-adh-profix12.jpg", alt: "Tyl-Pro Porcelain Profix 12 tile adhesive, 20 kg bag", name: "Tyl-Pro Porcelain Profix 12", note: "Tile adhesive, 20 kg" },
+  { src: "/images/tc-adh-profix24.jpg", alt: "Tyl-Pro Porcelain Profix 24 tile adhesive, 20 kg bag", name: "Tyl-Pro Porcelain Profix 24", note: "Tile adhesive, 20 kg" },
+  { src: "/images/tc-adh-lightweight24.jpg", alt: "Tyl-Pro Light Weight Porcelain Profix 24 tile adhesive bag", name: "Tyl-Pro Light Weight Profix 24", note: "Porcelain tile adhesive" },
+  { src: "/images/tc-paste-proflex.jpg", alt: "Tyl-Pro Proflex paste adhesive in 1, 2 and 5 kg tubs", name: "Tyl-Pro Proflex paste adhesive", note: "1, 2 and 5 kg tubs" },
+  { src: "/images/tc-cornice.jpg", alt: "Tyl-Pro cornice adhesive in 1, 2 and 5 kg tubs", name: "Tyl-Pro cornice adhesive", note: "1, 2 and 5 kg tubs" },
+  { src: "/images/tc-bonding-agent.jpg", alt: "Tyl-Pro bonding agent concentrate in three bottle sizes", name: "Tyl-Pro bonding agent", note: "Concentrate" },
+  { src: "/images/tc-keying-agent.jpg", alt: "Tyl-Pro keying agent in three container sizes", name: "Tyl-Pro keying agent", note: "1, 5 and 20 litre" },
+  { src: "/images/tc-membrane.jpg", alt: "Tyl-Pro waterproofing membrane roll, 200 mm by 10 m", name: "Tyl-Pro waterproofing membrane", note: "200 mm x 10 m roll" },
+  { src: "/images/tc-iseal.jpg", alt: "Tyl-Pro iSeal waterproofing, 20 kg bag", name: "Tyl-Pro iSeal waterproofing", note: "2-part cement system, 20 kg" },
+  { src: "/images/tc-rapid-repair.jpg", alt: "Tyl-Pro Rapid Repair and Anchoring Cement, 20 kg bag", name: "Tyl-Pro rapid repair cement", note: "Repair and anchoring, 20 kg" },
+  { src: "/images/tc-pool-plaster.jpg", alt: "Tyl-Pro Proskim Pool Plaster, 40 kg bag", name: "Tyl-Pro Proskim pool plaster", note: "Marble skimming plaster, 40 kg" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },
