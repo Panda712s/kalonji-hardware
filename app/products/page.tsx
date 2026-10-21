@@ -30,7 +30,7 @@ export default function Products() {
           </div>
           <ul className="brand-grid">
             {brands.map((b) => (
-              <li key={b.name} data-reveal>
+              <li key={b.src} data-reveal>
                 <Image src={b.src} alt={b.alt} width={480} height={480} sizes="(max-width: 620px) 45vw, (max-width: 980px) 30vw, 180px" quality={90} />
                 <b>{b.name}</b>
                 <span>{b.note}</span>
@@ -51,7 +51,7 @@ export default function Products() {
           </div>
           <ul className="range-grid promac">
             {promacRange.map((r) => (
-              <li key={r.name} data-reveal>
+              <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
@@ -74,7 +74,7 @@ export default function Products() {
           </div>
           <ul className="range-grid plascon">
             {plasconRange.map((r) => (
-              <li key={r.name} data-reveal>
+              <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have Plascon ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={500} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
@@ -97,7 +97,7 @@ export default function Products() {
           </div>
           <ul className="range-grid">
             {range.map((r) => (
-              <li key={r.name} data-reveal>
+              <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
@@ -120,7 +120,7 @@ export default function Products() {
           </div>
           <ul className="range-grid">
             {valves.map((r) => (
-              <li key={r.name} data-reveal>
+              <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
@@ -166,7 +166,7 @@ export default function Products() {
           </div>
           <ul className="range-grid">
             {hardware.map((r) => (
-              <li key={r.name} data-reveal>
+              <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
@@ -189,7 +189,7 @@ export default function Products() {
           </div>
           <ul className="range-grid batteries">
             {batteries.map((b) => (
-              <li key={b.name} data-reveal>
+              <li key={b.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have the ${b.name} battery? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={b.src} alt={b.alt} width={400} height={240} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 24vw, 160px" quality={90} />
                   <b>{b.name}</b>
@@ -212,7 +212,7 @@ export default function Products() {
           </div>
           <ul className="range-grid repair">
             {repair.map((r) => (
-              <li key={r.name} data-reveal>
+              <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={r.w} height={r.h} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
