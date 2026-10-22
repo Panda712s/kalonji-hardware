@@ -282,6 +282,7 @@ export const terminals = [
   { src: "/images/elec-fork-terminal.jpg", alt: "Blue insulated fork terminal", name: "Fork terminal", note: "Blue, insulated" },
   { src: "/images/elec-piggyback-terminal.jpg", alt: "Blue insulated piggyback female terminal", name: "Piggyback terminal", note: "Blue, female" },
   { src: "/images/elec-male-terminal.jpg", alt: "Brass male spade terminal", name: "Male spade terminal", note: "Brass" },
+  { src: "/images/elec-multi-adaptor.jpg", alt: "White Eurolux multi-plug adaptor", name: "Multi-plug adaptor", note: "Eurolux, white" },
 ];
 
 /** Wheel covers, shown on the Products page. */
@@ -455,6 +456,164 @@ export const tilesCement = [
   { src: "/images/tc-iseal.jpg", alt: "Tyl-Pro iSeal waterproofing, 20 kg bag", name: "Tyl-Pro iSeal waterproofing", note: "2-part cement system, 20 kg" },
   { src: "/images/tc-rapid-repair.jpg", alt: "Tyl-Pro Rapid Repair and Anchoring Cement, 20 kg bag", name: "Tyl-Pro rapid repair cement", note: "Repair and anchoring, 20 kg" },
   { src: "/images/tc-pool-plaster.jpg", alt: "Tyl-Pro Proskim Pool Plaster, 40 kg bag", name: "Tyl-Pro Proskim pool plaster", note: "Marble skimming plaster, 40 kg" },
+];
+
+/** Fans and heaters, shown on the Products page. */
+export const fans = [
+  { src: "/images/fan-229.jpg", alt: "Box fan, eurolux, speed and timer dials", name: "Box fan", note: "Eurolux, speed and timer dials" },
+  { src: "/images/fan-231.jpg", alt: "Ceiling fan with light, white, remote control", name: "Ceiling fan with light", note: "White, remote control" },
+  { src: "/images/fan-233.jpg", alt: "Wall fan, eurolux, industrial chrome", name: "Wall fan", note: "Eurolux, industrial chrome" },
+  { src: "/images/fan-237.jpg", alt: "Rechargeable desk fan, eurolux f105", name: "Rechargeable desk fan", note: "Eurolux F105" },
+  { src: "/images/fan-239.jpg", alt: "Table fan, eurolux, white", name: "Table fan", note: "Eurolux, white" },
+  { src: "/images/fan-241.jpg", alt: "Ceiling extractor fan, eurolux f30w, 40 w", name: "Ceiling extractor fan", note: "Eurolux F30W, 40 W" },
+];
+
+/** Copper wire, shown on the Products page. */
+export const copperWire = [
+  { src: "/images/wire-243.jpg", alt: "Enamelled copper wire, block cul, 1.00 mm spool", name: "Enamelled copper wire", note: "Block CUL, 1.00 mm spool" },
+  { src: "/images/wire-245.jpg", alt: "Copper winding wire, large spool", name: "Copper winding wire", note: "Large spool" },
+  { src: "/images/wire-247.jpg", alt: "Flat copper wire, enamelled, on a reel", name: "Flat copper wire", note: "Enamelled, on a reel" },
+  { src: "/images/wire-249.jpg", alt: "Copper wire spools, stacked reels", name: "Copper wire spools", note: "Stacked reels" },
+  { src: "/images/wire-251.jpg", alt: "Copper wire, small spool", name: "Copper wire", note: "Small spool" },
+];
+
+/** Light bulbs, shown on the Products page. */
+export const lamps = [
+  { src: "/images/bulb-253.jpg", alt: "Oven bulb, eurolux 25 w, clear golfball", name: "Oven bulb", note: "Eurolux 25 W, clear golfball" },
+  { src: "/images/bulb-254.jpg", alt: "Rechargeable LED bulb, eurolux 6 w, daylight", name: "Rechargeable LED bulb", note: "Eurolux 6 W, daylight" },
+  { src: "/images/bulb-258.jpg", alt: "Infrared heat lamp, red", name: "Infrared heat lamp", note: "Red" },
+  { src: "/images/bulb-260.jpg", alt: "Dusk-to-dawn CFL bulb, eurolux 15 w, cool white", name: "Dusk-to-dawn CFL bulb", note: "Eurolux 15 W, cool white" },
+  { src: "/images/bulb-261.jpg", alt: "MR16 LED lamp, eurolux 5 w, cool white", name: "MR16 LED lamp", note: "Eurolux 5 W, cool white" },
+  { src: "/images/bulb-263.jpg", alt: "LED globe bulb, eurolux 15 w a60, daylight", name: "LED globe bulb", note: "Eurolux 15 W A60, daylight" },
+  { src: "/images/bulb-264.jpg", alt: "LED globe bulb, eurolux 6 w, warm white", name: "LED globe bulb", note: "Eurolux 6 W, warm white" },
+  { src: "/images/bulb-265.jpg", alt: "LED candle bulbs, eurolux 5 w, twin pack, warm white", name: "LED candle bulbs", note: "Eurolux 5 W, twin pack, warm white" },
+];
+
+/** Floodlights, solar and string lights, shown on the Products page. */
+export const floodSolar = [
+  { src: "/images/flood-257.jpg", alt: "LED twin-pack floodlight, eurolux 10 w", name: "LED twin-pack floodlight", note: "Eurolux 10 W" },
+  { src: "/images/flood-294.jpg", alt: "LED floodlight on tripod, eurolux 2 x 20 w, yellow tripod", name: "LED floodlight on tripod", note: "Eurolux 2 x 20 W, yellow tripod" },
+  { src: "/images/flood-295.jpg", alt: "LED floodlight with motion sensor, eurolux 50 w", name: "LED floodlight with motion sensor", note: "Eurolux 50 W" },
+  { src: "/images/flood-296.jpg", alt: "Premium LED floodlight, eurolux 50 w, grey", name: "Premium LED floodlight", note: "Eurolux 50 W, grey" },
+  { src: "/images/flood-297.jpg", alt: "LED floodlight, eurolux 10 w", name: "LED floodlight", note: "Eurolux 10 W" },
+  { src: "/images/flood-314.jpg", alt: "Solar wall light, eurolux 10 w, motion sensor", name: "Solar wall light", note: "Eurolux 10 W, motion sensor" },
+  { src: "/images/flood-315.jpg", alt: "Solar garden spotlight, eurolux, switchable colour temperature", name: "Solar garden spotlight", note: "Eurolux, switchable colour temperature" },
+  { src: "/images/flood-318.jpg", alt: "Solar spotlight, eurolux 8 w, spike or wall mount", name: "Solar spotlight", note: "Eurolux 8 W, spike or wall mount" },
+  { src: "/images/flood-319.jpg", alt: "Solar spotlight, eurolux 4 w, spike or wall mount", name: "Solar spotlight", note: "Eurolux 4 W, spike or wall mount" },
+  { src: "/images/flood-320.jpg", alt: "Solar motion wall light, eurolux, rechargeable", name: "Solar motion wall light", note: "Eurolux, rechargeable" },
+  { src: "/images/flood-321.jpg", alt: "Solar lantern and torch, eurolux 5 w, with solar panel", name: "Solar lantern and torch", note: "Eurolux 5 W, with solar panel" },
+  { src: "/images/flood-322.jpg", alt: "Solar 3-in-1 light, eurolux, stainless steel", name: "Solar 3-in-1 light", note: "Eurolux, stainless steel" },
+  { src: "/images/flood-323.jpg", alt: "Solar garden spike light, eurolux, crackle glass", name: "Solar garden spike light", note: "Eurolux, crackle glass" },
+  { src: "/images/flood-316.jpg", alt: "Rechargeable LED lantern, eurolux, usb output", name: "Rechargeable LED lantern", note: "Eurolux, USB output" },
+  { src: "/images/flood-235.jpg", alt: "LED string lights, eurolux, 500 warm white, 50 m", name: "LED string lights", note: "Eurolux, 500 warm white, 50 m" },
+  { src: "/images/flood-305.jpg", alt: "Party string lights, eurolux, 10 warm white lamps, 7 m", name: "Party string lights", note: "Eurolux, 10 warm white lamps, 7 m" },
+  { src: "/images/flood-306.jpg", alt: "LED string lights, eurolux, 10 warm white lamps", name: "LED string lights", note: "Eurolux, 10 warm white lamps" },
+  { src: "/images/flood-310.jpg", alt: "Multi-colour party lights, eurolux, 10 lamps, 5 colours", name: "Multi-colour party lights", note: "Eurolux, 10 lamps, 5 colours" },
+];
+
+/** Lamp posts and bollards, shown on the Products page. */
+export const bollards = [
+  { src: "/images/post-267.jpg", alt: "Double lantern lamp post, black", name: "Double lantern lamp post", note: "Black" },
+  { src: "/images/post-268.jpg", alt: "Globe bollard light, opal globe, black base", name: "Globe bollard light", note: "Opal globe, black base" },
+  { src: "/images/post-269.jpg", alt: "Clear globe light, black base, filament lamp", name: "Clear globe light", note: "Black base, filament lamp" },
+  { src: "/images/post-270.jpg", alt: "Lantern bollard light, black, tall", name: "Lantern bollard light", note: "Black, tall" },
+  { src: "/images/post-271.jpg", alt: "Clear globe bollard light, black base, with lamp", name: "Clear globe bollard light", note: "Black base, with lamp" },
+  { src: "/images/post-272.jpg", alt: "Opal globe light, black base", name: "Opal globe light", note: "Black base" },
+  { src: "/images/post-273.jpg", alt: "Lantern pedestal light, white", name: "Lantern pedestal light", note: "White" },
+  { src: "/images/post-274.jpg", alt: "Square bollard light, black, glass cage", name: "Square bollard light", note: "Black, glass cage" },
+  { src: "/images/post-275.jpg", alt: "Cylinder bollard light, black, opal top", name: "Cylinder bollard light", note: "Black, opal top" },
+  { src: "/images/post-278.jpg", alt: "Cylinder garden light, black, short", name: "Cylinder garden light", note: "Black, short" },
+  { src: "/images/post-279.jpg", alt: "Pyramid-top bollard light, black, led", name: "Pyramid-top bollard light", note: "Black, LED" },
+];
+
+/** Outdoor wall lights and bulkheads, shown on the Products page. */
+export const outdoorWall = [
+  { src: "/images/wall-276.jpg", alt: "Round bulkhead light, black", name: "Round bulkhead light", note: "Black" },
+  { src: "/images/wall-277.jpg", alt: "Round bulkhead light, white", name: "Round bulkhead light", note: "White" },
+  { src: "/images/wall-282.jpg", alt: "Round bulkhead light, black, clear, led compatible", name: "Round bulkhead light", note: "Black, clear, LED compatible" },
+  { src: "/images/wall-290.jpg", alt: "Round bulkhead light, white, clear cover", name: "Round bulkhead light", note: "White, clear cover" },
+  { src: "/images/wall-286.jpg", alt: "Rectangular bulkhead light, clear ribbed cover", name: "Rectangular bulkhead light", note: "Clear ribbed cover" },
+  { src: "/images/wall-280.jpg", alt: "Wall light, black, angled", name: "Wall light", note: "Black, angled" },
+  { src: "/images/wall-281.jpg", alt: "Up and down wall light, dark grey", name: "Up and down wall light", note: "Dark grey" },
+  { src: "/images/wall-283.jpg", alt: "Curved wall light, black", name: "Curved wall light", note: "Black" },
+  { src: "/images/wall-284.jpg", alt: "Eyelid wall light, white, round", name: "Eyelid wall light", note: "White, round" },
+  { src: "/images/wall-285.jpg", alt: "Square wall light, white", name: "Square wall light", note: "White" },
+  { src: "/images/wall-287.jpg", alt: "Square wall light, black", name: "Square wall light", note: "Black" },
+  { src: "/images/wall-289.jpg", alt: "Round wall light, black", name: "Round wall light", note: "Black" },
+  { src: "/images/wall-288.jpg", alt: "Surface cylinder light, white", name: "Surface cylinder light", note: "White" },
+  { src: "/images/wall-292.jpg", alt: "Surface cylinder light, grey", name: "Surface cylinder light", note: "Grey" },
+  { src: "/images/wall-293.jpg", alt: "Surface cylinder light, black", name: "Surface cylinder light", note: "Black" },
+  { src: "/images/wall-326.jpg", alt: "Globe wall light, clear globe, black bracket", name: "Globe wall light", note: "Clear globe, black bracket" },
+  { src: "/images/wall-327.jpg", alt: "Lantern wall light, black, half lantern", name: "Lantern wall light", note: "Black, half lantern" },
+  { src: "/images/wall-311.jpg", alt: "Hanging lantern, white, chain", name: "Hanging lantern", note: "White, chain" },
+  { src: "/images/wall-312.jpg", alt: "Hanging lantern, black", name: "Hanging lantern", note: "Black" },
+];
+
+/** Garden spike and in-ground lights, shown on the Products page. */
+export const gardenSpots = [
+  { src: "/images/spot-298.jpg", alt: "Garden spike light, black, round head", name: "Garden spike light", note: "Black, round head" },
+  { src: "/images/spot-299.jpg", alt: "Garden spike spotlight, dark grey", name: "Garden spike spotlight", note: "Dark grey" },
+  { src: "/images/spot-300.jpg", alt: "Garden spike spotlight, black, compact", name: "Garden spike spotlight", note: "Black, compact" },
+  { src: "/images/spot-303.jpg", alt: "Garden spike spotlight, eurolux, halogen", name: "Garden spike spotlight", note: "Eurolux, halogen" },
+  { src: "/images/spot-304.jpg", alt: "Double garden spike spotlight, black", name: "Double garden spike spotlight", note: "Black" },
+  { src: "/images/spot-301.jpg", alt: "In-ground light, grey, round", name: "In-ground light", note: "Grey, round" },
+  { src: "/images/spot-302.jpg", alt: "In-ground light, black, round", name: "In-ground light", note: "Black, round" },
+  { src: "/images/spot-307.jpg", alt: "In-ground light, grey, two-way", name: "In-ground light", note: "Grey, two-way" },
+  { src: "/images/spot-308.jpg", alt: "In-ground light, black, three-way", name: "In-ground light", note: "Black, three-way" },
+  { src: "/images/spot-313.jpg", alt: "Garden spotlight, black, adjustable", name: "Garden spotlight", note: "Black, adjustable" },
+  { src: "/images/spot-317.jpg", alt: "Garden spotlight, black, halogen", name: "Garden spotlight", note: "Black, halogen" },
+  { src: "/images/spot-324.jpg", alt: "Wall spotlight, white", name: "Wall spotlight", note: "White" },
+  { src: "/images/spot-325.jpg", alt: "Wall spotlight, black", name: "Wall spotlight", note: "Black" },
+];
+
+/** Ceiling lights and downlights, shown on the Products page. */
+export const ceilingLights = [
+  { src: "/images/ceil-255.jpg", alt: "Switchable LED downlight, eurolux", name: "Switchable LED downlight", note: "Eurolux" },
+  { src: "/images/ceil-369.jpg", alt: "Downlight, eurolux d176w, white", name: "Downlight", note: "Eurolux D176W, white" },
+  { src: "/images/ceil-370.jpg", alt: "Downlight, eurolux d176b, black", name: "Downlight", note: "Eurolux D176B, black" },
+  { src: "/images/ceil-259.jpg", alt: "Three-spot ceiling light, black chrome", name: "Three-spot ceiling light", note: "Black chrome" },
+  { src: "/images/ceil-262.jpg", alt: "Two-spot ceiling light, white", name: "Two-spot ceiling light", note: "White" },
+  { src: "/images/ceil-331.jpg", alt: "Multi-arm ceiling light, black, filament bulbs", name: "Multi-arm ceiling light", note: "Black, filament bulbs" },
+  { src: "/images/ceil-328.jpg", alt: "Glass ceiling light, alabaster, brass trim", name: "Glass ceiling light", note: "Alabaster, brass trim" },
+  { src: "/images/ceil-339.jpg", alt: "Glass ceiling light, line pattern", name: "Glass ceiling light", note: "Line pattern" },
+  { src: "/images/ceil-341.jpg", alt: "Glass ceiling light, swirl pattern", name: "Glass ceiling light", note: "Swirl pattern" },
+  { src: "/images/ceil-343.jpg", alt: "Glass ceiling light, triangle pattern", name: "Glass ceiling light", note: "Triangle pattern" },
+  { src: "/images/ceil-356.jpg", alt: "Glass ceiling light, leaf pattern", name: "Glass ceiling light", note: "Leaf pattern" },
+  { src: "/images/ceil-342.jpg", alt: "Crystal ceiling light, chrome, flush", name: "Crystal ceiling light", note: "Chrome, flush" },
+  { src: "/images/ceil-346.jpg", alt: "Glass ball ceiling light, textured clear", name: "Glass ball ceiling light", note: "Textured clear" },
+  { src: "/images/ceil-329.jpg", alt: "LED batten light, black", name: "LED batten light", note: "Black" },
+  { src: "/images/ceil-330.jpg", alt: "LED batten light, white", name: "LED batten light", note: "White" },
+  { src: "/images/ceil-347.jpg", alt: "LED batten light, white, curved", name: "LED batten light", note: "White, curved" },
+  { src: "/images/ceil-332.jpg", alt: "Round LED ceiling light, eurolux 24 w, 3 colour temperatures", name: "Round LED ceiling light", note: "Eurolux 24 W, 3 colour temperatures" },
+  { src: "/images/ceil-333.jpg", alt: "Round ceiling light, white", name: "Round ceiling light", note: "White" },
+  { src: "/images/ceil-334.jpg", alt: "Round ceiling light, black rim", name: "Round ceiling light", note: "Black rim" },
+  { src: "/images/ceil-350.jpg", alt: "Round LED ceiling light, aluminium rim", name: "Round LED ceiling light", note: "Aluminium rim" },
+  { src: "/images/ceil-351.jpg", alt: "Round LED ceiling light, white", name: "Round LED ceiling light", note: "White" },
+  { src: "/images/ceil-337.jpg", alt: "Round LED surface light, white", name: "Round LED surface light", note: "White" },
+  { src: "/images/ceil-338.jpg", alt: "Square LED surface light, white", name: "Square LED surface light", note: "White" },
+  { src: "/images/ceil-352.jpg", alt: "Square LED ceiling light, white", name: "Square LED ceiling light", note: "White" },
+  { src: "/images/ceil-335.jpg", alt: "Flush ceiling light, satin nickel rim", name: "Flush ceiling light", note: "Satin nickel rim" },
+  { src: "/images/ceil-336.jpg", alt: "Flush ceiling light, white rim", name: "Flush ceiling light", note: "White rim" },
+  { src: "/images/ceil-354.jpg", alt: "Flush ceiling light, satin nickel, round", name: "Flush ceiling light", note: "Satin nickel, round" },
+  { src: "/images/ceil-355.jpg", alt: "Dome ceiling light, brushed nickel", name: "Dome ceiling light", note: "Brushed nickel" },
+  { src: "/images/ceil-348.jpg", alt: "Frosted bowl ceiling light, white", name: "Frosted bowl ceiling light", note: "White" },
+  { src: "/images/ceil-349.jpg", alt: "Opal ceiling light, white, round", name: "Opal ceiling light", note: "White, round" },
+  { src: "/images/ceil-353.jpg", alt: "Bathroom ceiling light, chrome rim", name: "Bathroom ceiling light", note: "Chrome rim" },
+];
+
+/** Chandeliers, shown on the Products page. */
+export const chandeliers = [
+  { src: "/images/chand-357.jpg", alt: "Crystal tiered chandelier, chrome", name: "Crystal tiered chandelier", note: "Chrome" },
+  { src: "/images/chand-358.jpg", alt: "Three-arm chandelier, chrome, crystal drops", name: "Three-arm chandelier", note: "Chrome, crystal drops" },
+  { src: "/images/chand-359.jpg", alt: "Three-arm chandelier, black", name: "Three-arm chandelier", note: "Black" },
+  { src: "/images/chand-363.jpg", alt: "Three-arm chandelier, white", name: "Three-arm chandelier", note: "White" },
+  { src: "/images/chand-367.jpg", alt: "Three-arm chandelier, bronze, amber drops", name: "Three-arm chandelier", note: "Bronze, amber drops" },
+  { src: "/images/chand-362.jpg", alt: "Five-arm chandelier, chrome, crystal drops", name: "Five-arm chandelier", note: "Chrome, crystal drops" },
+  { src: "/images/chand-364.jpg", alt: "Five-arm chandelier, white", name: "Five-arm chandelier", note: "White" },
+  { src: "/images/chand-365.jpg", alt: "Five-arm chandelier, chrome, glass arms", name: "Five-arm chandelier", note: "Chrome, glass arms" },
+  { src: "/images/chand-368.jpg", alt: "Five-arm chandelier, satin nickel", name: "Five-arm chandelier", note: "Satin nickel" },
+  { src: "/images/chand-361.jpg", alt: "Six-arm chandelier, black, acrylic drops", name: "Six-arm chandelier", note: "Black, acrylic drops" },
+  { src: "/images/chand-366.jpg", alt: "Drum-shade chandelier, chrome shade, crystal drops", name: "Drum-shade chandelier", note: "Chrome shade, crystal drops" },
 ];
 
 /** Plascon paint range, shown on the Products page. */

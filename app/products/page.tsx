@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { appliances, autoParts, bathroom, batteries, brands, bulbs, compressionFittings, gasSupplies, generators, hardware, plasconRange, powerTools, promacRange, range, repair, safety, steelFittings, terminals, tilesCement, valves, waLink, wheelCovers } from "../data";
+import { appliances, autoParts, bathroom, batteries, bollards, brands, bulbs, ceilingLights, chandeliers, compressionFittings, copperWire, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, lamps, outdoorWall, plasconRange, powerTools, promacRange, range, repair, safety, steelFittings, terminals, tilesCement, valves, waLink, wheelCovers } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -501,6 +501,213 @@ export default function Products() {
       </section>
 
       <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Fans</p>
+              <h2>Fans and heaters</h2>
+            </div>
+            <p className="sub">Box, table, wall, ceiling and extractor fans. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {fans.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Wire</p>
+              <h2>Copper wire</h2>
+            </div>
+            <p className="sub">Enamelled winding wire on spools and reels. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {copperWire.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Bulbs</p>
+              <h2>Light bulbs</h2>
+            </div>
+            <p className="sub">LED, CFL, oven and heat lamps. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {lamps.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Outdoor lighting</p>
+              <h2>Floodlights, solar and string lights</h2>
+            </div>
+            <p className="sub">Floodlights, solar lights, lanterns and party string lights. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {floodSolar.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Garden lighting</p>
+              <h2>Lamp posts and bollards</h2>
+            </div>
+            <p className="sub">Garden and driveway posts, bollards and globe lights. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {bollards.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Wall lights</p>
+              <h2>Outdoor wall lights and bulkheads</h2>
+            </div>
+            <p className="sub">Bulkheads, wall lanterns and hanging lanterns. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {outdoorWall.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Spotlights</p>
+              <h2>Garden spike and in-ground lights</h2>
+            </div>
+            <p className="sub">Spike lights, in-ground lights and spotlights. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {gardenSpots.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Ceiling lights</p>
+              <h2>Ceiling lights and downlights</h2>
+            </div>
+            <p className="sub">Flush ceiling lights, LED battens and downlights. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {ceilingLights.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Chandeliers</p>
+              <h2>Chandeliers</h2>
+            </div>
+            <p className="sub">Crystal and candle-style chandeliers. Ask us for stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {chandeliers.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="head" data-reveal>
             <div>
