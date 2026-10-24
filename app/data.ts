@@ -616,6 +616,110 @@ export const chandeliers = [
   { src: "/images/chand-366.jpg", alt: "Drum-shade chandelier, chrome shade, crystal drops", name: "Drum-shade chandelier", note: "Chrome shade, crystal drops" },
 ];
 
+/** Padlocks, shown on the Products page. */
+export const padlocks = [
+  { src: "/images/lock-396.jpg", alt: "Disc padlock, stainless steel", name: "Disc padlock", note: "Stainless steel" },
+  { src: "/images/lock-399.jpg", alt: "Brass padlock, hardened shackle", name: "Brass padlock", note: "Hardened shackle" },
+  { src: "/images/lock-414.jpg", alt: "Brass padlock, with spare pins and keys", name: "Brass padlock", note: "With spare pins and keys" },
+  { src: "/images/lock-403.jpg", alt: "Closed-shackle padlock, brass", name: "Closed-shackle padlock", note: "Brass" },
+  { src: "/images/lock-410.jpg", alt: "Shutter padlock, brass, sliding bar", name: "Shutter padlock", note: "Brass, sliding bar" },
+  { src: "/images/lock-400.jpg", alt: "Abus Granit padlock, black, hardened shackle", name: "Abus Granit padlock", note: "Black, hardened shackle" },
+  { src: "/images/lock-407.jpg", alt: "Heavy-duty padlock, steel, rubber-capped", name: "Heavy-duty padlock", note: "Steel, rubber-capped" },
+  { src: "/images/lock-404.jpg", alt: "Iron padlock, brass name plate", name: "Iron padlock", note: "Brass name plate" },
+  { src: "/images/lock-411.jpg", alt: "Stainless steel padlock, satin finish", name: "Stainless steel padlock", note: "Satin finish" },
+  { src: "/images/lock-415.jpg", alt: "Titalium padlock, hardened shackle", name: "Titalium padlock", note: "Hardened shackle" },
+  { src: "/images/lock-409.jpg", alt: "Weatherproof padlock, blue cover", name: "Weatherproof padlock", note: "Blue cover" },
+  { src: "/images/lock-420.jpg", alt: "Weatherproof padlock, blue, black shackle", name: "Weatherproof padlock", note: "Blue, black shackle" },
+  { src: "/images/lock-408.jpg", alt: "Combination padlock, brass, 3 dials", name: "Combination padlock", note: "Brass, 3 dials" },
+  { src: "/images/lock-416.jpg", alt: "Cable combination padlock, 3 dials, steel cable", name: "Cable combination padlock", note: "3 dials, steel cable" },
+  { src: "/images/lock-402.jpg", alt: "Abus fingerprint padlock, touch padlock", name: "Abus fingerprint padlock", note: "Touch padlock" },
+  { src: "/images/lock-405.jpg", alt: "Abus fingerprint padlock, touch padlock, silver", name: "Abus fingerprint padlock", note: "Touch padlock, silver" },
+  { src: "/images/lock-406.jpg", alt: "Smart padlock, silver, cylinder base", name: "Smart padlock", note: "Silver, cylinder base" },
+  { src: "/images/lock-412.jpg", alt: "Safety lockout padlock, red, danger label", name: "Safety lockout padlock", note: "Red, danger label" },
+  { src: "/images/lock-413.jpg", alt: "Plastic padlock, red body", name: "Plastic padlock", note: "Red body" },
+];
+
+/** Mortice locks, deadbolts and rim locks, shown on the Products page. */
+export const mortiseLocks = [
+  { src: "/images/lock-417.jpg", alt: "Mortice lock, 4 lever, brass, with keys and screws", name: "Mortice lock, 4 lever", note: "Brass, with keys and screws" },
+  { src: "/images/lock-421.jpg", alt: "Mortice lock, 4 lever, chrome, with keys and screws", name: "Mortice lock, 4 lever", note: "Chrome, with keys and screws" },
+  { src: "/images/lock-427.jpg", alt: "Mortice lock, 3 lever, brass", name: "Mortice lock", note: "3 lever, brass" },
+  { src: "/images/lock-428.jpg", alt: "Mortice lock, 3 lever, chrome", name: "Mortice lock", note: "3 lever, chrome" },
+  { src: "/images/lock-418.jpg", alt: "Euro profile mortice lock, bronze faceplate", name: "Euro profile mortice lock", note: "Bronze faceplate" },
+  { src: "/images/lock-419.jpg", alt: "Euro profile mortice lock, narrow, stainless", name: "Euro profile mortice lock", note: "Narrow, stainless" },
+  { src: "/images/lock-423.jpg", alt: "Euro profile mortice lock, stainless faceplate", name: "Euro profile mortice lock", note: "Stainless faceplate" },
+  { src: "/images/lock-424.jpg", alt: "Euro profile mortice lock, brass faceplate", name: "Euro profile mortice lock", note: "Brass faceplate" },
+  { src: "/images/lock-422.jpg", alt: "Cylinder mortice deadlock, brass faceplate", name: "Cylinder mortice deadlock", note: "Brass faceplate" },
+  { src: "/images/lock-425.jpg", alt: "Deadbolt, satin stainless, keyed", name: "Deadbolt", note: "Satin stainless, keyed" },
+  { src: "/images/lock-426.jpg", alt: "Entrance knob set, satin stainless, keyed", name: "Entrance knob set", note: "Satin stainless, keyed" },
+  { src: "/images/lock-429.jpg", alt: "Rim lock with knobs, black case, brass-finish knobs", name: "Rim lock with knobs", note: "Black case, brass-finish knobs" },
+  { src: "/images/lock-430.jpg", alt: "Rim lock with knobs, black, black knobs", name: "Rim lock with knobs", note: "Black, black knobs" },
+  { src: "/images/lock-431.jpg", alt: "Rim lock with knobs, black case, brown knobs", name: "Rim lock with knobs", note: "Black case, brown knobs" },
+];
+
+/** Night latches and gate locks, shown on the Products page. */
+export const latchesGates = [
+  { src: "/images/lock-461.jpg", alt: "Night latch, brass-finish oval knob", name: "Night latch", note: "Brass-finish oval knob" },
+  { src: "/images/lock-467.jpg", alt: "Yale night latch, brass-finish oval knob", name: "Yale night latch", note: "Brass-finish oval knob" },
+  { src: "/images/lock-462.jpg", alt: "CISA rim lock, grey, square knob", name: "CISA rim lock", note: "Grey, square knob" },
+  { src: "/images/lock-463.jpg", alt: "Night latch, bronze, chrome knob", name: "Night latch", note: "Bronze, chrome knob" },
+  { src: "/images/lock-468.jpg", alt: "Union night latch, bronze, chrome knob", name: "Union night latch", note: "Bronze, chrome knob" },
+  { src: "/images/lock-472.jpg", alt: "Gate lock, brass-plated, keyhole", name: "Gate lock", note: "Brass-plated, keyhole" },
+  { src: "/images/lock-473.jpg", alt: "Gate lock, cylinder, stainless faceplate", name: "Gate lock", note: "Cylinder, stainless faceplate" },
+  { src: "/images/lock-476.jpg", alt: "Double-bolt gate lock, grey, two pins", name: "Double-bolt gate lock", note: "Grey, two pins" },
+  { src: "/images/lock-474.jpg", alt: "Ultra gate lock, steel box, with keys", name: "Ultra gate lock", note: "Steel box, with keys" },
+  { src: "/images/lock-475.jpg", alt: "Gate box lock, plain steel", name: "Gate box lock", note: "Plain steel" },
+  { src: "/images/lock-478.jpg", alt: "Ultra gate bolt lock, steel box", name: "Ultra gate bolt lock", note: "Steel box" },
+  { src: "/images/lock-479.jpg", alt: "Ultra gate bolt lock, takes a padlock", name: "Ultra gate bolt lock", note: "Takes a padlock" },
+  { src: "/images/lock-480.jpg", alt: "Ultra gate lock, double bolt, with keys", name: "Ultra gate lock", note: "Double bolt, with keys" },
+];
+
+/** Cylinders and keys, shown on the Products page. */
+export const cylinders = [
+  { src: "/images/lock-465.jpg", alt: "Euro cylinder, brass, with 3 keys", name: "Euro cylinder", note: "Brass, with 3 keys" },
+  { src: "/images/lock-469.jpg", alt: "Euro cylinder, chrome, with 3 keys", name: "Euro cylinder", note: "Chrome, with 3 keys" },
+  { src: "/images/lock-466.jpg", alt: "Euro cylinder, nickel, with 3 keys", name: "Euro cylinder", note: "Nickel, with 3 keys" },
+  { src: "/images/lock-470.jpg", alt: "Euro cylinder, satin nickel, with key", name: "Euro cylinder", note: "Satin nickel, with key" },
+  { src: "/images/lock-471.jpg", alt: "CISA key, nickel, made in italy", name: "CISA key", note: "Nickel, made in Italy" },
+];
+
+/** Door handles, shown on the Products page. */
+export const doorHandles = [
+  { src: "/images/lock-445.jpg", alt: "Lever handle on rose, satin chrome, with escutcheons", name: "Lever handle on rose", note: "Satin chrome, with escutcheons" },
+  { src: "/images/lock-447.jpg", alt: "Lever handle on rose, satin steel, with escutcheons", name: "Lever handle on rose", note: "Satin steel, with escutcheons" },
+  { src: "/images/lock-446.jpg", alt: "Lever handle on plate, satin chrome, keyhole", name: "Lever handle on plate", note: "Satin chrome, keyhole" },
+  { src: "/images/lock-448.jpg", alt: "Lever handle on plate, chrome, keyhole", name: "Lever handle on plate", note: "Chrome, keyhole" },
+  { src: "/images/lock-452.jpg", alt: "Aluminium door handle, narrow plate, euro cylinder", name: "Aluminium door handle", note: "Narrow plate, euro cylinder" },
+  { src: "/images/lock-451.jpg", alt: "Door lock set, square rose handles, 3 lever lock", name: "Door lock set", note: "Square rose handles, 3 lever lock" },
+  { src: "/images/lock-449.jpg", alt: "Door lock set, dark chrome plate handles, 3 lever lock", name: "Door lock set", note: "Dark chrome plate handles, 3 lever lock" },
+  { src: "/images/lock-450.jpg", alt: "Door lock set, brass plate handles, 3 lever lock", name: "Door lock set", note: "Brass plate handles, 3 lever lock" },
+  { src: "/images/lock-453.jpg", alt: "Door lock set, chrome handles, euro lock", name: "Door lock set", note: "Chrome handles, euro lock" },
+  { src: "/images/lock-454.jpg", alt: "Door lock set, chrome handles, 2 lever lock", name: "Door lock set", note: "Chrome handles, 2 lever lock" },
+  { src: "/images/lock-455.jpg", alt: "Door lock set, chrome handles, 2 lever lock, black case", name: "Door lock set", note: "Chrome handles, 2 lever lock, black case" },
+];
+
+/** Door closers, shown on the Products page. */
+export const doorClosers = [
+  { src: "/images/lock-456.jpg", alt: "Door closer, bbl, silver", name: "Door closer", note: "BBL, silver" },
+  { src: "/images/lock-457.jpg", alt: "CISA door closer, silver", name: "CISA door closer", note: "Silver" },
+  { src: "/images/lock-458.jpg", alt: "Door closer, silver, arm closed", name: "Door closer", note: "Silver, arm closed" },
+  { src: "/images/lock-459.jpg", alt: "Dortec door closer, silver", name: "Dortec door closer", note: "Silver" },
+  { src: "/images/lock-460.jpg", alt: "Yale door closer, silver, arm separate", name: "Yale door closer", note: "Silver, arm separate" },
+  { src: "/images/lock-464.jpg", alt: "Union door closer, grey, with arm", name: "Union door closer", note: "Grey, with arm" },
+];
+
+/** Car keys and remote shells, shown on the Products page. */
+export const carKeys = [
+  { src: "/images/lock-435.jpg", alt: "Flip key, 3 button, black, chrome edge", name: "Flip key, 3 button", note: "Black, chrome edge" },
+  { src: "/images/lock-439.jpg", alt: "Flip key, 3 button, silca", name: "Flip key, 3 button", note: "Silca" },
+  { src: "/images/lock-440.jpg", alt: "Flip key with blades, silca, 3 button, spare blades", name: "Flip key with blades", note: "Silca, 3 button, spare blades" },
+  { src: "/images/lock-441.jpg", alt: "Flip key, 2 button, keydiy, water resistant", name: "Flip key, 2 button", note: "Keydiy, water resistant" },
+  { src: "/images/lock-433.jpg", alt: "Remote key shell, 4 button, honda style", name: "Remote key shell", note: "4 button, Honda style" },
+  { src: "/images/lock-443.jpg", alt: "Remote key shell, 3 button, honda style", name: "Remote key shell", note: "3 button, Honda style" },
+  { src: "/images/lock-444.jpg", alt: "Transponder key shell, silca, black head", name: "Transponder key shell", note: "Silca, black head" },
+  { src: "/images/lock-438.jpg", alt: "Flip key blades, set of 5 different blades", name: "Flip key blades", note: "Set of 5 different blades" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },

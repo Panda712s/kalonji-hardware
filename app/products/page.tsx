@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { appliances, autoParts, bathroom, batteries, bollards, brands, bulbs, ceilingLights, chandeliers, compressionFittings, copperWire, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, lamps, outdoorWall, plasconRange, powerTools, promacRange, range, repair, safety, steelFittings, terminals, tilesCement, valves, waLink, wheelCovers } from "../data";
+import { appliances, autoParts, bathroom, batteries, bollards, brands, bulbs, carKeys, ceilingLights, chandeliers, compressionFittings, copperWire, cylinders, doorClosers, doorHandles, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, lamps, latchesGates, mortiseLocks, outdoorWall, padlocks, plasconRange, powerTools, promacRange, range, repair, safety, steelFittings, terminals, tilesCement, valves, waLink, wheelCovers } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -708,6 +708,167 @@ export default function Products() {
       </section>
 
       <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Padlocks</p>
+              <h2>Padlocks</h2>
+            </div>
+            <p className="sub">Brass, steel, stainless, weatherproof and combination padlocks. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {padlocks.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Locks</p>
+              <h2>Mortice locks, deadbolts and rim locks</h2>
+            </div>
+            <p className="sub">Mortice locks, rim locks, deadbolts and knob sets for house doors. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {mortiseLocks.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Locks</p>
+              <h2>Night latches and gate locks</h2>
+            </div>
+            <p className="sub">Night latches, gate locks and sliding bolt locks. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {latchesGates.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Cylinders</p>
+              <h2>Cylinders and keys</h2>
+            </div>
+            <p className="sub">Euro cylinders and key blanks. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {cylinders.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Door handles</p>
+              <h2>Door handles</h2>
+            </div>
+            <p className="sub">Lever handles on rose or plate, with or without lock sets. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {doorHandles.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Door closers</p>
+              <h2>Door closers</h2>
+            </div>
+            <p className="sub">Overhead door closers in different sizes. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {doorClosers.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Car keys</p>
+              <h2>Car keys and remote shells</h2>
+            </div>
+            <p className="sub">Flip keys, remote key shells and key blades. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {carKeys.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
         <div className="container">
           <div className="head" data-reveal>
             <div>
