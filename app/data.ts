@@ -720,6 +720,174 @@ export const carKeys = [
   { src: "/images/lock-438.jpg", alt: "Flip key blades, set of 5 different blades", name: "Flip key blades", note: "Set of 5 different blades" },
 ];
 
+/** Surface, kitchen and floor cleaners, shown on the Products page. */
+export const cleaners = [
+  { src: "/images/hh-505.jpg", alt: "Handy Andy cream cleaner, lemon, 750 ml", name: "Handy Andy cream cleaner", note: "Lemon, 750 ml" },
+  { src: "/images/hh-519.jpg", alt: "Handy Andy cream cleaner, lavender, 750 ml", name: "Handy Andy cream cleaner", note: "Lavender, 750 ml" },
+  { src: "/images/hh-482.jpg", alt: "Handy Andy multipurpose cream, professional, 5 l", name: "Handy Andy multipurpose cream", note: "Professional, 5 L" },
+  { src: "/images/hh-481.jpg", alt: "Handy Andy oven and grill cleaner, professional, 5 l refill", name: "Handy Andy oven and grill cleaner", note: "Professional, 5 L refill" },
+  { src: "/images/hh-495.jpg", alt: "Handy Andy oven and grill cleaner, professional, 500 ml spray", name: "Handy Andy oven and grill cleaner", note: "Professional, 500 ml spray" },
+  { src: "/images/hh-493.jpg", alt: "Handy Andy degreaser, professional, 500 ml spray", name: "Handy Andy degreaser", note: "Professional, 500 ml spray" },
+  { src: "/images/hh-501.jpg", alt: "Mr Muscle oven cleaner, aerosol", name: "Mr Muscle oven cleaner", note: "Aerosol" },
+  { src: "/images/hh-504.jpg", alt: "Mr Muscle tile cleaner, lavender, 750 ml", name: "Mr Muscle tile cleaner", note: "Lavender, 750 ml" },
+  { src: "/images/hh-502.jpg", alt: "Mr Min multi-surface polish, pot pourri, 300 ml can", name: "Mr Min multi-surface polish", note: "Pot pourri, 300 ml can" },
+  { src: "/images/hh-497.jpg", alt: "Pledge multisurface cleaner, pink petals", name: "Pledge multisurface cleaner", note: "Pink petals" },
+  { src: "/images/hh-496.jpg", alt: "Pledge wood polish, aerosol", name: "Pledge wood polish", note: "Aerosol" },
+  { src: "/images/hh-498.jpg", alt: "Pledge wood polish, lavender", name: "Pledge wood polish", note: "Lavender" },
+  { src: "/images/hh-512.jpg", alt: "Cobra floor cleaner, wood and laminate, citrus shine", name: "Cobra floor cleaner", note: "Wood and laminate, citrus shine" },
+  { src: "/images/hh-515.jpg", alt: "Windolene glass cleaner, 750 ml spray", name: "Windolene glass cleaner", note: "750 ml spray" },
+  { src: "/images/hh-503.jpg", alt: "Sunlight Platinum dishwashing liquid, antibacterial, 750 ml", name: "Sunlight Platinum dishwashing liquid", note: "Antibacterial, 750 ml" },
+  { src: "/images/hh-513.jpg", alt: "Sunlight dishwashing liquid, 1.5 l", name: "Sunlight dishwashing liquid", note: "1.5 L" },
+  { src: "/images/hh-531.jpg", alt: "Sunlight dishwashing liquid, 400 ml", name: "Sunlight dishwashing liquid", note: "400 ml" },
+  { src: "/images/hh-529.jpg", alt: "Sunlight dishwashing liquid refill, 750 ml pouch", name: "Sunlight dishwashing liquid refill", note: "750 ml pouch" },
+  { src: "/images/hh-537.jpg", alt: "Trigger spray bottle, empty, refillable", name: "Trigger spray bottle", note: "Empty, refillable" },
+];
+
+/** Bleach and toilet care, shown on the Products page. */
+export const bleachToilet = [
+  { src: "/images/hh-509.jpg", alt: "Jik multipurpose bleach, regular", name: "Jik multipurpose bleach", note: "Regular" },
+  { src: "/images/hh-511.jpg", alt: "Jik multipurpose bleach, lemon fresh, 2 l", name: "Jik multipurpose bleach", note: "Lemon fresh, 2 L" },
+  { src: "/images/hh-517.jpg", alt: "Jik multipurpose bleach, regular, 3 l value pack", name: "Jik multipurpose bleach", note: "Regular, 3 L value pack" },
+  { src: "/images/hh-514.jpg", alt: "Domestos thick bleach, lemon fresh, 750 ml", name: "Domestos thick bleach", note: "Lemon fresh, 750 ml" },
+  { src: "/images/hh-516.jpg", alt: "Domestos thick bleach, lavender blast, 750 ml", name: "Domestos thick bleach", note: "Lavender blast, 750 ml" },
+  { src: "/images/hh-492.jpg", alt: "Jeyes Home Guard bleach, thick bleach, 750 ml", name: "Jeyes Home Guard bleach", note: "Thick bleach, 750 ml" },
+  { src: "/images/hh-508.jpg", alt: "Duck deep action gel, toilet cleaner, ocean fresh", name: "Duck deep action gel", note: "Toilet cleaner, ocean fresh" },
+  { src: "/images/hh-518.jpg", alt: "Duck stick-on toilet strips, 3 strips, fresh", name: "Duck stick-on toilet strips", note: "3 strips, fresh" },
+];
+
+/** Laundry, shown on the Products page. */
+export const laundry = [
+  { src: "/images/hh-485.jpg", alt: "OMO auto washing powder, superlift, 2 kg", name: "OMO auto washing powder", note: "Superlift, 2 kg" },
+  { src: "/images/hh-528.jpg", alt: "OMO hand washing powder, supersoak, 2 kg", name: "OMO hand washing powder", note: "Supersoak, 2 kg" },
+  { src: "/images/hh-507.jpg", alt: "OMO hand washing powder, 5 kg", name: "OMO hand washing powder", note: "5 kg" },
+  { src: "/images/hh-521.jpg", alt: "MAQ washing powder, hand wash, 1 kg", name: "MAQ washing powder", note: "Hand wash, 1 kg" },
+  { src: "/images/hh-522.jpg", alt: "MAQ washing powder, hand wash, 2 kg", name: "MAQ washing powder", note: "Hand wash, 2 kg" },
+  { src: "/images/hh-525.jpg", alt: "Surf hand washing powder, 1 kg", name: "Surf hand washing powder", note: "1 kg" },
+  { src: "/images/hh-523.jpg", alt: "Surf hand washing powder, 2 kg", name: "Surf hand washing powder", note: "2 kg" },
+  { src: "/images/hh-527.jpg", alt: "Sunlight 5in1 handwash powder, spring sensations, 1 kg", name: "Sunlight 5in1 handwash powder", note: "Spring sensations, 1 kg" },
+  { src: "/images/hh-524.jpg", alt: "Sunlight 5in1 auto washing powder, summer sensations, 2 kg", name: "Sunlight 5in1 auto washing powder", note: "Summer sensations, 2 kg" },
+  { src: "/images/hh-506.jpg", alt: "Vanish multiuse liquid, chlorine bleach free, 2 l", name: "Vanish multiuse liquid", note: "Chlorine bleach free, 2 L" },
+  { src: "/images/hh-483.jpg", alt: "Comfort fabric conditioner, professional, uplifting, 3 l", name: "Comfort fabric conditioner", note: "Professional, uplifting, 3 L" },
+  { src: "/images/hh-484.jpg", alt: "Comfort fabric conditioner, professional, elegance, 3 l", name: "Comfort fabric conditioner", note: "Professional, elegance, 3 L" },
+  { src: "/images/hh-499.jpg", alt: "Comfort fabric conditioner refill, uplifting, value pack", name: "Comfort fabric conditioner refill", note: "Uplifting, value pack" },
+  { src: "/images/hh-526.jpg", alt: "Sta-soft fabric conditioner, lavender fresh, 500 ml", name: "Sta-soft fabric conditioner", note: "Lavender fresh, 500 ml" },
+  { src: "/images/hh-510.jpg", alt: "Sta-soft baby fabric conditioner, hypo-allergenic", name: "Sta-soft baby fabric conditioner", note: "Hypo-allergenic" },
+  { src: "/images/hh-532.jpg", alt: "Sunlight soap, original, 500 g", name: "Sunlight soap", note: "Original, 500 g" },
+  { src: "/images/hh-533.jpg", alt: "Sunlight soap, original, 250 g", name: "Sunlight soap", note: "Original, 250 g" },
+];
+
+/** Air fresheners and insect killer, shown on the Products page. */
+export const airFresh = [
+  { src: "/images/hh-486.jpg", alt: "Airoma air freshener, potpourri petals", name: "Airoma air freshener", note: "Potpourri petals" },
+  { src: "/images/hh-487.jpg", alt: "Airoma air freshener, linen breeze", name: "Airoma air freshener", note: "Linen breeze" },
+  { src: "/images/hh-488.jpg", alt: "Airoma air freshener, strawberry fields", name: "Airoma air freshener", note: "Strawberry fields" },
+  { src: "/images/hh-489.jpg", alt: "Airoma air freshener, floral fusion", name: "Airoma air freshener", note: "Floral fusion" },
+  { src: "/images/hh-490.jpg", alt: "Airoma air freshener, lavender garden", name: "Airoma air freshener", note: "Lavender garden" },
+  { src: "/images/hh-491.jpg", alt: "Airoma air freshener, summer rose", name: "Airoma air freshener", note: "Summer rose" },
+  { src: "/images/hh-500.jpg", alt: "Glade air freshener, ocean escape", name: "Glade air freshener", note: "Ocean escape" },
+  { src: "/images/hh-534.jpg", alt: "Raid multi insect killer, lavender scent, 300 ml", name: "Raid multi insect killer", note: "Lavender scent, 300 ml" },
+];
+
+/** Household supplies, shown on the Products page. */
+export const household = [
+  { src: "/images/hh-494.jpg", alt: "Energizer Max AA batteries, pack of 12", name: "Energizer Max AA batteries", note: "Pack of 12" },
+  { src: "/images/hh-530.jpg", alt: "Garbie refuse bags, super saver, 20 bags", name: "Garbie refuse bags", note: "Super saver, 20 bags" },
+  { src: "/images/hh-535.jpg", alt: "Latex gloves, cotton lined, large", name: "Latex gloves", note: "Cotton lined, large" },
+  { src: "/images/hh-538.jpg", alt: "Leather work gloves, red, long cuff", name: "Leather work gloves", note: "Red, long cuff" },
+  { src: "/images/hh-536.jpg", alt: "Wheelie bin, black, with wheels", name: "Wheelie bin", note: "Black, with wheels" },
+];
+
+/** Car wash and microfibre cloths, shown on the Products page. */
+export const carWash = [
+  { src: "/images/chem-547.jpg", alt: "Shield Snow Foam, bubblegum, 1 l", name: "Shield Snow Foam", note: "Bubblegum, 1 L" },
+  { src: "/images/chem-552.jpg", alt: "Shield Snow Foam, bubblegum, 5 l", name: "Shield Snow Foam", note: "Bubblegum, 5 L" },
+  { src: "/images/chem-580.jpg", alt: "Shield High Foam car shampoo, 5 l, with tyre shine", name: "Shield High Foam car shampoo", note: "5 L, with Tyre Shine" },
+  { src: "/images/chem-591.jpg", alt: "Shield Splash wash and wax, car shampoo, 1 l", name: "Shield Splash wash and wax", note: "Car shampoo, 1 L" },
+  { src: "/images/chem-608.jpg", alt: "Shield Splash wash and wax, car shampoo, 5 l", name: "Shield Splash wash and wax", note: "Car shampoo, 5 L" },
+  { src: "/images/chem-607.jpg", alt: "Shield X-treme wash and wax, 3 in 1 car shampoo", name: "Shield X-treme wash and wax", note: "3 in 1 car shampoo" },
+  { src: "/images/chem-539.jpg", alt: "Shield wash and shine mitt, microfibre, 2 in 1", name: "Shield wash and shine mitt", note: "Microfibre, 2 in 1" },
+  { src: "/images/chem-541.jpg", alt: "Shield wash and dry value pack, microfibre mitt and drying towel", name: "Shield wash and dry value pack", note: "Microfibre mitt and drying towel" },
+  { src: "/images/chem-550.jpg", alt: "Shield 3 in 1 microfibre pack, sponge, drying towel and glass cloth", name: "Shield 3 in 1 microfibre pack", note: "Sponge, drying towel and glass cloth" },
+  { src: "/images/chem-545.jpg", alt: "Shield chenille wash pad, microfibre, with mesh scrubber", name: "Shield chenille wash pad", note: "Microfibre, with mesh scrubber" },
+  { src: "/images/chem-543.jpg", alt: "Microfibre glass cloth, blue", name: "Microfibre glass cloth", note: "Blue" },
+  { src: "/images/chem-551.jpg", alt: "Shield mutton cloth, 250 g roll", name: "Shield mutton cloth", note: "250 g roll" },
+];
+
+/** Car polish, tyre shine and interior care, shown on the Products page. */
+export const carShine = [
+  { src: "/images/chem-589.jpg", alt: "Shield Tyre Shine, rich wet gloss", name: "Shield Tyre Shine", note: "Rich wet gloss" },
+  { src: "/images/chem-588.jpg", alt: "Shield Tyre Polish, 400 ml tub", name: "Shield Tyre Polish", note: "400 ml tub" },
+  { src: "/images/chem-592.jpg", alt: "Shield Tyre Gloss, wet look finish, aerosol", name: "Shield Tyre Gloss", note: "Wet look finish, aerosol" },
+  { src: "/images/chem-605.jpg", alt: "Shield Sheen Natural, vinyl, plastic and rubber care, fresh start", name: "Shield Sheen Natural", note: "Vinyl, plastic and rubber care, fresh start" },
+  { src: "/images/chem-610.jpg", alt: "Shield Sheen Natural, vinyl, plastic and rubber care, cherry", name: "Shield Sheen Natural", note: "Vinyl, plastic and rubber care, cherry" },
+  { src: "/images/chem-606.jpg", alt: "Shield Sheen Cockpit, interior detailer spray", name: "Shield Sheen Cockpit", note: "Interior detailer spray" },
+  { src: "/images/chem-581.jpg", alt: "Shield Ceramic Infused sprays, tyre shine, vinyl dressing and spray wax", name: "Shield Ceramic Infused sprays", note: "Tyre shine, vinyl dressing and spray wax" },
+  { src: "/images/chem-598.jpg", alt: "Shield SP2+ compounding liquid, extra fast, 1 l", name: "Shield SP2+ compounding liquid", note: "Extra fast, 1 L" },
+];
+
+/** Engine care and workshop chemicals, shown on the Products page. */
+export const carWorkshop = [
+  { src: "/images/chem-593.jpg", alt: "Shield Power Force degreaser, heavy duty cleaner, trigger spray", name: "Shield Power Force degreaser", note: "Heavy duty cleaner, trigger spray" },
+  { src: "/images/chem-609.jpg", alt: "Shield Power Force degreaser, heavy duty cleaner, 20 l", name: "Shield Power Force degreaser", note: "Heavy duty cleaner, 20 L" },
+  { src: "/images/chem-594.jpg", alt: "Shield engine cleaner, solvent based, 500 ml", name: "Shield engine cleaner", note: "Solvent based, 500 ml" },
+  { src: "/images/chem-595.jpg", alt: "Shield diesel injector cleaner, 350 ml", name: "Shield diesel injector cleaner", note: "350 ml" },
+  { src: "/images/chem-604.jpg", alt: "Shield engine flush, 350 ml", name: "Shield engine flush", note: "350 ml" },
+  { src: "/images/chem-585.jpg", alt: "Shield carb cleaner and brake cleaner, 500 ml aerosols", name: "Shield carb cleaner and brake cleaner", note: "500 ml aerosols" },
+  { src: "/images/chem-599.jpg", alt: "Shield Tool In-A-Can, multi-purpose lubricant", name: "Shield Tool In-A-Can", note: "Multi-purpose lubricant" },
+];
+
+/** Mr Sheen kitchen and surface cleaners, shown on the Products page. */
+export const sheenKitchen = [
+  { src: "/images/chem-557.jpg", alt: "Mr Sheen daily surface cleaner, cleaner and disinfectant, 1 l", name: "Mr Sheen daily surface cleaner", note: "Cleaner and disinfectant, 1 L" },
+  { src: "/images/chem-561.jpg", alt: "Mr Sheen kitchen cleaner, cleaner and disinfectant, lemon", name: "Mr Sheen kitchen cleaner", note: "Cleaner and disinfectant, lemon" },
+  { src: "/images/chem-562.jpg", alt: "Mr Sheen mould and mildew cleaner, cleaner and disinfectant", name: "Mr Sheen mould and mildew cleaner", note: "Cleaner and disinfectant" },
+  { src: "/images/chem-560.jpg", alt: "Mr Sheen disinfectant spray, 70% alcohol, surface and air", name: "Mr Sheen disinfectant spray", note: "70% alcohol, surface and air" },
+  { src: "/images/chem-553.jpg", alt: "Mr Sheen multi surface cleaner, 5 in 1 daily cleaner, spring fresh, 300 ml", name: "Mr Sheen multi surface cleaner", note: "5 in 1 daily cleaner, spring fresh, 300 ml" },
+  { src: "/images/chem-558.jpg", alt: "Mr Sheen 3 in 1 oven cleaner, with microwave and braai, 300 ml", name: "Mr Sheen 3 in 1 oven cleaner", note: "With microwave and braai, 300 ml" },
+  { src: "/images/chem-559.jpg", alt: "Mr Sheen fast acting oven cleaner, lemon fresh, 300 ml", name: "Mr Sheen fast acting oven cleaner", note: "Lemon fresh, 300 ml" },
+  { src: "/images/chem-554.jpg", alt: "Mr Sheen dishwashing liquid, fresh lemon, 400 ml", name: "Mr Sheen dishwashing liquid", note: "Fresh lemon, 400 ml" },
+  { src: "/images/chem-565.jpg", alt: "Mr Sheen dishwashing liquid, fresh lemon, 750 ml", name: "Mr Sheen dishwashing liquid", note: "Fresh lemon, 750 ml" },
+  { src: "/images/chem-555.jpg", alt: "Mr Sheen dishwashing liquid, fresh lemon, 1.5 l", name: "Mr Sheen dishwashing liquid", note: "Fresh lemon, 1.5 L" },
+  { src: "/images/chem-556.jpg", alt: "Mr Sheen dishwasher rinse aid, lemon, 500 ml", name: "Mr Sheen dishwasher rinse aid", note: "Lemon, 500 ml" },
+  { src: "/images/chem-549.jpg", alt: "Mr Sheen Oxi Ultra Wash, fabric stain remover, 1 l", name: "Mr Sheen Oxi Ultra Wash", note: "Fabric stain remover, 1 L" },
+];
+
+/** Mr Sheen pine gel, floor cleaner and value packs, shown on the Products page. */
+export const sheenFloor = [
+  { src: "/images/chem-614.jpg", alt: "Mr Sheen pine gel, easy squeeze, 750 ml", name: "Mr Sheen pine gel", note: "Easy squeeze, 750 ml" },
+  { src: "/images/chem-612.jpg", alt: "Mr Sheen pine gel, multi-surface cleaner, 500 ml", name: "Mr Sheen pine gel", note: "Multi-surface cleaner, 500 ml" },
+  { src: "/images/chem-564.jpg", alt: "Mr Sheen pine gel, multi-surface cleaner, 1 l", name: "Mr Sheen pine gel", note: "Multi-surface cleaner, 1 L" },
+  { src: "/images/chem-566.jpg", alt: "Mr Sheen pine gel, multi-surface cleaner, 5 l", name: "Mr Sheen pine gel", note: "Multi-surface cleaner, 5 L" },
+  { src: "/images/chem-563.jpg", alt: "Mr Sheen tile cleaner, mountain fresh, 1 l", name: "Mr Sheen tile cleaner", note: "Mountain fresh, 1 L" },
+  { src: "/images/chem-567.jpg", alt: "Mr Sheen disinfecting fluid, outdoor disinfectant, 500 ml", name: "Mr Sheen disinfecting fluid", note: "Outdoor disinfectant, 500 ml" },
+  { src: "/images/chem-582.jpg", alt: "Mr Sheen Clear View glass cleaner, 1 l spray with two refills", name: "Mr Sheen Clear View glass cleaner", note: "1 L spray with two refills" },
+  { src: "/images/chem-583.jpg", alt: "Mr Sheen complete cleaning kit, bucket, cloth, cleaners and scourers", name: "Mr Sheen complete cleaning kit", note: "Bucket, cloth, cleaners and scourers" },
+  { src: "/images/chem-584.jpg", alt: "Mr Sheen bathroom, kitchen and daily sprays, 1 l trio", name: "Mr Sheen bathroom, kitchen and daily sprays", note: "1 L trio" },
+  { src: "/images/chem-586.jpg", alt: "Mr Sheen dishwashing liquid, 750 ml with two refills", name: "Mr Sheen dishwashing liquid", note: "750 ml with two refills" },
+  { src: "/images/chem-587.jpg", alt: "Mr Sheen aerosol trio, multi surface, oven cleaner and wood polish", name: "Mr Sheen aerosol trio", note: "Multi surface, oven cleaner and wood polish" },
+];
+
+/** Drain unblockers, shown on the Products page. */
+export const drainCleaners = [
+  { src: "/images/chem-568.jpg", alt: "Mr Plumber drain unblocker granules, single dose, 75 g", name: "Mr Plumber drain unblocker granules", note: "Single dose, 75 g" },
+  { src: "/images/chem-569.jpg", alt: "Mr Plumber drain unblocker, power blast, compressed gas", name: "Mr Plumber drain unblocker", note: "Power blast, compressed gas" },
+  { src: "/images/chem-570.jpg", alt: "Mr Plumber drain unblocker liquid, 750 ml", name: "Mr Plumber drain unblocker liquid", note: "750 ml" },
+];
+
+/** Air Scents air fresheners, shown on the Products page. */
+export const airScents = [
+  { src: "/images/chem-572.jpg", alt: "Air Scents Autofresh automatic spray, spring fresh, machine and 2 refills", name: "Air Scents Autofresh automatic spray", note: "Spring fresh, machine and 2 refills" },
+  { src: "/images/chem-576.jpg", alt: "Air Scents Autofresh refill, cotton fresh", name: "Air Scents Autofresh refill", note: "Cotton fresh" },
+  { src: "/images/chem-577.jpg", alt: "Air Scents Autofresh refill, lavender fields", name: "Air Scents Autofresh refill", note: "Lavender fields" },
+  { src: "/images/chem-571.jpg", alt: "Air Scents Touch of Scents holder, spring fresh, with 100 ml refill", name: "Air Scents Touch of Scents holder", note: "Spring fresh, with 100 ml refill" },
+  { src: "/images/chem-575.jpg", alt: "Air Scents Touch of Scents holder, lavender and vanilla, with 100 ml refill", name: "Air Scents Touch of Scents holder", note: "Lavender and vanilla, with 100 ml refill" },
+  { src: "/images/chem-574.jpg", alt: "Air Scents Touch of Scents refill, spring fresh", name: "Air Scents Touch of Scents refill", note: "Spring fresh" },
+  { src: "/images/chem-573.jpg", alt: "Air Scents Touch of Scents refill, lavender and vanilla", name: "Air Scents Touch of Scents refill", note: "Lavender and vanilla" },
+  { src: "/images/chem-578.jpg", alt: "Air Scents reed diffuser, sandalwood, 50 ml", name: "Air Scents reed diffuser", note: "Sandalwood, 50 ml" },
+  { src: "/images/chem-579.jpg", alt: "Air Scents reed diffuser, lavender, 50 ml", name: "Air Scents reed diffuser", note: "Lavender, 50 ml" },
+  { src: "/images/chem-613.jpg", alt: "Shield Fresh 24 gel air freshener, vanilla pineapple", name: "Shield Fresh 24 gel air freshener", note: "Vanilla pineapple" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },

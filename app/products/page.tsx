@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { appliances, autoParts, bathroom, batteries, bollards, brands, bulbs, carKeys, ceilingLights, chandeliers, compressionFittings, copperWire, cylinders, doorClosers, doorHandles, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, lamps, latchesGates, mortiseLocks, outdoorWall, padlocks, plasconRange, powerTools, promacRange, range, repair, safety, steelFittings, terminals, tilesCement, valves, waLink, wheelCovers } from "../data";
+import { airFresh, airScents, appliances, autoParts, bathroom, batteries, bleachToilet, bollards, brands, bulbs, carKeys, carShine, carWash, carWorkshop, ceilingLights, chandeliers, cleaners, compressionFittings, copperWire, cylinders, doorClosers, doorHandles, drainCleaners, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, household, lamps, latchesGates, laundry, mortiseLocks, outdoorWall, padlocks, plasconRange, powerTools, promacRange, range, repair, safety, sheenFloor, sheenKitchen, steelFittings, terminals, tilesCement, valves, waLink, wheelCovers } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -856,6 +856,282 @@ export default function Products() {
           </div>
           <ul className="range-grid">
             {carKeys.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Cleaning</p>
+              <h2>Surface, kitchen and floor cleaners</h2>
+            </div>
+            <p className="sub">Cream cleaners, oven cleaners, polishes, dishwashing liquid and floor cleaners. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {cleaners.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Bleach</p>
+              <h2>Bleach and toilet care</h2>
+            </div>
+            <p className="sub">Multipurpose bleach, thick bleach and toilet cleaners. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {bleachToilet.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Laundry</p>
+              <h2>Laundry</h2>
+            </div>
+            <p className="sub">Washing powders, fabric conditioners, stain remover and soap. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {laundry.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Air fresheners</p>
+              <h2>Air fresheners and insect killer</h2>
+            </div>
+            <p className="sub">Aerosol air fresheners and multi-insect killer. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {airFresh.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Household</p>
+              <h2>Household supplies</h2>
+            </div>
+            <p className="sub">Batteries, refuse bags, gloves and a wheelie bin. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {household.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Car wash</p>
+              <h2>Car wash and microfibre cloths</h2>
+            </div>
+            <p className="sub">Shield snow foam, car shampoos, wash mitts and microfibre cloths. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {carWash.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Car shine</p>
+              <h2>Car polish, tyre shine and interior care</h2>
+            </div>
+            <p className="sub">Tyre shine, dashboard care, ceramic sprays and compounding liquid. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {carShine.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Workshop</p>
+              <h2>Engine care and workshop chemicals</h2>
+            </div>
+            <p className="sub">Degreasers, engine and fuel treatments, carb and brake cleaner, lubricant. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {carWorkshop.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Mr Sheen</p>
+              <h2>Mr Sheen kitchen and surface cleaners</h2>
+            </div>
+            <p className="sub">Daily surface, kitchen, mould and oven cleaners, dishwashing liquid and rinse aid. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {sheenKitchen.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Mr Sheen</p>
+              <h2>Mr Sheen pine gel, floor cleaner and value packs</h2>
+            </div>
+            <p className="sub">Pine gel, tile cleaner, disinfecting fluid and bundle packs. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {sheenFloor.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Drains</p>
+              <h2>Drain unblockers</h2>
+            </div>
+            <p className="sub">Mr Plumber granules, liquid and power blast. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {drainCleaners.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Air fresheners</p>
+              <h2>Air Scents air fresheners</h2>
+            </div>
+            <p className="sub">Automatic sprays, plug-in style holders, refills and reed diffusers. Ask us for sizes, stock and prices.</p>
+          </div>
+          <ul className="range-grid">
+            {airScents.map((r) => (
               <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
