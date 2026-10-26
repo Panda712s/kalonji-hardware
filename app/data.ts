@@ -888,6 +888,147 @@ export const airScents = [
   { src: "/images/chem-613.jpg", alt: "Shield Fresh 24 gel air freshener, vanilla pineapple", name: "Shield Fresh 24 gel air freshener", note: "Vanilla pineapple" },
 ];
 
+/** Yale padlocks, shown on the Products page. */
+export const yalePadlocks = [
+  { src: "/images/yale-662.jpg", alt: "Yale chrome padlock, hardened shackle", name: "Yale chrome padlock", note: "Hardened shackle" },
+  { src: "/images/yale-660.jpg", alt: "Yale chrome padlock, boron shackle", name: "Yale chrome padlock", note: "Boron shackle" },
+  { src: "/images/yale-655.jpg", alt: "Yale chrome padlock, long shackle", name: "Yale chrome padlock", note: "Long shackle" },
+  { src: "/images/yale-661.jpg", alt: "Yale brass padlock, hardened shackle", name: "Yale brass padlock", note: "Hardened shackle" },
+  { src: "/images/yale-653.jpg", alt: "Yale laminated padlock, hardened shackle", name: "Yale laminated padlock", note: "Hardened shackle" },
+  { src: "/images/yale-654.jpg", alt: "Yale laminated padlocks, pack of 3", name: "Yale laminated padlocks", note: "Pack of 3" },
+  { src: "/images/yale-644.jpg", alt: "Yale black padlock, hardened shackle, large", name: "Yale black padlock", note: "Hardened shackle, large" },
+  { src: "/images/yale-642.jpg", alt: "Yale black padlocks, twin pack", name: "Yale black padlocks", note: "Twin pack" },
+  { src: "/images/yale-640.jpg", alt: "Yale black padlock, long shackle", name: "Yale black padlock", note: "Long shackle" },
+  { src: "/images/yale-650.jpg", alt: "Yale closed shackle padlock, black", name: "Yale closed shackle padlock", note: "Black" },
+  { src: "/images/yale-651.jpg", alt: "Yale closed shackle padlock, black, compact", name: "Yale closed shackle padlock", note: "Black, compact" },
+  { src: "/images/yale-652.jpg", alt: "Yale closed shackle padlock, black, boron shackle", name: "Yale closed shackle padlock", note: "Black, Boron shackle" },
+  { src: "/images/yale-648.jpg", alt: "Yale weatherproof padlock, black, with cover", name: "Yale weatherproof padlock", note: "Black, with cover" },
+  { src: "/images/yale-647.jpg", alt: "Yale weatherproof padlocks, black, pack of 3", name: "Yale weatherproof padlocks", note: "Black, pack of 3" },
+  { src: "/images/yale-649.jpg", alt: "Yale weatherproof padlock, black, shrouded shackle", name: "Yale weatherproof padlock", note: "Black, shrouded shackle" },
+  { src: "/images/yale-656.jpg", alt: "Yale brass shutter padlock, hardened bolt", name: "Yale brass shutter padlock", note: "Hardened bolt" },
+  { src: "/images/yale-657.jpg", alt: "Yale brass shutter padlock, hardened bolt, wide", name: "Yale brass shutter padlock", note: "Hardened bolt, wide" },
+  { src: "/images/yale-659.jpg", alt: "Yale brass shutter padlock, hardened bolt, side keyway", name: "Yale brass shutter padlock", note: "Hardened bolt, side keyway" },
+  { src: "/images/yale-643.jpg", alt: "Yale shutter padlock, chrome, hardened bolt", name: "Yale shutter padlock", note: "Chrome, hardened bolt" },
+  { src: "/images/yale-646.jpg", alt: "Yale shutter padlock, black, hardened bolt", name: "Yale shutter padlock", note: "Black, hardened bolt" },
+  { src: "/images/yale-641.jpg", alt: "Yale disc padlocks, twin pack with keys", name: "Yale disc padlocks", note: "Twin pack with keys" },
+  { src: "/images/yale-645.jpg", alt: "Yale combination padlock, blue, 4 dials", name: "Yale combination padlock", note: "Blue, 4 dials" },
+];
+
+/** Yale safes and key cabinets, shown on the Products page. */
+export const yaleSafes = [
+  { src: "/images/yale-702.jpg", alt: "Yale large digital safe, black, keypad", name: "Yale large digital safe", note: "Black, keypad" },
+  { src: "/images/yale-701.jpg", alt: "Large digital safe, black, keypad", name: "Large digital safe", note: "Black, keypad" },
+  { src: "/images/yale-707.jpg", alt: "Yale large safe, light grey, digital keypad", name: "Yale large safe", note: "Light grey, digital keypad" },
+  { src: "/images/yale-708.jpg", alt: "Yale medium safe, light grey, digital keypad", name: "Yale medium safe", note: "Light grey, digital keypad" },
+  { src: "/images/yale-706.jpg", alt: "Yale compact digital safe, black, keypad", name: "Yale compact digital safe", note: "Black, keypad" },
+  { src: "/images/yale-705.jpg", alt: "Yale smart safe, keypad, yale home app", name: "Yale smart safe", note: "Keypad, Yale Home app" },
+  { src: "/images/yale-710.jpg", alt: "Yale fingerprint safe, black, keypad and fingerprint", name: "Yale fingerprint safe", note: "Black, keypad and fingerprint" },
+  { src: "/images/yale-712.jpg", alt: "Yale digital safe, cream, keypad", name: "Yale digital safe", note: "Cream, keypad" },
+  { src: "/images/yale-713.jpg", alt: "Yale deposit safe, drop slot, digital keypad", name: "Yale deposit safe", note: "Drop slot, digital keypad" },
+  { src: "/images/yale-709.jpg", alt: "Yale laptop safe, black, digital keypad", name: "Yale laptop safe", note: "Black, digital keypad" },
+  { src: "/images/yale-718.jpg", alt: "Yale laptop safe, light grey, digital keypad", name: "Yale laptop safe", note: "Light grey, digital keypad" },
+  { src: "/images/yale-639.jpg", alt: "Yale key safe, combination, wall mount", name: "Yale key safe", note: "Combination, wall mount" },
+  { src: "/images/yale-664.jpg", alt: "Yale key cabinet, black, keyed", name: "Yale key cabinet", note: "Black, keyed" },
+  { src: "/images/yale-715.jpg", alt: "Yale key cabinet, black, keyed", name: "Yale key cabinet", note: "Black, keyed" },
+  { src: "/images/yale-716.jpg", alt: "Key cabinet, black, hooks inside", name: "Key cabinet", note: "Black, hooks inside" },
+];
+
+/** Yale smart locks and alarms, shown on the Products page. */
+export const yaleSmart = [
+  { src: "/images/yale-693.jpg", alt: "Yale keypad smart lock, satin, keypad and card", name: "Yale keypad smart lock", note: "Satin, keypad and card" },
+  { src: "/images/yale-694.jpg", alt: "Yale smart door lock, black, keypad and handle", name: "Yale smart door lock", note: "Black, keypad and handle" },
+  { src: "/images/yale-696.jpg", alt: "Yale smart lock, matter compatible, app control", name: "Yale smart lock", note: "Matter compatible, app control" },
+  { src: "/images/yale-697.jpg", alt: "Yale smart lock, black, fitted to a door", name: "Yale smart lock", note: "Black, fitted to a door" },
+  { src: "/images/yale-698.jpg", alt: "Yale smart lock, unlock from the phone app", name: "Yale smart lock", note: "Unlock from the phone app" },
+  { src: "/images/yale-700.jpg", alt: "Yale door sensor, white, for smart alarms", name: "Yale door sensor", note: "White, for smart alarms" },
+  { src: "/images/yale-704.jpg", alt: "Yale smart home devices, lock, hub and sensors", name: "Yale smart home devices", note: "Lock, hub and sensors" },
+  { src: "/images/yale-717.jpg", alt: "Yale keypad, white, wall mounted", name: "Yale keypad", note: "White, wall mounted" },
+];
+
+/** Yale lock and handle sets, shown on the Products page. */
+export const yaleHandleSets = [
+  { src: "/images/yale-720.jpg", alt: "Yale lock and handle set, gunmetal, with keys", name: "Yale lock and handle set", note: "Gunmetal, with keys" },
+  { src: "/images/yale-748.jpg", alt: "Yale lock and handle set, gunmetal, with strike plate", name: "Yale lock and handle set", note: "Gunmetal, with strike plate" },
+  { src: "/images/yale-758.jpg", alt: "Yale lock and handle set, gunmetal, with cylinder and keys", name: "Yale lock and handle set", note: "Gunmetal, with cylinder and keys" },
+  { src: "/images/yale-721.jpg", alt: "Yale lock and handle set, black, with keys", name: "Yale lock and handle set", note: "Black, with keys" },
+  { src: "/images/yale-749.jpg", alt: "Yale lock and handle set, black, with strike plate and screws", name: "Yale lock and handle set", note: "Black, with strike plate and screws" },
+  { src: "/images/yale-760.jpg", alt: "Yale lock and handle set, rose gold, with keys", name: "Yale lock and handle set", note: "Rose gold, with keys" },
+  { src: "/images/yale-729.jpg", alt: "Yale lock and handle set, chrome, with keys", name: "Yale lock and handle set", note: "Chrome, with keys" },
+  { src: "/images/yale-754.jpg", alt: "Yale lock and handle set, chrome, with keys", name: "Yale lock and handle set", note: "Chrome, with keys" },
+  { src: "/images/yale-755.jpg", alt: "Yale lock and handle set, chrome, with strike plate and screws", name: "Yale lock and handle set", note: "Chrome, with strike plate and screws" },
+  { src: "/images/yale-738.jpg", alt: "Yale lock and handle set, satin chrome, keyhole plates", name: "Yale lock and handle set", note: "Satin chrome, keyhole plates" },
+  { src: "/images/yale-725.jpg", alt: "Yale lock and handle set, satin chrome, euro cylinder", name: "Yale lock and handle set", note: "Satin chrome, euro cylinder" },
+];
+
+/** Yale mortice locks, night latches and deadbolts, shown on the Products page. */
+export const yaleLocks = [
+  { src: "/images/yale-732.jpg", alt: "Yale mortice lock, brass cylinder", name: "Yale mortice lock", note: "Brass cylinder" },
+  { src: "/images/yale-733.jpg", alt: "Yale mortice lock, nickel cylinder", name: "Yale mortice lock", note: "Nickel cylinder" },
+  { src: "/images/yale-734.jpg", alt: "Yale mortice lock, euro cylinder", name: "Yale mortice lock", note: "Euro cylinder" },
+  { src: "/images/yale-740.jpg", alt: "Yale mortice lock, brass, with key and strike plate", name: "Yale mortice lock", note: "Brass, with key and strike plate" },
+  { src: "/images/yale-759.jpg", alt: "Yale mortice deadlock, brass, with cylinder, keys and rings", name: "Yale mortice deadlock", note: "Brass, with cylinder, keys and rings" },
+  { src: "/images/yale-737.jpg", alt: "Yale deadlock, brass-plated, with keys", name: "Yale deadlock", note: "Brass-plated, with keys" },
+  { src: "/images/yale-723.jpg", alt: "Yale cupboard deadlock, black case, with key", name: "Yale cupboard deadlock", note: "Black case, with key" },
+  { src: "/images/yale-724.jpg", alt: "Yale narrow mortice lock, euro profile, for slim doors", name: "Yale narrow mortice lock", note: "Euro profile, for slim doors" },
+  { src: "/images/yale-730.jpg", alt: "Yale narrow mortice lock, euro profile, for slim doors", name: "Yale narrow mortice lock", note: "Euro profile, for slim doors" },
+  { src: "/images/yale-731.jpg", alt: "Yale narrow mortice lock, euro profile, for slim doors", name: "Yale narrow mortice lock", note: "Euro profile, for slim doors" },
+  { src: "/images/yale-722.jpg", alt: "Yale night latch, black, with cylinder and keys", name: "Yale night latch", note: "Black, with cylinder and keys" },
+  { src: "/images/yale-739.jpg", alt: "Yale night latch, satin, with cylinder and keys", name: "Yale night latch", note: "Satin, with cylinder and keys" },
+  { src: "/images/yale-742.jpg", alt: "Yale deadbolt, satin, with keys", name: "Yale deadbolt", note: "Satin, with keys" },
+  { src: "/images/yale-744.jpg", alt: "Yale deadbolt, antique brass, with keys", name: "Yale deadbolt", note: "Antique brass, with keys" },
+  { src: "/images/yale-743.jpg", alt: "Yale knob set, satin, keyed", name: "Yale knob set", note: "Satin, keyed" },
+  { src: "/images/yale-741.jpg", alt: "Yale knob set, antique brass, keyed", name: "Yale knob set", note: "Antique brass, keyed" },
+  { src: "/images/yale-745.jpg", alt: "Yale knob set, polished brass, keyed", name: "Yale knob set", note: "Polished brass, keyed" },
+  { src: "/images/yale-747.jpg", alt: "Yale cylinder, brass, long tail, with keys", name: "Yale cylinder", note: "Brass, long tail, with keys" },
+  { src: "/images/yale-756.jpg", alt: "Yale push-button lock, black, digital code", name: "Yale push-button lock", note: "Black, digital code" },
+  { src: "/images/yale-761.jpg", alt: "Yale push-button lock, satin, digital code", name: "Yale push-button lock", note: "Satin, digital code" },
+];
+
+/** Yale sliding door, window and gate locks, shown on the Products page. */
+export const yaleSliding = [
+  { src: "/images/yale-735.jpg", alt: "Yale hook lock, sliding gate, with keys", name: "Yale hook lock", note: "Sliding gate, with keys" },
+  { src: "/images/yale-736.jpg", alt: "Yale hook lock, sliding gate, with keys", name: "Yale hook lock", note: "Sliding gate, with keys" },
+  { src: "/images/yale-757.jpg", alt: "Yale gate box lock, brass-plated, with keys", name: "Yale gate box lock", note: "Brass-plated, with keys" },
+  { src: "/images/yale-746.jpg", alt: "Yale sliding door lock, satin, hook bolt", name: "Yale sliding door lock", note: "Satin, hook bolt" },
+  { src: "/images/yale-751.jpg", alt: "Sliding door handle set, black, with lock", name: "Sliding door handle set", note: "Black, with lock" },
+  { src: "/images/yale-750.jpg", alt: "Sliding door rollers, pair, nylon wheels", name: "Sliding door rollers", note: "Pair, nylon wheels" },
+  { src: "/images/yale-726.jpg", alt: "Yale sliding window lock, brown, with keys", name: "Yale sliding window lock", note: "Brown, with keys" },
+  { src: "/images/yale-727.jpg", alt: "Yale sliding window lock, grey, with keys", name: "Yale sliding window lock", note: "Grey, with keys" },
+  { src: "/images/yale-728.jpg", alt: "Yale sliding window lock, white, with keys", name: "Yale sliding window lock", note: "White, with keys" },
+  { src: "/images/yale-620.jpg", alt: "Yale cupboard lock, brass, 2 lever", name: "Yale cupboard lock", note: "Brass, 2 lever" },
+];
+
+/** Yale hinges and door fittings, shown on the Products page. */
+export const yaleHinges = [
+  { src: "/images/yale-615.jpg", alt: "Yale flush hinges, satin, pair with screws", name: "Yale flush hinges", note: "Satin, pair with screws" },
+  { src: "/images/yale-616.jpg", alt: "Yale flush hinges, black, pair with screws", name: "Yale flush hinges", note: "Black, pair with screws" },
+  { src: "/images/yale-663.jpg", alt: "Yale flush hinges, brown, pair with screws", name: "Yale flush hinges", note: "Brown, pair with screws" },
+  { src: "/images/yale-627.jpg", alt: "Yale flush hinges, stainless, pair", name: "Yale flush hinges", note: "Stainless, pair" },
+  { src: "/images/yale-634.jpg", alt: "Yale flush hinges, gold finish, pair", name: "Yale flush hinges", note: "Gold finish, pair" },
+  { src: "/images/yale-632.jpg", alt: "Yale ball bearing hinges, stainless, pair", name: "Yale ball bearing hinges", note: "Stainless, pair" },
+  { src: "/images/yale-633.jpg", alt: "Yale ball bearing hinges, gold finish, pair", name: "Yale ball bearing hinges", note: "Gold finish, pair" },
+  { src: "/images/yale-629.jpg", alt: "Yale door stop, satin, floor mount", name: "Yale door stop", note: "Satin, floor mount" },
+  { src: "/images/yale-617.jpg", alt: "Toilet indicator bolt, polished chrome", name: "Toilet indicator bolt", note: "Polished chrome" },
+  { src: "/images/yale-618.jpg", alt: "Yale toilet indicator bolt, satin chrome", name: "Yale toilet indicator bolt", note: "Satin chrome" },
+  { src: "/images/yale-635.jpg", alt: "Yale Un-Jam-It graphite powder, dry lock lubricant, pack of 2", name: "Yale Un-Jam-It graphite powder", note: "Dry lock lubricant, pack of 2" },
+];
+
+/** Yale door closers, magnetic locks and doorbells, shown on the Products page. */
+export const yaleAccess = [
+  { src: "/images/yale-619.jpg", alt: "Yale door closer, black", name: "Yale door closer", note: "Black" },
+  { src: "/images/yale-636.jpg", alt: "Yale door closer, silver", name: "Yale door closer", note: "Silver" },
+  { src: "/images/yale-623.jpg", alt: "Electric drop bolt lock, brushed, with strike plates", name: "Electric drop bolt lock", note: "Brushed, with strike plates" },
+  { src: "/images/yale-637.jpg", alt: "Yale electric strike kit, with power supply, cylinder and keys", name: "Yale electric strike kit", note: "With power supply, cylinder and keys" },
+  { src: "/images/yale-626.jpg", alt: "Yale magnetic lock, with armature plate", name: "Yale magnetic lock", note: "With armature plate" },
+  { src: "/images/yale-624.jpg", alt: "Magnetic lock, with armature plate", name: "Magnetic lock", note: "With armature plate" },
+  { src: "/images/yale-625.jpg", alt: "Magnetic lock, slim, with armature plate", name: "Magnetic lock", note: "Slim, with armature plate" },
+  { src: "/images/yale-630.jpg", alt: "Magnetic lock, compact, with armature plate", name: "Magnetic lock", note: "Compact, with armature plate" },
+  { src: "/images/yale-631.jpg", alt: "Yale wireless doorbell, push button and chime", name: "Yale wireless doorbell", note: "Push button and chime" },
+  { src: "/images/yale-638.jpg", alt: "Yale wireless doorbell, motion sensor and chime", name: "Yale wireless doorbell", note: "Motion sensor and chime" },
+  { src: "/images/yale-628.jpg", alt: "Yale hands-free door pull, stainless steel, with fixings", name: "Yale hands-free door pull", note: "Stainless steel, with fixings" },
+  { src: "/images/yale-622.jpg", alt: "Rebate kit, satin, for mortice locks", name: "Rebate kit", note: "Satin, for mortice locks" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },
