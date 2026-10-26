@@ -456,6 +456,9 @@ export const tilesCement = [
   { src: "/images/tc-iseal.jpg", alt: "Tyl-Pro iSeal waterproofing, 20 kg bag", name: "Tyl-Pro iSeal waterproofing", note: "2-part cement system, 20 kg" },
   { src: "/images/tc-rapid-repair.jpg", alt: "Tyl-Pro Rapid Repair and Anchoring Cement, 20 kg bag", name: "Tyl-Pro rapid repair cement", note: "Repair and anchoring, 20 kg" },
   { src: "/images/tc-pool-plaster.jpg", alt: "Tyl-Pro Proskim Pool Plaster, 40 kg bag", name: "Tyl-Pro Proskim pool plaster", note: "Marble skimming plaster, 40 kg" },
+  { src: "/images/cem-766.jpg", alt: "PPC Surebuild cement, premium multipurpose, general building and civil", name: "PPC Surebuild cement", note: "Premium multipurpose, general building and civil" },
+  { src: "/images/cem-768.jpg", alt: "PPC Surebuild 42,5 N cement, for concrete, mortar and plaster", name: "PPC Surebuild 42,5 N cement", note: "For concrete, mortar and plaster" },
+  { src: "/images/cem-767.jpg", alt: "PPC Surecem cement, early strength, concrete, mortar, plaster and bricks", name: "PPC Surecem cement", note: "Early strength, concrete, mortar, plaster and bricks" },
 ];
 
 /** Fans and heaters, shown on the Products page. */
@@ -681,6 +684,20 @@ export const cylinders = [
   { src: "/images/lock-466.jpg", alt: "Euro cylinder, nickel, with 3 keys", name: "Euro cylinder", note: "Nickel, with 3 keys" },
   { src: "/images/lock-470.jpg", alt: "Euro cylinder, satin nickel, with key", name: "Euro cylinder", note: "Satin nickel, with key" },
   { src: "/images/lock-471.jpg", alt: "CISA key, nickel, made in italy", name: "CISA key", note: "Nickel, made in Italy" },
+  { src: "/images/yale-781.jpg", alt: "Yale euro cylinder, nickel, with 3 keys", name: "Yale euro cylinder", note: "Nickel, with 3 keys" },
+  { src: "/images/yale-776.jpg", alt: "Yale euro cylinder, satin nickel, with 3 keys and screw", name: "Yale euro cylinder", note: "Satin nickel, with 3 keys and screw" },
+  { src: "/images/yale-780.jpg", alt: "Yale euro cylinders, nickel, pair with 4 keys", name: "Yale euro cylinders", note: "Nickel, pair with 4 keys" },
+  { src: "/images/yale-783.jpg", alt: "Yale euro cylinder, brass, with 3 keys", name: "Yale euro cylinder", note: "Brass, with 3 keys" },
+  { src: "/images/yale-784.jpg", alt: "Yale euro cylinders, brass, pair with keys and screws", name: "Yale euro cylinders", note: "Brass, pair with keys and screws" },
+  { src: "/images/yale-779.jpg", alt: "Yale euro cylinders, brass, pair with 4 keys", name: "Yale euro cylinders", note: "Brass, pair with 4 keys" },
+  { src: "/images/yale-785.jpg", alt: "Yale euro cylinder, black, with 3 keys", name: "Yale euro cylinder", note: "Black, with 3 keys" },
+  { src: "/images/yale-786.jpg", alt: "Yale euro cylinder, black, with keys and screw", name: "Yale euro cylinder", note: "Black, with keys and screw" },
+  { src: "/images/yale-774.jpg", alt: "Yale euro cylinders, black, pair with 4 keys", name: "Yale euro cylinders", note: "Black, pair with 4 keys" },
+  { src: "/images/yale-782.jpg", alt: "Yale thumbturn cylinder, black, with 3 keys and screw", name: "Yale thumbturn cylinder", note: "Black, with 3 keys and screw" },
+  { src: "/images/yale-787.jpg", alt: "Yale thumbturn cylinder, brass, with 3 keys and screw", name: "Yale thumbturn cylinder", note: "Brass, with 3 keys and screw" },
+  { src: "/images/yale-788.jpg", alt: "Yale oval cylinder, nickel, with keys and screw", name: "Yale oval cylinder", note: "Nickel, with keys and screw" },
+  { src: "/images/yale-775.jpg", alt: "Yale bullet cylinder, brass, with keys", name: "Yale bullet cylinder", note: "Brass, with keys" },
+  { src: "/images/yale-778.jpg", alt: "Yale barrel cylinder, satin, brass core, with keys", name: "Yale barrel cylinder", note: "Satin, brass core, with keys" },
 ];
 
 /** Door handles, shown on the Products page. */
@@ -943,6 +960,8 @@ export const yaleSmart = [
   { src: "/images/yale-700.jpg", alt: "Yale door sensor, white, for smart alarms", name: "Yale door sensor", note: "White, for smart alarms" },
   { src: "/images/yale-704.jpg", alt: "Yale smart home devices, lock, hub and sensors", name: "Yale smart home devices", note: "Lock, hub and sensors" },
   { src: "/images/yale-717.jpg", alt: "Yale keypad, white, wall mounted", name: "Yale keypad", note: "White, wall mounted" },
+  { src: "/images/yale-773.jpg", alt: "Yale smart lock, silver, fits over your existing cylinder", name: "Yale smart lock", note: "Silver, fits over your existing cylinder" },
+  { src: "/images/yale-777.jpg", alt: "Yale digital door lock, black, keypad and handle", name: "Yale digital door lock", note: "Black, keypad and handle" },
 ];
 
 /** Yale lock and handle sets, shown on the Products page. */
@@ -1027,6 +1046,10 @@ export const yaleAccess = [
   { src: "/images/yale-638.jpg", alt: "Yale wireless doorbell, motion sensor and chime", name: "Yale wireless doorbell", note: "Motion sensor and chime" },
   { src: "/images/yale-628.jpg", alt: "Yale hands-free door pull, stainless steel, with fixings", name: "Yale hands-free door pull", note: "Stainless steel, with fixings" },
   { src: "/images/yale-622.jpg", alt: "Rebate kit, satin, for mortice locks", name: "Rebate kit", note: "Satin, for mortice locks" },
+  { src: "/images/yale-769.jpg", alt: "Yale rechargeable battery, 12 v 7 ah, sealed lead acid", name: "Yale rechargeable battery", note: "12 V 7 Ah, sealed lead acid" },
+  { src: "/images/yale-770.jpg", alt: "Yale rechargeable battery, 6 v 4 ah, sealed lead acid", name: "Yale rechargeable battery", note: "6 V 4 Ah, sealed lead acid" },
+  { src: "/images/yale-771.jpg", alt: "Yale rechargeable battery, 12 v 8 ah, gel", name: "Yale rechargeable battery", note: "12 V 8 Ah, gel" },
+  { src: "/images/yale-772.jpg", alt: "Yale rechargeable battery, 12 v 18 ah, gel", name: "Yale rechargeable battery", note: "12 V 18 Ah, gel" },
 ];
 
 /** Plascon paint range, shown on the Products page. */
