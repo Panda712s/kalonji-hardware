@@ -1052,6 +1052,27 @@ export const yaleAccess = [
   { src: "/images/yale-772.jpg", alt: "Yale rechargeable battery, 12 v 18 ah, gel", name: "Yale rechargeable battery", note: "12 V 18 Ah, gel" },
 ];
 
+/** Centurion gate and garage automation, shown on the Products page. */
+export const centurion = [
+  { src: "/images/cent-811.jpg", alt: "Centurion D10 Smart gate motor, commercial sliding gate operator", name: "Centurion D10 Smart gate motor", note: "Commercial sliding gate operator" },
+  { src: "/images/cent-812.jpg", alt: "Centurion D10 Turbo Smart gate motor, commercial sliding gate operator", name: "Centurion D10 Turbo Smart gate motor", note: "Commercial sliding gate operator" },
+  { src: "/images/cent-813.jpg", alt: "Centurion D6 Smart gate motor, light commercial sliding gate operator", name: "Centurion D6 Smart gate motor", note: "Light commercial sliding gate operator" },
+  { src: "/images/cent-814.jpg", alt: "Centurion D5 Smart gate motor, light residential sliding gate operator", name: "Centurion D5 Smart gate motor", note: "Light residential sliding gate operator" },
+  { src: "/images/cent-815.jpg", alt: "Centurion D20 Smart gate motor, heavy-duty industrial sliding gate operator", name: "Centurion D20 Smart gate motor", note: "Heavy-duty industrial sliding gate operator" },
+  { src: "/images/cent-816.jpg", alt: "Centurion garage door operator, residential and commercial, app control", name: "Centurion garage door operator", note: "Residential and commercial, app control" },
+  { src: "/images/cent-794.jpg", alt: "Centurion Sector traffic barrier operator, yellow housing, striped boom", name: "Centurion Sector traffic barrier operator", note: "Yellow housing, striped boom" },
+  { src: "/images/cent-790.jpg", alt: "Centurion manual traffic barrier, hand-operated boom", name: "Centurion manual traffic barrier", note: "Hand-operated boom" },
+  { src: "/images/cent-798.jpg", alt: "Centurion Trapex system, for traffic barrier", name: "Centurion Trapex system", note: "For traffic barrier" },
+  { src: "/images/cent-800.jpg", alt: "Centurion traffic light, red and green, traffic control", name: "Centurion traffic light", note: "Red and green, traffic control" },
+  { src: "/images/cent-802.jpg", alt: "Centurion GLX900 gate lock, electronic gate lock", name: "Centurion GLX900 gate lock", note: "Electronic gate lock" },
+  { src: "/images/cent-804.jpg", alt: "Centurion anti-theft cage, for gate motor", name: "Centurion anti-theft cage", note: "For gate motor" },
+  { src: "/images/cent-805.jpg", alt: "Centurion Photon Smart beams, infrared safety beams", name: "Centurion Photon Smart beams", note: "Infrared safety beams" },
+  { src: "/images/cent-806.jpg", alt: "Centurion i5 infrared beam, safety beam", name: "Centurion i5 infrared beam", note: "Safety beam" },
+  { src: "/images/cent-807.jpg", alt: "Centurion Filtertube, surge protection with thermal protection", name: "Centurion Filtertube", note: "Surge protection with thermal protection" },
+  { src: "/images/cent-808.jpg", alt: "Centurion power pack, battery and charger unit", name: "Centurion power pack", note: "Battery and charger unit" },
+  { src: "/images/cent-809.jpg", alt: "Centurion alarm siren, for gate automation", name: "Centurion alarm siren", note: "For gate automation" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },
