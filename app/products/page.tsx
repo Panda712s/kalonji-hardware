@@ -1333,9 +1333,9 @@ export default function Products() {
           <div className="head" data-reveal>
             <div>
               <p className="eyebrow dark">Gate automation</p>
-              <h2>Centurion gate motors and accessories</h2>
+              <h2>Gate motors, remotes and accessories</h2>
             </div>
-            <p className="sub">Sliding gate motors, garage door operators, traffic barriers, safety beams, gate locks and spares. Ask us for sizes, stock and prices.</p>
+            <p className="sub">Centurion and Gemini gate motors, garage door operators, remotes, traffic barriers, safety beams, gate locks and spares. Ask us for sizes, stock and prices.</p>
           </div>
           <ul className="range-grid">
             {centurion.map((r) => (

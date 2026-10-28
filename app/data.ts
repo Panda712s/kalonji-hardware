@@ -1071,6 +1071,10 @@ export const centurion = [
   { src: "/images/cent-807.jpg", alt: "Centurion Filtertube, surge protection with thermal protection", name: "Centurion Filtertube", note: "Surge protection with thermal protection" },
   { src: "/images/cent-808.jpg", alt: "Centurion power pack, battery and charger unit", name: "Centurion power pack", note: "Battery and charger unit" },
   { src: "/images/cent-809.jpg", alt: "Centurion alarm siren, for gate automation", name: "Centurion alarm siren", note: "For gate automation" },
+  { src: "/images/cent-817.jpg", alt: "Gemini sliding gate motor kit, motor, anti-theft cage, 2 remotes, battery and racks", name: "Gemini sliding gate motor kit", note: "Motor, anti-theft cage, 2 remotes, battery and racks" },
+  { src: "/images/cent-818.jpg", alt: "Gate remote, 3 button, black, grey and yellow buttons", name: "Gate remote, 3 button", note: "Black, grey and yellow buttons" },
+  { src: "/images/cent-819.jpg", alt: "Gate remote, 4 button, blue, with coloured buttons", name: "Gate remote, 4 button", note: "Blue, with coloured buttons" },
+  { src: "/images/cent-820.jpg", alt: "Gate remote, 4 button, blue, carbon look", name: "Gate remote, 4 button", note: "Blue, carbon look" },
 ];
 
 /** Plascon paint range, shown on the Products page. */
