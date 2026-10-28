@@ -1077,6 +1077,34 @@ export const centurion = [
   { src: "/images/cent-820.jpg", alt: "Gate remote, 4 button, blue, carbon look", name: "Gate remote, 4 button", note: "Blue, carbon look" },
 ];
 
+/** Floor and wall tiles, shown on the Products page. */
+export const tiles = [
+  { src: "/images/tile-821.jpg", alt: "Plain beige floor tile, polished, square", name: "Plain beige floor tile", note: "Polished, square" },
+  { src: "/images/tile-842.jpg", alt: "Grey marble-look floor tile, fine white veins, square", name: "Grey marble-look floor tile", note: "Fine white veins, square" },
+  { src: "/images/tile-828.jpg", alt: "Grey marble-look floor tile, light veining, square", name: "Grey marble-look floor tile", note: "Light veining, square" },
+  { src: "/images/tile-823.jpg", alt: "Wood-grain travertine tile, beige, rectangular", name: "Wood-grain travertine tile", note: "Beige, rectangular" },
+  { src: "/images/tile-824.jpg", alt: "Concrete-look floor tile, blue-grey, square", name: "Concrete-look floor tile", note: "Blue-grey, square" },
+  { src: "/images/tile-825.jpg", alt: "Blue marble-look tile, brown swirls, large rectangle", name: "Blue marble-look tile", note: "Brown swirls, large rectangle" },
+  { src: "/images/tile-826.jpg", alt: "Cement-look floor tile, cream, square", name: "Cement-look floor tile", note: "Cream, square" },
+  { src: "/images/tile-827.jpg", alt: "Concrete-look tile, grey, rectangular", name: "Concrete-look tile", note: "Grey, rectangular" },
+  { src: "/images/tile-829.jpg", alt: "Stone-look tile, grey-brown streaks, rectangular", name: "Stone-look tile", note: "Grey-brown streaks, rectangular" },
+  { src: "/images/tile-830.jpg", alt: "Blue and gold marble tile, white, gold veins", name: "Blue and gold marble tile", note: "White, gold veins" },
+  { src: "/images/tile-832.jpg", alt: "Terrazzo-look floor tile, light grey chips", name: "Terrazzo-look floor tile", note: "Light grey chips" },
+  { src: "/images/tile-833.jpg", alt: "White marble-look floor tile, grey veins, square", name: "White marble-look floor tile", note: "Grey veins, square" },
+  { src: "/images/tile-838.jpg", alt: "White marble-look floor tile, soft grey veining, square", name: "White marble-look floor tile", note: "Soft grey veining, square" },
+  { src: "/images/tile-834.jpg", alt: "White marble-look tile, grey and gold veins, rectangular", name: "White marble-look tile", note: "Grey and gold veins, rectangular" },
+  { src: "/images/tile-835.jpg", alt: "White marble-look tile, fine grey veins", name: "White marble-look tile", note: "Fine grey veins" },
+  { src: "/images/tile-836.jpg", alt: "Travertine-look floor tile, beige-grey, square", name: "Travertine-look floor tile", note: "Beige-grey, square" },
+  { src: "/images/tile-837.jpg", alt: "Dark grey floor tile, cement look, speckled", name: "Dark grey floor tile", note: "Cement look, speckled" },
+  { src: "/images/tile-839.jpg", alt: "Light grey concrete-look tile, square", name: "Light grey concrete-look tile", note: "Square" },
+  { src: "/images/tile-841.jpg", alt: "Pale grey stone-look tile, square", name: "Pale grey stone-look tile", note: "Square" },
+  { src: "/images/tile-843.jpg", alt: "Self-adhesive marble tiles, blue-grey with gold, peel and stick", name: "Self-adhesive marble tiles", note: "Blue-grey with gold, peel and stick" },
+  { src: "/images/tile-844.jpg", alt: "Self-adhesive marble tiles, white, peel and stick", name: "Self-adhesive marble tiles", note: "White, peel and stick" },
+  { src: "/images/tile-848.jpg", alt: "Brown stone-pattern floor tile, mixed block layout", name: "Brown stone-pattern floor tile", note: "Mixed block layout" },
+  { src: "/images/tile-849.jpg", alt: "Natural stone-look floor tile, brown crazy-paving pattern, square", name: "Natural stone-look floor tile", note: "Brown crazy-paving pattern, square" },
+  { src: "/images/tile-850.jpg", alt: "Interlocking PVC floor tiles, dark grey, coin pattern", name: "Interlocking PVC floor tiles", note: "Dark grey, coin pattern" },
+];
+
 /** Plascon paint range, shown on the Products page. */
 export const plasconRange = [
   { src: "/images/plascon-double-velvet.jpg", alt: "Plascon Double Velvet Pure interior paint tin", name: "Double Velvet Pure", note: "Velvet sheen, interior" },
