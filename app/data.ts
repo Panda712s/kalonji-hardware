@@ -713,6 +713,8 @@ export const doorHandles = [
   { src: "/images/lock-453.jpg", alt: "Door lock set, chrome handles, euro lock", name: "Door lock set", note: "Chrome handles, euro lock" },
   { src: "/images/lock-454.jpg", alt: "Door lock set, chrome handles, 2 lever lock", name: "Door lock set", note: "Chrome handles, 2 lever lock" },
   { src: "/images/lock-455.jpg", alt: "Door lock set, chrome handles, 2 lever lock, black case", name: "Door lock set", note: "Chrome handles, 2 lever lock, black case" },
+  { src: "/images/clamp-851.jpg", alt: "Lockworx lever handle on plate, satin steel, keyhole, with screws and spindle", name: "Lockworx lever handle on plate", note: "Satin steel, keyhole, with screws and spindle" },
+  { src: "/images/clamp-852.jpg", alt: "BBL curved lever handle on plate, satin steel, keyhole, with screws and spindle", name: "BBL curved lever handle on plate", note: "Satin steel, keyhole, with screws and spindle" },
 ];
 
 /** Door closers, shown on the Products page. */
@@ -1103,6 +1105,33 @@ export const tiles = [
   { src: "/images/tile-848.jpg", alt: "Brown stone-pattern floor tile, mixed block layout", name: "Brown stone-pattern floor tile", note: "Mixed block layout" },
   { src: "/images/tile-849.jpg", alt: "Natural stone-look floor tile, brown crazy-paving pattern, square", name: "Natural stone-look floor tile", note: "Brown crazy-paving pattern, square" },
   { src: "/images/tile-850.jpg", alt: "Interlocking PVC floor tiles, dark grey, coin pattern", name: "Interlocking PVC floor tiles", note: "Dark grey, coin pattern" },
+];
+
+/** Clamps, shown on the Products page. */
+export const clamps = [
+  { src: "/images/clamp-876.jpg", alt: "Duratec spring clamp, red, soft grip handles", name: "Duratec spring clamp", note: "Red, soft grip handles" },
+  { src: "/images/clamp-880.jpg", alt: "Duratec spring clamp, red, small", name: "Duratec spring clamp", note: "Red, small" },
+  { src: "/images/clamp-877.jpg", alt: "Duratec large spring clamp, red, long jaws", name: "Duratec large spring clamp", note: "Red, long jaws" },
+  { src: "/images/clamp-878.jpg", alt: "Duratec spring clamp with levels, red, spirit levels in the jaw", name: "Duratec spring clamp with levels", note: "Red, spirit levels in the jaw" },
+  { src: "/images/clamp-879.jpg", alt: "Corner clamp, orange, 90 degree, two screws", name: "Corner clamp", note: "Orange, 90 degree, two screws" },
+  { src: "/images/clamp-882.jpg", alt: "Duratec corner clamp squares, red, 90 degree", name: "Duratec corner clamp squares", note: "Red, 90 degree" },
+  { src: "/images/clamp-881.jpg", alt: "G-clamp, red, cast", name: "G-clamp", note: "Red, cast" },
+  { src: "/images/clamp-884.jpg", alt: "Duratec lever clamp, red and black, steel bar", name: "Duratec lever clamp", note: "Red and black, steel bar" },
+  { src: "/images/clamp-885.jpg", alt: "Duratec quick-grip clamp, one-hand bar clamp, pack of sizes", name: "Duratec quick-grip clamp", note: "One-hand bar clamp, pack of sizes" },
+  { src: "/images/clamp-886.jpg", alt: "Bar clamp, steel bar with screw jaw", name: "Bar clamp", note: "Steel bar with screw jaw" },
+  { src: "/images/clamp-887.jpg", alt: "Parallel bar clamp, red jaws, soft grip handle", name: "Parallel bar clamp", note: "Red jaws, soft grip handle" },
+  { src: "/images/clamp-889.jpg", alt: "F-clamps, black and red, in different lengths", name: "F-clamps", note: "Black and red, in different lengths" },
+];
+
+/** Roof fixings and building boards, shown on the Products page. */
+export const roofing = [
+  { src: "/images/roof-892.jpg", alt: "SafeTop roof fixing system, self-drilling screws, m5.5x65, pack of 100", name: "SafeTop roof fixing system", note: "Self-drilling screws, M5.5x65, pack of 100" },
+  { src: "/images/roof-893.jpg", alt: "SafeTop Value Box self-drilling screws, m5.5x65, 200 pieces", name: "SafeTop Value Box self-drilling screws", note: "M5.5x65, 200 pieces" },
+  { src: "/images/roof-895.jpg", alt: "SafeTop grey roof washers and screws, 65 mm, pack of 20", name: "SafeTop grey roof washers and screws", note: "65 mm, pack of 20" },
+  { src: "/images/roof-891.jpg", alt: "Roof screw caps and washers, green, grey and red", name: "Roof screw caps and washers", note: "Green, grey and red" },
+  { src: "/images/roof-894.jpg", alt: "SafeTop security coach screws, m10x75", name: "SafeTop security coach screws", note: "M10x75" },
+  { src: "/images/roof-896.jpg", alt: "Galvanised steel stud, for partitions and ceilings", name: "Galvanised steel stud", note: "For partitions and ceilings" },
+  { src: "/images/roof-897.jpg", alt: "Building boards, flat sheets, ask for type and size", name: "Building boards", note: "Flat sheets, ask for type and size" },
 ];
 
 /** Plascon paint range, shown on the Products page. */
