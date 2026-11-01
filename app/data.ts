@@ -106,13 +106,13 @@ export const departments = [
 export const services = [
   {
     slug: "plumber", name: "Plumber",
-    text: "A plumber is available on request. Tell us the job and where it is, and we will arrange it.",
+    text: "Need help with a plumbing job? Tell us what needs fixing and where, and we will help arrange a plumber.",
     image: "/images/svc-plumber.jpg", alt: "A plumber repairing pipes under a sink",
     request: "Hi Kalonji Hardware, I need a plumber. The job is:",
   },
   {
     slug: "electrician", name: "Electrician",
-    text: "An electrician is available on request. Tell us the job and where it is, and we will arrange it.",
+    text: "Need help with an electrical job? Tell us what needs attention and where, and we will help arrange an electrician.",
     image: "/images/svc-electrician.jpg", alt: "An electrician testing a distribution board",
     request: "Hi Kalonji Hardware, I need an electrician. The job is:",
   },

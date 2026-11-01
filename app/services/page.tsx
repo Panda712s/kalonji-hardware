@@ -12,14 +12,14 @@ export const metadata: Metadata = {
 };
 
 const inHouse = [
-  { title: "Key cutting", tag: "In store", text: "Spare keys cut while you wait. Bring the key you want copied.", request: "Hi Kalonji Hardware, I need a key cut. The key is:" },
-  { title: "Glass cutting", tag: "In store", text: "Glass cut to size. Send us the measurements and we will quote.", request: "Hi Kalonji Hardware, I need glass cut. The size is:" },
+  { title: "Key cutting", tag: "In store", text: "Get a spare key cut for a door, padlock or cupboard. Bring the original key into the store.", request: "Hi Kalonji Hardware, I need a key cut. The key is:" },
+  { title: "Glass cutting", tag: "In store", text: "Need glass for a window, shelf, tabletop or mirror? Send us the measurements for a quote.", request: "Hi Kalonji Hardware, I need glass cut. The size is:" },
   { title: "Paint manufacturing", tag: "Coming soon", text: "Yes, we will manufacture our own paint in the future as well. Ask us for updates.", request: "Hi Kalonji Hardware, I would like to know more about your paint manufacturing." },
 ];
 
 const steps = [
-  { title: "Message us", text: "Tell us on WhatsApp what the job is and where it is." },
-  { title: "We arrange it", text: "We arrange a plumber or an electrician for you." },
+  { title: "Message us", text: "Tell us on WhatsApp what work you need and where the job is." },
+  { title: "We arrange it", text: "We help arrange a plumber or electrician for your job." },
   { title: "Get it fixed", text: "Pick up any materials you need from either branch." },
 ];
 
