@@ -166,6 +166,15 @@ export const range = [
   { src: "/images/range-bidet.jpg", alt: "Bidet hose set in its pack", name: "Bidet set", note: "Hose and fittings" },
   { src: "/images/range-ball-valve-blue.jpg", alt: "Nickel-plated ball valve with a blue lever handle", name: "Nickel ball valve", note: "Blue lever handle" },
   { src: "/images/geyser-supahot-200l.jpg", alt: "Supahot 200 litre galvanised geyser", name: "Supahot geyser", note: "200 L" },
+  { src: "/images/Plumbing-pipe-clamps.jpeg", alt: "Pair of adjustable pipe clamps", name: "Pipe clamps", note: "Adjustable pipe supports" },
+  { src: "/images/Plumbing-trap-1.jpeg", alt: "Black tubular plumbing trap fitting", name: "Tubular trap", note: "Black plumbing fitting" },
+  { src: "/images/Plumbing-bottle-trap-1.jpeg", alt: "Black bottle trap for a basin", name: "Basin bottle trap", note: "Black plumbing fitting" },
+  { src: "/images/Plumbing-trap-2.jpeg", alt: "Grey tubular plumbing trap", name: "Tubular trap", note: "Grey plumbing fitting" },
+  { src: "/images/Plumbing-trap-3.jpeg", alt: "Black curved plumbing trap fitting", name: "Curved trap fitting", note: "Black plumbing fitting" },
+  { src: "/images/Plumbing-basin-waste-kit.jpeg", alt: "Basin waste and plumbing trap assembly", name: "Basin waste kit", note: "Waste and trap assembly" },
+  { src: "/images/Plumbing-white-basin-waste.jpeg", alt: "White plastic basin waste fitting", name: "Basin waste", note: "White plastic fitting" },
+  { src: "/images/Plumbing-trap-4.jpeg", alt: "Grey basin P-trap with a floor grate", name: "Basin P-trap", note: "With floor grate" },
+  { src: "/images/Plumbing-bottle-trap-2.jpeg", alt: "Dark bottle trap fitting", name: "Bottle trap", note: "Dark plumbing fitting" },
 ];
 
 /** Valves, taps and plumbing spares, shown on the Products page. */
@@ -205,6 +214,36 @@ export const bathroom = [
   { src: "/images/bath-basin-round.jpg", alt: "White round counter-top basin", name: "Counter-top basin", note: "White ceramic" },
 ];
 
+/** Hair products and salon equipment, shown on the Products page. */
+export const salonSupplies = [
+  { src: "/images/Salon-x10-shampoo-1.jpeg", alt: "X10 hair-care bottle", name: "X10 hair care", note: "Hair-care product" },
+  { src: "/images/Salon-x10-shampoo-2.jpeg", alt: "X10 hair-care bottle", name: "X10 hair care", note: "Hair-care product" },
+  { src: "/images/Salon-shampoo-basin-stand.jpeg", alt: "Freestanding salon shampoo basin", name: "Shampoo basin stand", note: "Salon wash basin" },
+  { src: "/images/Salon-mks-curl-cream.jpeg", alt: "MKS curl cream hair product", name: "MKS curl cream", note: "Curl cream" },
+  { src: "/images/Salon-kaypro-keratin-treatment.jpeg", alt: "KayPro Keratin Filler hair treatment", name: "KayPro Keratin Filler", note: "Hair treatment" },
+  { src: "/images/Salon-backwash-unit-1.jpeg", alt: "Black salon backwash chair and basin", name: "Salon backwash unit", note: "Chair and basin" },
+  { src: "/images/Salon-loma-shampoo.jpeg", alt: "Loma hair-care bottle", name: "Loma hair care", note: "Hair-care product" },
+  { src: "/images/Salon-fresh-hair-product.jpeg", alt: "Fresh-branded salon hair product", name: "Fresh hair product", note: "Salon hair care" },
+  { src: "/images/Salon-mks-hair-product.jpeg", alt: "MKS salon hair-care product", name: "MKS hair care", note: "Hair-care product" },
+  { src: "/images/Salon-backwash-unit-2.jpeg", alt: "Black salon wash chair with basin", name: "Salon wash chair", note: "Backwash chair" },
+  { src: "/images/Salon-organics-hair-product.jpeg", alt: "Organics hair-care bottle", name: "Organics hair care", note: "Hair-care product" },
+  { src: "/images/Salon-basin-sprayer.jpeg", alt: "Chrome salon basin sprayer and tap fitting", name: "Basin sprayer", note: "Salon basin fitting" },
+  { src: "/images/Salon-barber-hair-product.jpeg", alt: "Barber-branded hair-care bottle", name: "Barber hair care", note: "Hair-care product" },
+  { src: "/images/Salon-chair-1.jpeg", alt: "Black reclining salon chair", name: "Salon chair", note: "Reclining chair" },
+  { src: "/images/Salon-chair-2.jpeg", alt: "Black salon chair with footrest", name: "Salon chair with footrest", note: "Reclining chair" },
+  { src: "/images/Salon-chair-blue.jpeg", alt: "Blue salon chair with a headrest", name: "Blue salon chair", note: "Chair with headrest" },
+  { src: "/images/Salon-hair-dryer.jpeg", alt: "Handheld salon hair dryer", name: "Salon hair dryer", note: "Handheld dryer" },
+  { src: "/images/Salon-shower-hose.jpeg", alt: "Flexible salon wash-basin hose", name: "Basin hose", note: "Flexible hose" },
+  { src: "/images/Salon-flexible-hose.jpeg", alt: "Flexible shower hose with fittings", name: "Flexible shower hose", note: "Hose with fittings" },
+  { src: "/images/Salon-styling-stool.jpeg", alt: "Black salon styling stool", name: "Styling stool", note: "Salon stool" },
+  { src: "/images/Salon-shampoo-basin.jpeg", alt: "White salon shampoo basin with black fittings", name: "Salon shampoo basin", note: "Basin and fittings" },
+  { src: "/images/Salon-hair-clipper.jpeg", alt: "Electric hair clipper", name: "Hair clipper", note: "Electric clipper" },
+  { src: "/images/Salon-chair-cream.jpeg", alt: "Cream salon styling chair", name: "Salon styling chair", note: "Cream chair" },
+  { src: "/images/Salon-barber-chair.jpeg", alt: "Black barber chair with footrest", name: "Barber chair", note: "Reclining chair" },
+  { src: "/images/Salon-basin-neck-rest.jpeg", alt: "Black neck rest for a salon shampoo basin", name: "Basin neck rest", note: "Salon basin accessory" },
+  { src: "/images/Salon-round-hairbrush.jpeg", alt: "Round salon hairbrush", name: "Round hairbrush", note: "Styling brush" },
+];
+
 /** Hardware and tools, shown on the Products page. */
 export const hardware = [
   { src: "/images/range-caulk.jpg", alt: "Blue caulking gun", name: "Caulking gun", note: "For sealants" },
@@ -235,6 +274,7 @@ export const hardware = [
   { src: "/images/tool-rope.jpg", alt: "Coil of red and white twisted rope", name: "Twisted rope", note: "Red and white" },
   { src: "/images/elec-box-double.jpg", alt: "White double surface-mount electrical box", name: "Double surface box", note: "White, 2-gang" },
   { src: "/images/elec-box-single.jpg", alt: "White single surface-mount electrical box", name: "Single surface box", note: "White, 1-gang" },
+  { src: "/images/Hardware-wall-plugs-screws.jpeg", alt: "Assorted wall plugs and screws", name: "Wall plugs and screws", note: "Wall-fixing set" },
 ];
 
 /** Car spares and accessories, shown on the Products page. */

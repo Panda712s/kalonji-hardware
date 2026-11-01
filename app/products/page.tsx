@@ -3,11 +3,11 @@ import Image from "next/image";
 import CtaBand from "../components/CtaBand";
 import Gallery from "../components/Gallery";
 import PageHero from "../components/PageHero";
-import { airFresh, airScents, appliances, autoParts, bathroom, batteries, bleachToilet, bollards, brands, bulbs, carKeys, carShine, carWash, carWorkshop, ceilingLights, centurion, chandeliers, clamps, cleaners, compressionFittings, copperWire, cylinders, doorClosers, doorHandles, drainCleaners, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, household, lamps, latchesGates, laundry, mortiseLocks, outdoorWall, padlocks, plasconRange, powerTools, promacRange, range, repair, roofing, safety, sheenFloor, sheenKitchen, steelFittings, terminals, tiles, tilesCement, valves, waLink, wheelCovers, yaleAccess, yaleHandleSets, yaleHinges, yaleLocks, yalePadlocks, yaleSafes, yaleSliding, yaleSmart } from "../data";
+import { airFresh, airScents, appliances, autoParts, bathroom, batteries, bleachToilet, bollards, brands, bulbs, carKeys, carShine, carWash, carWorkshop, ceilingLights, centurion, chandeliers, clamps, cleaners, compressionFittings, copperWire, cylinders, doorClosers, doorHandles, drainCleaners, fans, floodSolar, gardenSpots, gasSupplies, generators, hardware, household, lamps, latchesGates, laundry, mortiseLocks, outdoorWall, padlocks, plasconRange, powerTools, promacRange, range, repair, roofing, safety, salonSupplies, sheenFloor, sheenKitchen, steelFittings, terminals, tiles, tilesCement, valves, waLink, wheelCovers, yaleAccess, yaleHandleSets, yaleHinges, yaleLocks, yalePadlocks, yaleSafes, yaleSliding, yaleSmart } from "../data";
 
 export const metadata: Metadata = {
   title: "Products",
-  description: "Brands and products on the shelves at Kalonji Hardware: paint, batteries, oil, tools, plumbing, electrical and household supplies.",
+  description: "Brands and products on the shelves at Kalonji Hardware: paint, batteries, oil, tools, plumbing, electrical, household and salon supplies.",
 };
 
 export default function Products() {
@@ -16,7 +16,7 @@ export default function Products() {
       <PageHero
         eyebrow="Products"
         title={<>Real stock, <em>real shelves</em></>}
-        text="A look at what is on the shelves, from paint and batteries to tools, plumbing and household supplies."
+        text="A look at what is on the shelves, from paint and batteries to tools, plumbing, salon equipment and household supplies."
       />
 
       <section className="section">
@@ -145,6 +145,29 @@ export default function Products() {
             {bathroom.map((r) => (
               <li key={r.src} data-reveal>
                 <a href={waLink(`Hi Kalonji Hardware, do you have a ${r.name.toLowerCase()} (${r.note.toLowerCase()})? Price please.`)} target="_blank" rel="noopener noreferrer">
+                  <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
+                  <b>{r.name}</b>
+                  <span>{r.note}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head" data-reveal>
+            <div>
+              <p className="eyebrow dark">Salon supplies</p>
+              <h2>Hair care and salon equipment</h2>
+            </div>
+            <p className="sub">Hair-care products, salon chairs, wash basins and styling equipment.</p>
+          </div>
+          <ul className="range-grid">
+            {salonSupplies.map((r) => (
+              <li key={r.src} data-reveal>
+                <a href={waLink(`Hi Kalonji Hardware, do you have ${r.name}? Price please.`)} target="_blank" rel="noopener noreferrer">
                   <Image src={r.src} alt={r.alt} width={400} height={400} sizes="(max-width: 620px) 45vw, (max-width: 1020px) 30vw, 180px" quality={90} />
                   <b>{r.name}</b>
                   <span>{r.note}</span>
