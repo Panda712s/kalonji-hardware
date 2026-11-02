@@ -525,6 +525,8 @@ textarea{min-height:130px;resize:vertical}
 .svc-grid.big .svc>img{aspect-ratio:4/3}
 .product-hero-services{list-style:none;display:flex;flex-wrap:wrap;gap:8px 32px;margin:28px 0 0;padding:0}
 .product-hero-services li{font-family:var(--display);font-size:clamp(2rem,5vw,3.8rem);font-weight:900;line-height:1;color:var(--accent)}
+.product-hero-services a{color:inherit;text-decoration:none}
+.product-hero-services a:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:6px}
 .range-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
 .range-grid li{min-width:0}
 .range-grid a{display:block;text-decoration:none;background:#fff;color:#0b2a5b;border:1px solid var(--line);border-radius:var(--radius);padding:12px 12px 14px;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}

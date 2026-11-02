@@ -21,6 +21,8 @@ export default function Products() {
         <ul className="product-hero-services" aria-label="In-store services">
           <li>Glass cutting</li>
           <li>Key cutting</li>
+          <li><a href="/services#plumber">Plumber</a></li>
+          <li><a href="/services#electrician">Electrician</a></li>
         </ul>
       </PageHero>
 
