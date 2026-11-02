@@ -17,7 +17,12 @@ export default function Products() {
         eyebrow="Products"
         title={<>Real stock, <em>real shelves</em></>}
         text="A look at what is on the shelves, from paint and batteries to tools, plumbing, salon equipment and household supplies."
-      />
+      >
+        <ul className="product-hero-services" aria-label="In-store services">
+          <li>Glass cutting</li>
+          <li>Key cutting</li>
+        </ul>
+      </PageHero>
 
       <section className="section">
         <div className="container">

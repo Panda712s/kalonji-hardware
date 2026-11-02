@@ -12,8 +12,11 @@ export const metadata: Metadata = {
 };
 
 const inHouse = [
-  { title: "Key cutting", tag: "In store", text: "Get a spare key cut for a door, padlock or cupboard. Bring the original key into the store.", request: "Hi Kalonji Hardware, I need a key cut. The key is:" },
   { title: "Glass cutting", tag: "In store", text: "Need glass for a window, shelf, tabletop or mirror? Send us the measurements for a quote.", request: "Hi Kalonji Hardware, I need glass cut. The size is:" },
+  { title: "Key cutting", tag: "In store", text: "Get a spare key cut for a door, padlock or cupboard. Bring the original key into the store.", request: "Hi Kalonji Hardware, I need a key cut. The key is:" },
+];
+
+const comingSoon = [
   { title: "Paint manufacturing", tag: "Coming soon", text: "Yes, we will manufacture our own paint in the future as well. Ask us for updates.", request: "Hi Kalonji Hardware, I would like to know more about your paint manufacturing." },
 ];
 
@@ -48,6 +51,18 @@ export default function Services() {
                 </div>
               </article>
             ))}
+            {inHouse.map((s) => (
+              <article className="svc svc-text" key={s.title} data-reveal>
+                <div className="body">
+                  <span className="tagline">{s.tag}</span>
+                  <h3>{s.title}</h3>
+                  <p>{s.text}</p>
+                  <a className="btn" href={waLink(s.request)} target="_blank" rel="noopener noreferrer">
+                    <Chat size={18} /> Ask about {s.title.toLowerCase()}
+                  </a>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -56,12 +71,12 @@ export default function Services() {
         <div className="container">
           <div className="head" data-reveal>
             <div>
-              <p className="eyebrow dark">Made and cut in store</p>
-              <h2>Key cutting, glass cutting and paint manufacturing</h2>
+              <p className="eyebrow dark">Coming soon</p>
+              <h2>Paint manufacturing</h2>
             </div>
           </div>
           <div className="values">
-            {inHouse.map((s) => (
+            {comingSoon.map((s) => (
               <div className="value" data-reveal key={s.title}>
                 <span className="tagline">{s.tag}</span>
                 <h3>{s.title}</h3>
